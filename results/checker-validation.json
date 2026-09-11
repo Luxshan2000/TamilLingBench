@@ -1,0 +1,667 @@
+{
+  "after_fallback": {
+    "gender_fem": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 100.0,
+      "adjusted_unique_forms": 3,
+      "feature_only_correct": 1,
+      "feature_only_pct": 33.3,
+      "gold_errors": {},
+      "gold_errors_n": 0,
+      "gold_tokens": 3,
+      "no_analysis": 0,
+      "no_analysis_pct": 0.0,
+      "note": "n is tiny — see limitation note; DO NOT report a percentage over n=3",
+      "precision_excl_undecidable": 100.0,
+      "precision_universal": 100.0,
+      "recall_existential": 100.0,
+      "recall_universal": 100.0,
+      "referent_number": "SG",
+      "suffix_bound_correct": 2,
+      "suffix_bound_pct": 66.7,
+      "unanalysed_forms": [],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 3,
+      "wrong": 0,
+      "wrong_forms": [],
+      "wrong_pct": 0.0
+    },
+    "gender_masc": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 98.7,
+      "adjusted_unique_forms": 75,
+      "feature_only_correct": 8,
+      "feature_only_pct": 10.3,
+      "gold_errors": {
+        "அடித்து": [
+          "GE-5 Number/Gender on a verbal participle, which marks neither"
+        ],
+        "உள்ளேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ],
+        "வெறுக்கிறேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ]
+      },
+      "gold_errors_n": 3,
+      "gold_tokens": 220,
+      "no_analysis": 1,
+      "no_analysis_pct": 1.3,
+      "note": "VerbForm=Fin NOT required (would shrink 212 tokens to 20); Polite stripped",
+      "precision_excl_undecidable": 96.1,
+      "precision_universal": 96.1,
+      "recall_existential": 94.9,
+      "recall_universal": 94.9,
+      "referent_number": "SG",
+      "suffix_bound_correct": 66,
+      "suffix_bound_pct": 84.6,
+      "unanalysed_forms": [
+        "ஜெயிக்கிறானோ"
+      ],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 78,
+      "wrong": 3,
+      "wrong_forms": [
+        "உள்ளேன்",
+        "வெறுக்கிறேன்",
+        "அடித்து"
+      ],
+      "wrong_pct": 3.8
+    },
+    "number_pl": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 88.9,
+      "adjusted_unique_forms": 18,
+      "feature_only_correct": 3,
+      "feature_only_pct": 12.5,
+      "gold_errors": {
+        "கொடுக்கவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "செய்யவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "புரியவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "பேசவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "வரவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "வாங்கவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ]
+      },
+      "gold_errors_n": 6,
+      "gold_tokens": 52,
+      "no_analysis": 2,
+      "no_analysis_pct": 8.3,
+      "note": "control slot",
+      "precision_excl_undecidable": 72.7,
+      "precision_universal": 72.7,
+      "recall_existential": 66.7,
+      "recall_universal": 66.7,
+      "referent_number": "PL",
+      "suffix_bound_correct": 13,
+      "suffix_bound_pct": 54.2,
+      "unanalysed_forms": [
+        "போயிற்று",
+        "ஆயிற்று"
+      ],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 24,
+      "wrong": 6,
+      "wrong_forms": [
+        "வாங்கவில்லை",
+        "செய்யவில்லை",
+        "வரவில்லை",
+        "கொடுக்கவில்லை",
+        "பேசவில்லை",
+        "புரியவில்லை"
+      ],
+      "wrong_pct": 25.0
+    },
+    "number_sg": {
+      "adjusted_precision": 89.8,
+      "adjusted_recall_universal": 85.7,
+      "adjusted_unique_forms": 133,
+      "feature_only_correct": 19,
+      "feature_only_pct": 14.0,
+      "gold_errors": {
+        "அடித்து": [
+          "GE-5 Number/Gender on a verbal participle, which marks neither"
+        ],
+        "உள்ளேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ],
+        "வெறுக்கிறேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ]
+      },
+      "gold_errors_n": 3,
+      "gold_tokens": 343,
+      "no_analysis": 6,
+      "no_analysis_pct": 4.4,
+      "note": "control slot",
+      "precision_excl_undecidable": 94.3,
+      "precision_universal": 89.2,
+      "recall_existential": 90.4,
+      "recall_universal": 85.3,
+      "referent_number": "SG",
+      "suffix_bound_correct": 97,
+      "suffix_bound_pct": 71.3,
+      "unanalysed_forms": [
+        "தின்னும்",
+        "பார்கிறதுமாக",
+        "ஜெயிக்கிறானோ",
+        "கோபப்படுவார்",
+        "வரும்",
+        "போகட்டுமா"
+      ],
+      "undecidable": 7,
+      "undecidable_forms": [
+        "வேண்டும்",
+        "முடியும்",
+        "பெய்யும்",
+        "போதும்",
+        "தெரியும்",
+        "இருக்கும்",
+        "கூடும்"
+      ],
+      "undecidable_pct": 5.1,
+      "unique_forms": 136,
+      "wrong": 7,
+      "wrong_forms": [
+        "பிடிக்கும்",
+        "வரவா",
+        "போவதா",
+        "பார்கிறதும்",
+        "வந்ததும்",
+        "அடித்து",
+        "போகும்"
+      ],
+      "wrong_pct": 5.1
+    },
+    "polarity_neg": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 87.5,
+      "adjusted_unique_forms": 16,
+      "feature_only_correct": 0,
+      "feature_only_pct": 0.0,
+      "gold_errors": {
+        "எண்ணு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "சாப்பிடு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "பேச": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "போ": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "போடு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வா": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வாங்கு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வெட்டு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வெறுக்கிறான்": [
+          "GE-2 suffix ான் marks person 3, gold says Person=2",
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ]
+      },
+      "gold_errors_n": 9,
+      "gold_tokens": 38,
+      "no_analysis": 3,
+      "no_analysis_pct": 12.0,
+      "note": "thin evaluation base: 38 tokens / ~15 forms",
+      "precision_excl_undecidable": 63.6,
+      "precision_universal": 63.6,
+      "recall_existential": 56.0,
+      "recall_universal": 56.0,
+      "referent_number": null,
+      "suffix_bound_correct": 14,
+      "suffix_bound_pct": 56.0,
+      "unanalysed_forms": [
+        "சாப்பிடு",
+        "சரியில்லையாம்",
+        "கேட்காது"
+      ],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 25,
+      "wrong": 8,
+      "wrong_forms": [
+        "போடு",
+        "வெறுக்கிறான்",
+        "எண்ணு",
+        "வா",
+        "வெட்டு",
+        "வாங்கு",
+        "பேச",
+        "போ"
+      ],
+      "wrong_pct": 32.0
+    }
+  },
+  "before_fallback": {
+    "gender_fem": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 100.0,
+      "adjusted_unique_forms": 3,
+      "feature_only_correct": 1,
+      "feature_only_pct": 33.3,
+      "gold_errors": {},
+      "gold_errors_n": 0,
+      "gold_tokens": 3,
+      "no_analysis": 0,
+      "no_analysis_pct": 0.0,
+      "note": "n is tiny — see limitation note; DO NOT report a percentage over n=3",
+      "precision_excl_undecidable": 100.0,
+      "precision_universal": 100.0,
+      "recall_existential": 100.0,
+      "recall_universal": 100.0,
+      "referent_number": "SG",
+      "suffix_bound_correct": 2,
+      "suffix_bound_pct": 66.7,
+      "unanalysed_forms": [],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 3,
+      "wrong": 0,
+      "wrong_forms": [],
+      "wrong_pct": 0.0
+    },
+    "gender_masc": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 74.7,
+      "adjusted_unique_forms": 75,
+      "feature_only_correct": 8,
+      "feature_only_pct": 10.3,
+      "gold_errors": {
+        "அடித்து": [
+          "GE-5 Number/Gender on a verbal participle, which marks neither"
+        ],
+        "உள்ளேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ],
+        "வெறுக்கிறேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ]
+      },
+      "gold_errors_n": 3,
+      "gold_tokens": 220,
+      "no_analysis": 20,
+      "no_analysis_pct": 25.6,
+      "note": "VerbForm=Fin NOT required (would shrink 212 tokens to 20); Polite stripped",
+      "precision_excl_undecidable": 96.6,
+      "precision_universal": 96.6,
+      "recall_existential": 71.8,
+      "recall_universal": 71.8,
+      "referent_number": "SG",
+      "suffix_bound_correct": 48,
+      "suffix_bound_pct": 61.5,
+      "unanalysed_forms": [
+        "ஆனான்",
+        "சாப்பிட்டான்",
+        "போனான்",
+        "காப்பாற்றினான்",
+        "கொடுப்பான்",
+        "மாட்டான்",
+        "உள்ளேன்",
+        "சொன்னான்",
+        "வந்தானா",
+        "தூங்கினான்",
+        "ஜெயிக்கிறானோ",
+        "வருவானோ",
+        "கூப்பிட்டான்",
+        "போய்விட்டான்",
+        "கேட்கிறான்",
+        "வந்தானோ",
+        "வந்தானே",
+        "வரமாட்டான்",
+        "சந்தோஷப்பட்டான்",
+        "நின்றான்"
+      ],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 78,
+      "wrong": 2,
+      "wrong_forms": [
+        "வெறுக்கிறேன்",
+        "அடித்து"
+      ],
+      "wrong_pct": 2.6
+    },
+    "number_pl": {
+      "adjusted_precision": 100.0,
+      "adjusted_recall_universal": 72.2,
+      "adjusted_unique_forms": 18,
+      "feature_only_correct": 3,
+      "feature_only_pct": 12.5,
+      "gold_errors": {
+        "கொடுக்கவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "செய்யவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "புரியவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "பேசவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "வரவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ],
+        "வாங்கவில்லை": [
+          "GE-4 Polarity=Pos on a -வில்லை/இல்லை negative (negative result #3)",
+          "GE-5 Number/Gender on -வில்லை, which marks neither"
+        ]
+      },
+      "gold_errors_n": 6,
+      "gold_tokens": 52,
+      "no_analysis": 5,
+      "no_analysis_pct": 20.8,
+      "note": "control slot",
+      "precision_excl_undecidable": 68.4,
+      "precision_universal": 68.4,
+      "recall_existential": 54.2,
+      "recall_universal": 54.2,
+      "referent_number": "PL",
+      "suffix_bound_correct": 10,
+      "suffix_bound_pct": 41.7,
+      "unanalysed_forms": [
+        "போனார்கள்",
+        "சொன்னார்கள்",
+        "போயிற்று",
+        "வந்தார்களா",
+        "ஆயிற்று"
+      ],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 24,
+      "wrong": 6,
+      "wrong_forms": [
+        "வாங்கவில்லை",
+        "செய்யவில்லை",
+        "வரவில்லை",
+        "கொடுக்கவில்லை",
+        "பேசவில்லை",
+        "புரியவில்லை"
+      ],
+      "wrong_pct": 25.0
+    },
+    "number_sg": {
+      "adjusted_precision": 92.2,
+      "adjusted_recall_universal": 70.7,
+      "adjusted_unique_forms": 133,
+      "feature_only_correct": 19,
+      "feature_only_pct": 14.0,
+      "gold_errors": {
+        "அடித்து": [
+          "GE-5 Number/Gender on a verbal participle, which marks neither"
+        ],
+        "உள்ளேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ],
+        "வெறுக்கிறேன்": [
+          "GE-2 suffix ேன் marks person 1, gold says Person=3"
+        ]
+      },
+      "gold_errors_n": 3,
+      "gold_tokens": 343,
+      "no_analysis": 32,
+      "no_analysis_pct": 23.5,
+      "note": "control slot",
+      "precision_excl_undecidable": 97.9,
+      "precision_universal": 91.3,
+      "recall_existential": 75.0,
+      "recall_universal": 69.9,
+      "referent_number": "SG",
+      "suffix_bound_correct": 76,
+      "suffix_bound_pct": 55.9,
+      "unanalysed_forms": [
+        "ஆனான்",
+        "சாப்பிட்டான்",
+        "போனான்",
+        "காப்பாற்றினான்",
+        "கொடுப்பான்",
+        "தின்னும்",
+        "வரவா",
+        "போவதா",
+        "மாட்டான்",
+        "உள்ளேன்",
+        "சொன்னான்",
+        "வந்தானா",
+        "தூங்கினான்",
+        "பார்கிறதும்",
+        "பார்கிறதுமாக",
+        "வந்ததும்",
+        "ஜெயிக்கிறானோ",
+        "வருவானோ",
+        "கூப்பிட்டான்",
+        "போய்விட்டான்",
+        "கேட்கிறான்",
+        "கோபப்படுவார்",
+        "வந்தானோ",
+        "வந்தானே",
+        "வரமாட்டான்",
+        "கொடுத்தார்",
+        "சந்தோஷப்பட்டான்",
+        "நின்றான்",
+        "வந்தார்",
+        "வரும்",
+        "போகட்டுமா",
+        "போகும்"
+      ],
+      "undecidable": 7,
+      "undecidable_forms": [
+        "வேண்டும்",
+        "முடியும்",
+        "பெய்யும்",
+        "போதும்",
+        "தெரியும்",
+        "இருக்கும்",
+        "கூடும்"
+      ],
+      "undecidable_pct": 5.1,
+      "unique_forms": 136,
+      "wrong": 2,
+      "wrong_forms": [
+        "பிடிக்கும்",
+        "அடித்து"
+      ],
+      "wrong_pct": 1.5
+    },
+    "polarity_neg": {
+      "adjusted_precision": 90.0,
+      "adjusted_recall_universal": 56.2,
+      "adjusted_unique_forms": 16,
+      "feature_only_correct": 0,
+      "feature_only_pct": 0.0,
+      "gold_errors": {
+        "எண்ணு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "சாப்பிடு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "பேச": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "போ": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "போடு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வா": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வாங்கு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வெட்டு": [
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ],
+        "வெறுக்கிறான்": [
+          "GE-2 suffix ான் marks person 3, gold says Person=2",
+          "GE-3 Polarity=Neg but the token contains no negative morpheme"
+        ]
+      },
+      "gold_errors_n": 9,
+      "gold_tokens": 38,
+      "no_analysis": 7,
+      "no_analysis_pct": 28.0,
+      "note": "thin evaluation base: 38 tokens / ~15 forms",
+      "precision_excl_undecidable": 50.0,
+      "precision_universal": 50.0,
+      "recall_existential": 36.0,
+      "recall_universal": 36.0,
+      "referent_number": null,
+      "suffix_bound_correct": 9,
+      "suffix_bound_pct": 36.0,
+      "unanalysed_forms": [
+        "சாப்பிடு",
+        "மாட்டேன்",
+        "மாட்டான்",
+        "வேண்டாம்",
+        "வரமாட்டான்",
+        "சரியில்லையாம்",
+        "கேட்காது"
+      ],
+      "undecidable": 0,
+      "undecidable_forms": [],
+      "undecidable_pct": 0.0,
+      "unique_forms": 25,
+      "wrong": 9,
+      "wrong_forms": [
+        "போடு",
+        "கிடையாது",
+        "வெறுக்கிறான்",
+        "எண்ணு",
+        "வா",
+        "வெட்டு",
+        "வாங்கு",
+        "பேச",
+        "போ"
+      ],
+      "wrong_pct": 36.0
+    }
+  },
+  "coverage": {
+    "mwtt-test": {
+      "artifact_corrected_denominator": 293,
+      "artifact_corrected_pct": 75.8,
+      "lexicon_only": 183,
+      "lexicon_only_pct": 62.0,
+      "misses": 73,
+      "n_artifact_tokens": 2,
+      "unique_forms": 295,
+      "with_fallback": 265,
+      "with_fallback_pct": 89.8,
+      "with_guesser": 222,
+      "with_guesser_pct": 75.3
+    },
+    "ttb-dev": {
+      "artifact_corrected_denominator": 172,
+      "artifact_corrected_pct": 69.2,
+      "lexicon_only": 77,
+      "lexicon_only_pct": 42.1,
+      "misses": 64,
+      "n_artifact_tokens": 11,
+      "unique_forms": 183,
+      "with_fallback": 129,
+      "with_fallback_pct": 70.5,
+      "with_guesser": 119,
+      "with_guesser_pct": 65.0
+    },
+    "ttb-test": {
+      "artifact_corrected_denominator": 248,
+      "artifact_corrected_pct": 68.1,
+      "lexicon_only": 102,
+      "lexicon_only_pct": 38.6,
+      "misses": 95,
+      "n_artifact_tokens": 16,
+      "unique_forms": 264,
+      "with_fallback": 183,
+      "with_fallback_pct": 69.3,
+      "with_guesser": 169,
+      "with_guesser_pct": 64.0
+    },
+    "ttb-train": {
+      "artifact_corrected_denominator": 530,
+      "artifact_corrected_pct": 73.4,
+      "lexicon_only": 237,
+      "lexicon_only_pct": 42.1,
+      "misses": 174,
+      "n_artifact_tokens": 33,
+      "unique_forms": 563,
+      "with_fallback": 409,
+      "with_fallback_pct": 72.6,
+      "with_guesser": 389,
+      "with_guesser_pct": 69.1
+    }
+  },
+  "negative_results": {
+    "clusivity_tokens_both_treebanks": 0,
+    "illai_all_polarity_pos": true,
+    "illai_polarity_counts": {
+      "Pos": 41
+    },
+    "illai_tokens_both_treebanks": 41,
+    "mwtt_aan_gender_masc": 212,
+    "mwtt_aan_polite_form": 20,
+    "mwtt_aan_tense_counts": {
+      "Fut": 14,
+      "None": 7,
+      "Past": 149,
+      "Pres": 45
+    },
+    "mwtt_aan_unique_forms": 72,
+    "mwtt_aan_verb_aux_tokens": 215,
+    "mwtt_aan_verbform_fin": 20,
+    "mwtt_gender_fem_tokens": 5,
+    "mwtt_polarity_neg_tokens": 38,
+    "mwtt_polite_eq_verbform_fin": true,
+    "naam_naangal_byte_identical": true,
+    "naam_naangal_feats": {
+      "நாங்கள்": "Animacy=Anim|Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs",
+      "நாம்": "Animacy=Anim|Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs"
+    },
+    "ttb_gender_fem_tokens": 0
+  }
+}

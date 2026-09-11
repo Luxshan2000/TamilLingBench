@@ -1,0 +1,30 @@
+# Override table. THE DANGEROUS CATEGORY.
+#
+# These are forms the FST analyses WRONGLY. They are false positives, not gaps, so a
+# fallback layer that only fills `+?` never sees them:
+#     அல்ல   -> அல்லு+verb+nonfin+sim+inf=அ      (spurious verb 'அல்லு'; அல்ல is the negative copula)
+#     அன்று  -> அன்று+verb+fin+sim+imp=∅+2sg=∅   (imperative of a verb; அன்று is neg copula / 'that day')
+#     கிடையாது -> கிடையா+verb+nonfin+sim+vpart    (no negation marker at all)
+# Getting this wrong means the negation slot silently scores garbage while every coverage
+# metric looks healthy.
+#
+# mode = replace : discard the FST analyses entirely, use this one.
+# mode = augment : keep the FST analyses, merge these slot features into each.
+#
+# ⚠ EVERY ROW ENCODES A GRAMMATICAL CLAIM and is a judgment call pending
+# native-speaker audit. R5's treatment of அன்று as copular (it is also the
+# noun 'that day') and R9's honorific reading of தாங்கள் are the two most contestable.
+#
+# surface	rule	mode	lemma	pos	tags	bindings	features	note
+அல்ல	R5	replace	அல்	verb	fin+negcop	negcop=அல்ல	polarity=NEG	negative copula, not verb 'அல்லு'
+அன்று	R5	replace	அன்று	verb	fin+negcop	negcop=அன்று	polarity=NEG	negative copula; also noun 'that day' — judgment call
+அல்லர்	R5	replace	அல்	verb	fin+negcop	negcop=அல்லர்	polarity=NEG;number=PL;honorificity=POLITE	negative copula, honorific/plural
+அல்லன	R5	replace	அல்	verb	fin+negcop	negcop=அல்லன	polarity=NEG;number=PL;rationality=AHRINAI	negative copula, irrational plural
+கூடாது	R6	replace	கூடு	verb	fin+neg+deb	neg=ஆது	polarity=NEG	prohibitive 'must not'; FST neg=ஆது is right but vpart=∅ is not
+கிடையாது	R6	replace	கிடை	verb	fin+neg	neg=யாது	polarity=NEG	'does not exist'; FST analysis carries NO negation marker
+போதாது	R6	replace	போது	verb	fin+neg	neg=ஆது	polarity=NEG	'is not enough'
+போதாத	R6	replace	போது	verb	nonfin+neg	neg=ஆத	polarity=NEG	negative adjectival participle
+போதாமல்	R6	replace	போது	verb	nonfin+neg	neg=ஆ;vpart=மல்	polarity=NEG	negative verbal participle
+பிடிக்காது	R6	replace	பிடி	verb	fin+neg	neg=ஆது	polarity=NEG	in MWTT's Polarity=Neg set
+தாங்கள்	R9	augment					honorificity=DEFERENTIAL	FST says +pron+3pl+refl; address-honorific reading is OUR documented override
+தாம்	R9	augment					honorificity=DEFERENTIAL	same class as தாங்கள்

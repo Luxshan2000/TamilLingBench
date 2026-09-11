@@ -1,0 +1,290 @@
+{
+ "status": "ok",
+ "model": "Unbabel/XCOMET-XL",
+ "span_schema_observed": {
+  "confidence|end|severity|start|text": 26359
+ },
+ "roundtrip": {
+  "ok_exact": 23436,
+  "no_text_field": 18,
+  "text_mismatch": 10,
+  "ok_relaxed": 2
+ },
+ "per_variant": {
+  "good": {
+   "description": "BASELINE — the FST-verified CORRECT sentence, which contains no injected error. Whatever xCOMET flags here is its false-positive floor, and a hit rate on `bad` is only meaningful above it.",
+   "n": 5887,
+   "detection_at_item": 0.729064039408867,
+   "hit_rate_overlap": 0.37659249193137423,
+   "hit_rate_iou50": 0.015967385765245454,
+   "hit_rate_given_flagged": 0.5165424044734389,
+   "distractor_rate": 0.35247154747749276,
+   "span_precision": 0.33749429136854925,
+   "span_recall": 0.37659249193137423,
+   "severity_when_hit": {
+    "major": 1968,
+    "minor": 135,
+    "critical": 114
+   },
+   "critical_share_when_hit": 0.05142083897158322,
+   "major_or_critical_share_when_hit": 0.939106901217862,
+   "mean_flagged_share_of_sentence": 0.5015373048913226,
+   "mean_spans_per_flagged_segment": 1.5305219012115563,
+   "mean_gold_span_chars": 2.5086206896551726,
+   "skipped_no_gold_span": 344,
+   "span_f1": 0.3559730250481696
+  },
+  "bad": {
+   "description": "the obligatory-slot error under test",
+   "n": 5887,
+   "detection_at_item": 0.9391880414472566,
+   "hit_rate_overlap": 0.9106505860370308,
+   "hit_rate_iou50": 0.09427552233735349,
+   "hit_rate_given_flagged": 0.9696147585458491,
+   "distractor_rate": 0.028537455410225922,
+   "span_precision": 0.6560205580029369,
+   "span_recall": 0.9106505860370308,
+   "severity_when_hit": {
+    "major": 4712,
+    "minor": 309,
+    "critical": 340
+   },
+   "critical_share_when_hit": 0.06342100354411491,
+   "major_or_critical_share_when_hit": 0.9423614997202014,
+   "mean_flagged_share_of_sentence": 0.7116324362606232,
+   "mean_spans_per_flagged_segment": 1.4780249593054802,
+   "mean_gold_span_chars": 3.3286308554892385,
+   "skipped_no_gold_span": 344,
+   "span_f1": 0.7626431467387439
+  },
+  "avoided": {
+   "description": "the epicene avoidance form (information dropped, not wrong)",
+   "n": 801,
+   "detection_at_item": 0.8951310861423221,
+   "hit_rate_overlap": 0.8277153558052435,
+   "hit_rate_iou50": 0.02372034956304619,
+   "hit_rate_given_flagged": 0.9246861924686193,
+   "distractor_rate": 0.06741573033707865,
+   "span_precision": 0.5935541629364369,
+   "span_recall": 0.8277153558052435,
+   "severity_when_hit": {
+    "major": 605,
+    "minor": 40,
+    "critical": 18
+   },
+   "critical_share_when_hit": 0.027149321266968326,
+   "major_or_critical_share_when_hit": 0.9396681749622926,
+   "mean_flagged_share_of_sentence": 0.64081443239167,
+   "mean_spans_per_flagged_segment": 1.5578800557880055,
+   "mean_gold_span_chars": 2.0,
+   "skipped_no_gold_span": 0,
+   "span_f1": 0.6913451511991658
+  },
+  "ctrl_num": {
+   "description": "POSITIVE CONTROL — numeral swap (DEMETR critical / ACES hallucination-number)",
+   "n": 584,
+   "detection_at_item": 0.9914383561643836,
+   "hit_rate_overlap": 0.9914383561643836,
+   "hit_rate_iou50": 0.00684931506849315,
+   "hit_rate_given_flagged": 1.0,
+   "distractor_rate": 0.0,
+   "span_precision": 0.5890132248219736,
+   "span_recall": 0.9914383561643836,
+   "severity_when_hit": {
+    "major": 489,
+    "critical": 89,
+    "minor": 1
+   },
+   "critical_share_when_hit": 0.153713298791019,
+   "major_or_critical_share_when_hit": 0.998272884283247,
+   "mean_flagged_share_of_sentence": 0.7203170823775371,
+   "mean_spans_per_flagged_segment": 1.697754749568221,
+   "mean_gold_span_chars": 4.652849740932642,
+   "skipped_no_gold_span": 0,
+   "span_f1": 0.7389917038927887
+  },
+  "ctrl_ne": {
+   "description": "POSITIVE CONTROL — named-entity swap (ACES hallucination-named-entity)",
+   "n": 717,
+   "detection_at_item": 0.9874476987447699,
+   "hit_rate_overlap": 0.9874476987447699,
+   "hit_rate_iou50": 0.22454672245467225,
+   "hit_rate_given_flagged": 1.0,
+   "distractor_rate": 0.0,
+   "span_precision": 0.5275707898658718,
+   "span_recall": 0.9874476987447699,
+   "severity_when_hit": {
+    "major": 229,
+    "critical": 479
+   },
+   "critical_share_when_hit": 0.6765536723163842,
+   "major_or_critical_share_when_hit": 1.0,
+   "mean_flagged_share_of_sentence": 0.6302612032681357,
+   "mean_spans_per_flagged_segment": 1.8954802259887005,
+   "mean_gold_span_chars": 5.529661016949152,
+   "skipped_no_gold_span": 0,
+   "span_f1": 0.6877124817872754
+  },
+  "ctrl_rep": {
+   "description": "NEGATIVE CONTROL — word duplication (DEMETR minor)",
+   "n": 3500,
+   "detection_at_item": 0.9971428571428571,
+   "hit_rate_overlap": 0.9965714285714286,
+   "hit_rate_iou50": 0.004571428571428572,
+   "hit_rate_given_flagged": 0.9994269340974212,
+   "distractor_rate": 0.0005714285714285715,
+   "span_precision": 0.6624312535558505,
+   "span_recall": 0.9965714285714286,
+   "severity_when_hit": {
+    "critical": 1831,
+    "major": 1642,
+    "minor": 20
+   },
+   "critical_share_when_hit": 0.5241912396221013,
+   "major_or_critical_share_when_hit": 0.9942742628113369,
+   "mean_flagged_share_of_sentence": 0.6979055837384419,
+   "mean_spans_per_flagged_segment": 1.510888252148997,
+   "mean_gold_span_chars": 8.360458452722064,
+   "skipped_no_gold_span": 0,
+   "span_f1": 0.795851709944214
+  }
+ },
+ "per_slot": {
+  "good": {
+   "clusivity": {
+    "n": 162,
+    "flagged": 132,
+    "hit": 56
+   },
+   "gender": {
+    "n": 2579,
+    "flagged": 1888,
+    "hit": 1085
+   },
+   "honorificity": {
+    "n": 868,
+    "flagged": 724,
+    "hit": 376
+   },
+   "number": {
+    "n": 955,
+    "flagged": 633,
+    "hit": 255
+   },
+   "rationality": {
+    "n": 1323,
+    "flagged": 915,
+    "hit": 445
+   }
+  },
+  "bad": {
+   "clusivity": {
+    "n": 162,
+    "flagged": 143,
+    "hit": 127
+   },
+   "gender": {
+    "n": 2579,
+    "flagged": 2427,
+    "hit": 2373
+   },
+   "honorificity": {
+    "n": 868,
+    "flagged": 857,
+    "hit": 846
+   },
+   "number": {
+    "n": 955,
+    "flagged": 808,
+    "hit": 728
+   },
+   "rationality": {
+    "n": 1323,
+    "flagged": 1294,
+    "hit": 1287
+   }
+  },
+  "avoided": {
+   "gender": {
+    "n": 801,
+    "flagged": 717,
+    "hit": 663
+   }
+  },
+  "ctrl_num": {
+   "gender": {
+    "n": 433,
+    "flagged": 428,
+    "hit": 428
+   },
+   "number": {
+    "n": 57,
+    "flagged": 57,
+    "hit": 57
+   },
+   "rationality": {
+    "n": 16,
+    "flagged": 16,
+    "hit": 16
+   },
+   "clusivity": {
+    "n": 77,
+    "flagged": 77,
+    "hit": 77
+   },
+   "honorificity": {
+    "n": 1,
+    "flagged": 1,
+    "hit": 1
+   }
+  },
+  "ctrl_ne": {
+   "gender": {
+    "n": 717,
+    "flagged": 708,
+    "hit": 708
+   }
+  },
+  "ctrl_rep": {
+   "clusivity": {
+    "n": 116,
+    "flagged": 116,
+    "hit": 115
+   },
+   "gender": {
+    "n": 937,
+    "flagged": 937,
+    "hit": 937
+   },
+   "honorificity": {
+    "n": 664,
+    "flagged": 658,
+    "hit": 657
+   },
+   "number": {
+    "n": 368,
+    "flagged": 368,
+    "hit": 368
+   },
+   "rationality": {
+    "n": 1415,
+    "flagged": 1411,
+    "hit": 1411
+   }
+  }
+ },
+ "verdict": {
+  "control_hit_rate": 0.9914383561643836,
+  "slot_hit_rate": 0.9106505860370308,
+  "false_positive_hit_rate_on_correct": 0.37659249193137423,
+  "false_positive_flag_rate_on_correct": 0.729064039408867,
+  "slot_iou50": 0.09427552233735349,
+  "control_iou50": 0.22454672245467225,
+  "slot_flagged_share_of_sentence": 0.7116324362606232,
+  "slot_gold_span_chars": 3.3286308554892385,
+  "slot_critical_share": 0.06342100354411491,
+  "control_critical_share": 0.6765536723163842,
+  "call": "detects_but_does_not_localise",
+  "why": "xCOMET flags the morpheme's region on 91.1% of items, but its spans cover 71% of the sentence against a gold error span of 3.3 characters, so IoU>=0.5 is only 9.4%. It also flags 72.9% of UNPERTURBED correct sentences. Detection is real; localisation in the advertised sense is not demonstrated. Severity is where the phenomenon shows: xCOMET calls the obligatory-slot violation `critical` 6.3% of the time against 67.7% for the numeral/named-entity controls on the same sentences."
+ }
+}

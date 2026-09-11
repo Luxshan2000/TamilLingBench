@@ -1,0 +1,76 @@
+{
+ "run_id": "20260808T014312Z-40a50a",
+ "system_id": "nllb-3.3b",
+ "hf_name": "facebook/nllb-200-3.3B",
+ "revision": "f5eacc26f2fbcc27ba5bd7900aee356f6775321f",
+ "model_class": "M2M100ForConditionalGeneration",
+ "discarded_tower_weights": 0,
+ "backend": "nllb",
+ "dtype": "float16",
+ "arm": "nmt",
+ "prompt_set": "robustness",
+ "decoding_id": "main",
+ "decoding": {
+  "do_sample": false,
+  "num_beams": 5,
+  "length_penalty": 1.0,
+  "max_new_tokens": 256,
+  "seed": 20260807
+ },
+ "split": "public",
+ "conditions": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "canonical_prompt_per_condition": {
+  "C0": "P0_specified",
+  "C1": "P1_minimal",
+  "C2": "P4_context",
+  "C3": "P1_minimal"
+ },
+ "robustness_prompts_per_condition": {
+  "C1": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C3": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C2": [
+   "P4_context",
+   "P1_context",
+   "P2_context",
+   "P3_context"
+  ]
+ },
+ "batch_size": 64,
+ "limit_per_cell": 0,
+ "chat_template_kwargs": {},
+ "has_chat_template": false,
+ "out_dir": "outputs/raw/nllb-3.3b",
+ "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+ "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+ "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+ "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+ "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+ "torch": "2.10.0+cu130",
+ "transformers": "5.12.1",
+ "python": "3.12.3",
+ "started_utc": "2026-08-08T01:43:27.538605+00:00",
+ "status": "complete",
+ "hygiene": {
+  "n": 0,
+  "cleaned": 0,
+  "think_leak": 0,
+  "low_tamil": 0,
+  "empty": 0,
+  "clean_ops": {}
+ },
+ "cells": [],
+ "updated_utc": "2026-08-08T01:43:27.541147+00:00"
+}

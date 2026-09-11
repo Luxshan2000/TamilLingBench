@@ -1,0 +1,15 @@
+{
+ "metric": "gembaesa_openweight",
+ "NOT_GEMBA_ESA": "GEMBA-ESA as published requires GPT-4-class access via OPENAI_API_KEY; D-1 removed the frontier-API arm. This is the same two-stage protocol with an open-weight judge and must never be labelled GEMBA-ESA.",
+ "judge_model": "Qwen/Qwen3-14B",
+ "judge_revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+ "judge_is_under_test": true,
+ "excluded_system": "qwen3-14b",
+ "self_judging": false,
+ "decoding": "greedy, do_sample=False",
+ "few_shot": "none — upstream GEMBA's exemplars are en-de / en-cs / zh-en; there is no Indic exemplar, which is itself reportable",
+ "n_records": 240,
+ "n_judgements": 510,
+ "n_unparsed_scores": 0,
+ "toship_key": null
+}

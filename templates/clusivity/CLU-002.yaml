@@ -1,0 +1,77 @@
+# Hand-written template family. NO TAMIL outside `provenance` — the loader raises.
+# Target values are FEATURE BUNDLES; surfaces come from ThamizhiMorph generation.
+id: CLU-002
+version: 1.0.0
+slot: clusivity
+slot_family: null
+k: 2
+values:
+- INCL
+- EXCL
+register: literary
+stratum: addressee-excluded
+holds_constant:
+  person: 1
+  number: PL
+  tinai: uyar
+  hon: null
+  gender: null
+  polarity: positive
+fillers:
+  verb:
+    from: verbs
+    where:
+      bundles_verified:
+      - past.3sg.masc
+      transitivity: tr
+  noun:
+    from: nouns
+    where:
+      tinai: akrinai
+      animacy: inanim
+source:
+  C1: The officer {V_PAST} {CUE} in the corridor.
+  C2: The officer {V_PAST} us in the corridor.
+  C3: The officer {V_PAST} us in the corridor.
+context_slot: clusivity
+target:
+  INCL:
+    pron:
+      entry: 1plobl.INCL
+      bundle: acc
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.masc
+  EXCL:
+    pron:
+      entry: 1plobl.EXCL
+      bundle: acc
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.masc
+target_frame:
+  C1: '{PRON} {VERB}.'
+  C2: '{PRON} {VERB}.'
+  C3: '{PRON} {VERB}.'
+decides_on: pron
+referent_number: PL
+cue_source: cue_table
+confound_checks:
+  register:
+    checked_by: rule
+    passed: true
+  addressee_membership:
+    determinate: true
+    checked_by: rule
+    passed: true
+avoidance:
+  drop_possible: false
+  overt_environment: acc
+  neutral_form_possible: false
+interp:
+  eligible: true
+provenance:
+  inspired_by: UD_Tamil-MWTT:test:s0207
+  handwritten: true
+flags: []
+c0_probe: true

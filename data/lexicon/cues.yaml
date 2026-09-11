@@ -1,0 +1,68 @@
+# English cue phrases. The gender table is an apposition that attaches to the SAME epicene
+# name the C2/C3 source uses, so the C1 reference names the subject its own source names.
+honorificity:
+  T:
+  - Kumar
+  - Ravi
+  - Selvan
+  - Arun
+  - Vasu
+  - Mani
+  V:
+  - Grandfather
+  - Teacher
+  - Uncle
+  - Doctor
+  - Aunt
+  - Father
+  VV:
+  - Your Honour
+  - Respected Sir
+  - Honoured Elder
+  - Revered Teacher
+  - Esteemed Guest
+  - Learned Judge
+clusivity:
+  INCL:
+  - you and me
+  - you and myself
+  - yourself and me
+  - both you and me
+  - you together with me
+  - you as well as me
+  EXCL:
+  - my brother and me
+  - my sister and me
+  - my cousin and me
+  - two of my friends and me
+  - my colleague together with me
+  - my neighbour as well as me
+  INCL_NOM:
+  - You and I
+  - You and myself
+  - Yourself and I
+  - Both you and I
+  - You together with me
+  - You as well as I
+  EXCL_NOM:
+  - My brother and I
+  - My sister and I
+  - My cousin and I
+  - Two of my friends and I
+  - My colleague together with me
+  - My neighbour as well as I
+gender:
+  MASC:
+  - a man
+  - a boy
+  - a young man
+  - a schoolboy
+  - my brother
+  - a young lad
+  FEM:
+  - a woman
+  - a girl
+  - a young woman
+  - a schoolgirl
+  - my sister
+  - a young lass

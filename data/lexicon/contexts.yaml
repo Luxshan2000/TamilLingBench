@@ -1,0 +1,255 @@
+# Preceding-sentence contexts. `cue` disambiguates the slot; `distractor` is the C3
+# matched-length control, built from the same sentence with the cue removed.
+honorificity:
+- id: CTX-HON-001
+  stratum: age-based
+  cue:
+    T: Ravi greeted his younger brother in the hall.
+    V: Ravi greeted his grandfather in the hall.
+    VV: Ravi greeted the temple priest in the hall.
+  distractor: The morning light fell across the empty hall.
+- id: CTX-HON-002
+  stratum: rank-based
+  cue:
+    T: The clerk had been waiting for the new trainee.
+    V: The clerk had been waiting for the head teacher.
+    VV: The clerk had been waiting for the district judge.
+  distractor: The office had been quiet since the early morning.
+- id: CTX-HON-003
+  stratum: kinship-based
+  cue:
+    T: Her little cousin arrived just before the meal.
+    V: Her elderly father arrived just before the meal.
+    VV: Her family's guru arrived just before the meal.
+  distractor: A slow rain started just before the evening meal.
+- id: CTX-HON-004
+  stratum: stranger-deference
+  cue:
+    T: A boy from the next street stopped at the gate.
+    V: An older neighbour from the street stopped at the gate.
+    VV: The visiting minister from the capital stopped at the gate.
+  distractor: A cold wind reached as far as the gate.
+- id: CTX-HON-005
+  stratum: age-based
+  cue:
+    T: The child sat down opposite the counter.
+    V: The old man sat down opposite the counter.
+    VV: The abbot sat down opposite the counter.
+  distractor: The lamp burned steadily beside the wooden counter.
+- id: CTX-HON-006
+  stratum: rank-based
+  cue:
+    T: My junior colleague came into the room.
+    V: My senior colleague came into the room.
+    VV: The vice chancellor came into the room.
+  distractor: The fan turned above the empty room.
+- id: CTX-HON-007
+  stratum: kinship-based
+  cue:
+    T: The youngest nephew was standing by the door.
+    V: The eldest uncle was standing by the door.
+    VV: The household head was standing by the door.
+  distractor: Sandals had been left beside the front door.
+- id: CTX-HON-008
+  stratum: stranger-deference
+  cue:
+    T: A young apprentice knocked twice and waited.
+    V: An elderly customer knocked twice and waited.
+    VV: The chief magistrate knocked twice and waited.
+  distractor: A shutter banged twice somewhere along the corridor.
+clusivity:
+- id: CTX-CLU-001
+  stratum: addressee-included
+  cue:
+    INCL: You and I were both on the committee that year.
+    EXCL: My brother and I were both on the committee that year.
+  distractor: The committee met four times in the course of that year.
+- id: CTX-CLU-002
+  stratum: addressee-excluded
+  cue:
+    INCL: The group that travelled included you and me.
+    EXCL: The group that travelled included me and two cousins.
+  distractor: The group that travelled reached the coast by evening.
+- id: CTX-CLU-003
+  stratum: addressee-included
+  cue:
+    INCL: You joined our reading circle last winter.
+    EXCL: Neighbours joined our reading circle last winter.
+  distractor: A noticeboard went up outside last winter.
+- id: CTX-CLU-004
+  stratum: addressee-excluded
+  cue:
+    INCL: Everyone here, you as well, signed the letter.
+    EXCL: Everyone in my office, not you, signed it.
+  distractor: Somebody left unopened post beside that letter.
+- id: CTX-CLU-005
+  stratum: addressee-included
+  cue:
+    INCL: We three, counting you, share the same landlord.
+    EXCL: We three, not counting you, share the same landlord.
+  distractor: The three upstairs flats were repainted by the landlord.
+- id: CTX-CLU-006
+  stratum: addressee-excluded
+  cue:
+    INCL: You have been part of this household since March.
+    EXCL: My wife and I have run this household since March.
+  distractor: The water supply to the flat was cut in March.
+- id: CTX-CLU-007
+  stratum: addressee-included
+  cue:
+    INCL: Both of us, you and I, were named in the notice.
+    EXCL: Both of us, my wife and I, were named in the notice.
+  distractor: A copy of the notice was pinned to the board downstairs.
+- id: CTX-CLU-008
+  stratum: addressee-excluded
+  cue:
+    INCL: You are on the same team as me this season.
+    EXCL: My colleagues are on the same team as me this season.
+  distractor: The season was shortened by two weeks because of the rain.
+rationality:
+- id: CTX-RAT-001
+  stratum: clear
+  cue:
+    UYAR: The students had gathered outside since dawn.
+    AHRI: The horses had gathered outside since dawn.
+  distractor: The sky had been overcast since dawn.
+- id: CTX-RAT-002
+  stratum: clear
+  cue:
+    UYAR: A group of soldiers waited near the bridge.
+    AHRI: A group of elephants waited near the bridge.
+  distractor: A long queue had formed somewhere beyond the bridge.
+- id: CTX-RAT-003
+  stratum: clear
+  cue:
+    UYAR: The doctors were expected before the ceremony.
+    AHRI: The carts were expected before the ceremony.
+  distractor: The rain was expected after the ceremony.
+- id: CTX-RAT-004
+  stratum: clear
+  cue:
+    UYAR: Several officers had been posted to the village.
+    AHRI: Several tigers had been sighted near the village.
+  distractor: Several power cuts had been reported across the village.
+- id: CTX-RAT-005
+  stratum: clear
+  cue:
+    UYAR: The teachers left the compound at four o'clock.
+    AHRI: The monkeys left the compound at four o'clock.
+  distractor: The main gate closed at four o'clock.
+- id: CTX-RAT-006
+  stratum: clear
+  cue:
+    UYAR: The soldiers had been standing there all afternoon.
+    AHRI: The cattle had been standing there all afternoon.
+  distractor: A heavy stillness had been settling there all afternoon.
+- id: CTX-RAT-007
+  stratum: contested
+  cue:
+    UYAR: The children had been waiting since the morning.
+    AHRI: The children had been waiting since the morning.
+  distractor: The room had been unlit that morning.
+- id: CTX-RAT-008
+  stratum: contested
+  cue:
+    UYAR: The team had assembled well before the deadline.
+    AHRI: The team had assembled well before the deadline.
+  distractor: The paperwork had been filed well before the deadline.
+gender:
+- id: CTX-GEN-201
+  stratum: kinship-appositive
+  cue:
+    MASC: '{ANAPHOR}, my younger brother, had been waiting at the station since noon.'
+    FEM: '{ANAPHOR}, my younger sister, had been waiting at the station since noon.'
+  distractor: '{ANAPHOR}, our new neighbour, had been waiting at the station since noon.'
+- id: CTX-GEN-202
+  stratum: peer-appositive
+  cue:
+    MASC: '{ANAPHOR}, the boy from my class, finished the essay that night.'
+    FEM: '{ANAPHOR}, the girl from my class, finished the essay that night.'
+  distractor: '{ANAPHOR}, the one from my class, finished the essay that night.'
+- id: CTX-GEN-203
+  stratum: kinship-appositive
+  cue:
+    MASC: '{ANAPHOR}, my nephew, came back from the market at dusk.'
+    FEM: '{ANAPHOR}, my niece, came back from the market at dusk.'
+  distractor: '{ANAPHOR}, my cousin, came back from the market at dusk.'
+- id: CTX-GEN-204
+  stratum: peer-appositive
+  cue:
+    MASC: '{ANAPHOR}, a young man from the village, opened the gate for us.'
+    FEM: '{ANAPHOR}, a young woman from the village, opened the gate for us.'
+  distractor: '{ANAPHOR}, a new arrival from the village, opened the gate for us.'
+- id: CTX-GEN-205
+  stratum: kinship-appositive
+  cue:
+    MASC: '{ANAPHOR}, my son, had promised to be there before six.'
+    FEM: '{ANAPHOR}, my daughter, had promised to be there before six.'
+  distractor: '{ANAPHOR}, my child, had promised to be there before six.'
+- id: CTX-GEN-206
+  stratum: peer-appositive
+  cue:
+    MASC: '{ANAPHOR}, the schoolboy next door, arrived on Friday without any warning.'
+    FEM: '{ANAPHOR}, the schoolgirl next door, arrived on Friday without any warning.'
+  distractor: '{ANAPHOR}, the youngster next door, arrived on Friday without any warning.'
+- id: CTX-GEN-207
+  stratum: peer-appositive
+  cue:
+    MASC: '{ANAPHOR}, a boy of about ten, joined the class in June.'
+    FEM: '{ANAPHOR}, a girl of about ten, joined the class in June.'
+  distractor: '{ANAPHOR}, a child of about ten, joined the class in June.'
+- id: CTX-GEN-208
+  stratum: peer-appositive
+  cue:
+    MASC: '{ANAPHOR}, a boy in my class, sat by the window through the meeting.'
+    FEM: '{ANAPHOR}, a girl in my class, sat by the window through the meeting.'
+  distractor: '{ANAPHOR}, a pupil in my class, sat by the window through the meeting.'
+number:
+- id: CTX-NUM-201
+  stratum: definite-np
+  cue:
+    SG: One young man had been accused of the theft.
+    PL: Six young men had been accused of the theft.
+  distractor: A short notice about the theft had gone up.
+- id: CTX-NUM-202
+  stratum: definite-np
+  cue:
+    SG: Only one young man was named in the report.
+    PL: Almost twenty young men were named in the report.
+  distractor: Only a short summary was printed in the report.
+- id: CTX-NUM-203
+  stratum: definite-np
+  cue:
+    SG: A single young man stood before the magistrate that morning.
+    PL: About twelve young men stood before the magistrate that morning.
+  distractor: A long queue had formed before the magistrate that morning.
+- id: CTX-NUM-204
+  stratum: definite-np
+  cue:
+    SG: Just one young man was waiting in the corridor outside.
+    PL: Nearly ten young men were waiting in the corridor outside.
+  distractor: A long wooden bench was standing in the corridor outside.
+- id: CTX-NUM-205
+  stratum: definite-np
+  cue:
+    SG: One young man had been charged the previous week.
+    PL: Four young men had been charged the previous week.
+  distractor: A new notice had been posted the previous week.
+- id: CTX-NUM-206
+  stratum: definite-np
+  cue:
+    SG: The young man in the dock had said nothing.
+    PL: The young men in the dock had said nothing.
+  distractor: The old clock in the corner had stopped working.
+- id: CTX-NUM-207
+  stratum: definite-np
+  cue:
+    SG: A lone young man had been brought in that night.
+    PL: Two dozen young men had been brought in that night.
+  distractor: A heavy iron gate had been shut for that night.
+- id: CTX-NUM-208
+  stratum: definite-np
+  cue:
+    SG: One young man had been held since the previous evening.
+    PL: Nine young men had been held since the previous evening.
+  distractor: A small lamp had been burning since the previous evening.

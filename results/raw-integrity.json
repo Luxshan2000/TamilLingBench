@@ -1,0 +1,62 @@
+{
+ "generated_utc": "2026-08-08T05:56:06.547580+00:00",
+ "n_files": 700,
+ "n_records": 54443,
+ "per_model": {
+  "gemma3-12b": {
+   "files": 60,
+   "records": 4427
+  },
+  "gemma3-1b": {
+   "files": 60,
+   "records": 4427
+  },
+  "gemma3-27b": {
+   "files": 60,
+   "records": 4427
+  },
+  "gemma3-4b": {
+   "files": 60,
+   "records": 4427
+  },
+  "gemma3n-e2b": {
+   "files": 60,
+   "records": 4427
+  },
+  "gemma3n-e4b": {
+   "files": 60,
+   "records": 4427
+  },
+  "indictrans2-1b": {
+   "files": 20,
+   "records": 2873
+  },
+  "llama31-8b": {
+   "files": 60,
+   "records": 4427
+  },
+  "nllb-3.3b": {
+   "files": 20,
+   "records": 2873
+  },
+  "qwen3-14b": {
+   "files": 60,
+   "records": 4427
+  },
+  "qwen3-32b": {
+   "files": 60,
+   "records": 4427
+  },
+  "qwen3-8b": {
+   "files": 60,
+   "records": 4427
+  },
+  "sarvam-translate": {
+   "files": 60,
+   "records": 4427
+  }
+ },
+ "problems": [],
+ "ok": true,
+ "what_this_checks": "Raw generations are immutable and complete: no duplicate ids, canonical cells match the public item counts, and every record carries the provenance a re-scoring pass needs (including hypothesis_raw, without which a cleaning fix would require a GPU re-run)."
+}

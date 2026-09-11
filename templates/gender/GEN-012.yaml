@@ -1,0 +1,94 @@
+# Hand-written template family. NO TAMIL outside `provenance` — the loader raises.
+# Target values are FEATURE BUNDLES; surfaces come from ThamizhiMorph generation.
+id: GEN-012
+version: 2.0.0
+slot: gender
+slot_family: null
+k: 2
+values:
+- MASC
+- FEM
+register: literary
+stratum: apposition-cued
+holds_constant:
+  person: 3
+  number: SG
+  tinai: uyar
+  hon: minus
+  gender: null
+  polarity: positive
+fillers:
+  verb:
+    from: verbs
+    where:
+      bundles_verified:
+      - past.3sg.masc
+      - past.3sg.fem
+      transitivity: intr
+  anaphor:
+    from: names
+    where:
+      gender: epicene
+source:
+  C1: Then {ANAPHOR}, {CUE}, {V_PAST} by the counter.
+  C2: Then {ANAPHOR} {V_PAST} by the counter.
+  C3: Then {ANAPHOR} {V_PAST} by the counter.
+context_slot: gender
+target:
+  MASC:
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.masc
+    anaphor:
+      id: '{ANA}'
+      gender: epicene
+  FEM:
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.fem
+    anaphor:
+      id: '{ANA}'
+      gender: epicene
+target_frame:
+  C1: '{ANA} {VERB}.'
+  C2: '{ANA} {VERB}.'
+  C3: '{ANA} {VERB}.'
+decides_on: verb
+referent_number: SG
+cue_source: cue_table
+confound_checks:
+  register:
+    checked_by: rule
+    passed: true
+  stereotype:
+    class: neutral
+    checked_by: rule
+    passed: true
+  referent_cardinality:
+    device: epicene_personal_name
+    cardinality: sg
+    checked_by: rule
+    note: a proper name has no plural reading; C2/C3 can no longer be satisfied by a licit plural translation the way English `they` allowed
+    passed: true
+  anaphor_gender_neutrality:
+    device: attested_in_both_sections
+    source: solthiruthi/data/peyargal.txt (open-tamil, MIT)
+    checked_by: source-list attestation
+    native_check: NATIVE-CHECK-NAME-2
+    note: 'LOAD-BEARING and unresolved: if the name in fact skews masculine, C3 is weak-cue rather than cue-absent and C2 could be passed without reading the context. C3 output conditioned on name_id measures it.'
+    passed: null
+avoidance:
+  drop_possible: true
+  overt_environment: null
+  neutral_form_possible: true
+interp:
+  eligible: true
+provenance:
+  inspired_by: UD_Tamil-MWTT:test:s0091
+  handwritten: true
+  v2_change: 'C2/C3 subject: English `they` -> epicene personal name; cue moves to an appositive minimal pair in the preceding sentence'
+flags:
+- NATIVE-CHECK-NAME-1
+- NATIVE-CHECK-NAME-2
+c0_probe: false
+cue_slot: gender

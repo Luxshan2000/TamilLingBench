@@ -1,0 +1,10 @@
+model,slot,condition,probe,threshold,onset_probe,max_excess_auc,n_pairs
+gemma-3-4b-pt,gender,C1,P_out,0.75,1.0,0.016718995290423755,114
+gemma-3-4b-pt,gender,C1,P_cue,0.75,1.0,0.0,114
+gemma-3-4b-pt,gender,C3,P_out,0.75,1.0,0.055718475073313734,150
+gemma-3-4b-pt,number,C1,P_out,0.75,1.0,0.18096872616323412,80
+gemma-3-4b-pt,number,C1,P_cue,0.75,1.0,0.12062499999999998,80
+gemma-3-4b-pt,number,C3,P_out,0.75,1.0,0.006054131054130996,80
+gemma-3-4b-pt,rationality,C1,P_out,0.75,1.0,0.28935185185185186,105
+gemma-3-4b-pt,rationality,C1,P_cue,0.75,1.0,0.011020408163265216,105
+gemma-3-4b-pt,rationality,C3,P_out,0.75,1.0,0.0019305019305020377,200

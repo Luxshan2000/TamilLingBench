@@ -1,0 +1,7282 @@
+[
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 60,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0730-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 94,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0736-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 106,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 130,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 132,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 146,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 150,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 162,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 180,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0790-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 190,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 194,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 198,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0684-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 2,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0690-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 14,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0694-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 22,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 24,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0702-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 38,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 50,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0712-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 58,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0713-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 60,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0720-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 74,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0726-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 86,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0730-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 94,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0731-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 96,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 110,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0744-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 122,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0748-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 130,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0749-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 132,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0756-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 146,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0762-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 158,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 168,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 180,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0790-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 190,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0810-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 206,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0816-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 218,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "indictrans2-1b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0820-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 226,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 60,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 130,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 150,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 180,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 194,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 198,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 206,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C1_nmt.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "nmt",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0722-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 78,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0726-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 86,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0792-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 194,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0810-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 206,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "nllb-3.3b",
+  "file": "rationality_C2_nmt.jsonl",
+  "item_id": "RAT-X-0812-C2-AHRI",
+  "prompt_id": "nmt",
+  "line": 210,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0727-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0745-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0763-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 24,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0745-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0687-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 8,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 53,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0730-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 94,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0730-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 95,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0759-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 152,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 159,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 167,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0770-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 174,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0770-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 175,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 4,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0763-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0691-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0727-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0728-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 90,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0745-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0763-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 160,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0817-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-UYAR",
+  "prompt_id": "P2_persona",
+  "line": 11,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 30,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-1b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0717-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 12,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 30,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "gender_C0_P0_explicit.jsonl",
+  "item_id": "GEN-X-0357-C0-MASC",
+  "prompt_id": "P0_explicit",
+  "line": 16,
+  "old": "AVOIDANT_DROP",
+  "new": "AVOIDANT_NEUTRAL",
+  "slot": "gender"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0687-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 8,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0715-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 64,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0735-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 104,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0759-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 152,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0790-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 190,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0813-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 212,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0735-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 20,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "llama31-8b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 30,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 28,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-12b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 30,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0696-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 162,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0690-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 14,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0694-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 22,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 24,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0713-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 60,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0728-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 90,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0730-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 94,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0731-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 96,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0749-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 132,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0756-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 146,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0820-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 226,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0696-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 30,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0687-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 8,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0698-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 30,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0705-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 44,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0716-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 66,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0730-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 94,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0734-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 102,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0759-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 152,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0770-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 174,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0772-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 178,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0813-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 212,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0684-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 2,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0698-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 30,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0702-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 38,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0705-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 44,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 50,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0723-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 80,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 110,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0762-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 158,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0792-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 194,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0810-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 206,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0813-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 212,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0816-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 218,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-14b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 28,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 28,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0687-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 8,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0705-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 44,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 162,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0770-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 174,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0813-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 212,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0818-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 222,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0752-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 20,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 28,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 24,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0705-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 44,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0712-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 58,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0713-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 60,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0722-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 78,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 110,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0756-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 146,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 180,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0788-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 186,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0813-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 212,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-32b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 28,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 12,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0687-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 8,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0705-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 44,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 151,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0759-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 152,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 162,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0813-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 212,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P3_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P3_context",
+  "line": 12,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0687-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 8,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0702-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 38,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0705-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 44,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0712-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 58,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0720-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 74,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0722-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0741-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 116,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0756-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 168,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0795-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 200,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0813-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 212,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0816-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 218,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 28,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "qwen3-8b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 30,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "number_C2_P3_context.jsonl",
+  "item_id": "NUM-X-0574-C2-PL",
+  "prompt_id": "P3_context",
+  "line": 6,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "number"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0701-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0730-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 94,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 30,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-4b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 12,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 28,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "gender_C3_P2_persona.jsonl",
+  "item_id": "GEN-X-0252-C3-061",
+  "prompt_id": "P2_persona",
+  "line": 27,
+  "old": "UNPARSED",
+  "new": "AVOIDANT_NEUTRAL",
+  "slot": "gender"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-UYAR",
+  "prompt_id": "P1_minimal",
+  "line": 75,
+  "old": "UNPARSED",
+  "new": "WRONG",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 86,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0728-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 90,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0730-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 94,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "AVOIDANT_NEG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0772-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 178,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0818-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 222,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0684-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 2,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0686-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0690-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 14,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0694-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 22,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 24,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0702-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 38,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0704-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 42,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 50,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0712-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 58,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0713-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 60,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0720-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 74,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0722-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 78,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0723-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0726-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 86,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0730-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 94,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0731-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 96,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0738-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0740-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0741-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 116,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0744-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 122,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0758-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 150,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0762-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 158,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0766-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 166,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 168,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0810-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 206,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0812-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0816-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 218,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0820-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 226,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 30,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "sarvam-translate",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 28,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0708-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 6,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P1_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P1_context",
+  "line": 28,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 4,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0767-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 26,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P2_context.jsonl",
+  "item_id": "RAT-X-0785-C2-AHRI",
+  "prompt_id": "P2_context",
+  "line": 28,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0689-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 12,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0712-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 58,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0727-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 88,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0730-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 94,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0731-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 96,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0749-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 132,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0764-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 162,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0766-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 166,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0767-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 168,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0816-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 218,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0695-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 24,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C2_P4_context.jsonl",
+  "item_id": "RAT-X-0731-C2-AHRI",
+  "prompt_id": "P4_context",
+  "line": 96,
+  "old": "WRONG",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3n-e2b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 10,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 30,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P3_fewshot.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P3_fewshot",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0684-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 2,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0686-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 6,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0690-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 14,
+  "old": "AVOIDANT_DROP",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0691-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 16,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0694-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0695-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 24,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0702-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 38,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0704-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 42,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0708-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 50,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0709-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 52,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0713-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 60,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0720-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 74,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0722-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 78,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0723-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 80,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0726-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 86,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 110,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0740-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 114,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 116,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0744-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 122,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0745-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 124,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0748-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 130,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0756-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 146,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0758-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 150,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0759-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 152,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0762-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 158,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0763-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 160,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0785-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 180,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0792-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 194,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0794-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 198,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 200,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0810-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 206,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 210,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0817-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 220,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0818-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 222,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P1_minimal.jsonl",
+  "item_id": "RAT-X-0820-C1-AHRI",
+  "prompt_id": "P1_minimal",
+  "line": 226,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0738-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 22,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0741-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 26,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0795-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 30,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ },
+ {
+  "system": "gemma3-27b",
+  "file": "rationality_C1_P2_persona.jsonl",
+  "item_id": "RAT-X-0812-C1-AHRI",
+  "prompt_id": "P2_persona",
+  "line": 36,
+  "old": "UNPARSED",
+  "new": "CORRECT",
+  "slot": "rationality"
+ }
+]

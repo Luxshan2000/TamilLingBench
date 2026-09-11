@@ -1,0 +1,60 @@
+{
+ "verdict": {
+  "control_hit_rate": 0.9914383561643836,
+  "slot_hit_rate": 0.9106505860370308,
+  "false_positive_hit_rate_on_correct": 0.37659249193137423,
+  "false_positive_flag_rate_on_correct": 0.729064039408867,
+  "slot_iou50": 0.09427552233735349,
+  "control_iou50": 0.22454672245467225,
+  "slot_flagged_share_of_sentence": 0.7116324362606232,
+  "slot_gold_span_chars": 3.3286308554892385,
+  "slot_critical_share": 0.06342100354411491,
+  "control_critical_share": 0.6765536723163842,
+  "call": "detects_but_does_not_localise",
+  "why": "xCOMET flags the morpheme's region on 91.1% of items, but its spans cover 71% of the sentence against a gold error span of 3.3 characters, so IoU>=0.5 is only 9.4%. It also flags 72.9% of UNPERTURBED correct sentences. Detection is real; localisation in the advertised sense is not demonstrated. Severity is where the phenomenon shows: xCOMET calls the obligatory-slot violation `critical` 6.3% of the time against 67.7% for the numeral/named-entity controls on the same sentences."
+ },
+ "per_variant": {
+  "good": {
+   "n": 5887,
+   "detection_at_item": 0.729064039408867,
+   "hit_rate_overlap": 0.37659249193137423,
+   "hit_rate_iou50": 0.015967385765245454,
+   "distractor_rate": 0.35247154747749276
+  },
+  "bad": {
+   "n": 5887,
+   "detection_at_item": 0.9391880414472566,
+   "hit_rate_overlap": 0.9106505860370308,
+   "hit_rate_iou50": 0.09427552233735349,
+   "distractor_rate": 0.028537455410225922
+  },
+  "avoided": {
+   "n": 801,
+   "detection_at_item": 0.8951310861423221,
+   "hit_rate_overlap": 0.8277153558052435,
+   "hit_rate_iou50": 0.02372034956304619,
+   "distractor_rate": 0.06741573033707865
+  },
+  "ctrl_num": {
+   "n": 584,
+   "detection_at_item": 0.9914383561643836,
+   "hit_rate_overlap": 0.9914383561643836,
+   "hit_rate_iou50": 0.00684931506849315,
+   "distractor_rate": 0.0
+  },
+  "ctrl_ne": {
+   "n": 717,
+   "detection_at_item": 0.9874476987447699,
+   "hit_rate_overlap": 0.9874476987447699,
+   "hit_rate_iou50": 0.22454672245467225,
+   "distractor_rate": 0.0
+  },
+  "ctrl_rep": {
+   "n": 3500,
+   "detection_at_item": 0.9971428571428571,
+   "hit_rate_overlap": 0.9965714285714286,
+   "hit_rate_iou50": 0.004571428571428572,
+   "distractor_rate": 0.0005714285714285715
+  }
+ }
+}

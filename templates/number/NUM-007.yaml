@@ -1,0 +1,95 @@
+# Hand-written template family. NO TAMIL outside `provenance` — the loader raises.
+# Target values are FEATURE BUNDLES; surfaces come from ThamizhiMorph generation.
+id: NUM-007
+version: 2.0.0
+slot: number
+slot_family: null
+k: 2
+values:
+- SG
+- PL
+register: literary
+stratum: definite-np
+holds_constant:
+  person: 3
+  number: null
+  tinai: uyar
+  hon: minus
+  gender: masc
+  polarity: positive
+fillers:
+  verb:
+    from: verbs
+    where:
+      bundles_verified:
+      - past.3sg.masc
+      - past.3pl.rat
+      transitivity: intr
+  subject:
+    from: nouns
+    where:
+      stratum: clear-uyar
+      gender: masc
+source:
+  C1: The {CUE} {V_PAST} shortly after that.
+  C2: The accused {V_PAST} shortly after that.
+  C3: The accused {V_PAST} shortly after that.
+context_slot: number
+target:
+  SG:
+    subject:
+      id: '{SUBJ}'
+      bundle: sg.nom
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.masc
+  PL:
+    subject:
+      id: '{SUBJ}'
+      bundle: pl.nom
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3pl.rat
+target_frame:
+  C1: '{SUBJ} {VERB}.'
+  C2: '{VERB}.'
+  C3: '{VERB}.'
+decides_on: verb
+referent_number: null
+cue_source: filler
+confound_checks:
+  register:
+    checked_by: rule
+    passed: true
+  number_invariance:
+    device: the_accused
+    checked_by: rule
+    note: '`the accused` is number-invariant in English, so the C2/C3 source is byte-identical across the SG and PL members without requiring singular-`they`. Number comes from the preceding sentence.'
+    passed: true
+  gender:
+    value: masc
+    supplied_by: prior_sentence
+    device: young_man_young_men
+    checked_by: rule
+    note: Tamil 3sg -HON is -aan / -aaL and has no gender-free member, and the gender-free -aar is number-syncretic with -aarkaL. Gender must therefore be GIVEN by the input. v1 assumed it.
+    passed: true
+  honorificity:
+    value: minus
+    supplied_by: prior_sentence
+    device: young_man
+    checked_by: rule
+    note: the -HON filter is what resolves -aarkaL to plural (DECISIONS.md D-2), so the referent must be describable non-honorifically.
+    passed: true
+avoidance:
+  drop_possible: true
+  overt_environment: null
+  neutral_form_possible: false
+interp:
+  eligible: true
+provenance:
+  inspired_by: UD_Tamil-MWTT:test:s0256
+  handwritten: true
+  v2_change: 'C2/C3 subject: English `they` -> the number-invariant `the accused`; number and gender both move to the preceding sentence'
+flags:
+- NATIVE-CHECK-NUM-2
+c0_probe: false

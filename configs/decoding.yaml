@@ -1,0 +1,25 @@
+# Decoding configuration — plan 07 §4. Every field lands verbatim in each raw record's
+# `decoding` block, so a re-scoring pass can never lose track of how a string was produced.
+
+main:
+  llm:
+    do_sample: false          # greedy
+    temperature: null
+    top_p: null
+    top_k: null
+    num_beams: 1
+    max_new_tokens: 128
+    seed: 20260807
+  nmt:
+    do_sample: false
+    num_beams: 5              # deployed default for NLLB / IndicTrans2
+    length_penalty: 1.0
+    max_new_tokens: 256
+    seed: 20260807
+
+nmt_greedy_control:           # same items, beams=1, so the NMT arm is comparable to greedy LLMs
+  nmt:
+    do_sample: false
+    num_beams: 1
+    max_new_tokens: 256
+    seed: 20260807

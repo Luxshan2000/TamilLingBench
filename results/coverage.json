@@ -1,0 +1,54 @@
+{
+  "mwtt-test": {
+    "artifact_corrected_denominator": 293,
+    "artifact_corrected_pct": 75.8,
+    "lexicon_only": 183,
+    "lexicon_only_pct": 62.0,
+    "misses": 73,
+    "n_artifact_tokens": 2,
+    "unique_forms": 295,
+    "with_fallback": 265,
+    "with_fallback_pct": 89.8,
+    "with_guesser": 222,
+    "with_guesser_pct": 75.3
+  },
+  "ttb-dev": {
+    "artifact_corrected_denominator": 172,
+    "artifact_corrected_pct": 69.2,
+    "lexicon_only": 77,
+    "lexicon_only_pct": 42.1,
+    "misses": 64,
+    "n_artifact_tokens": 11,
+    "unique_forms": 183,
+    "with_fallback": 129,
+    "with_fallback_pct": 70.5,
+    "with_guesser": 119,
+    "with_guesser_pct": 65.0
+  },
+  "ttb-test": {
+    "artifact_corrected_denominator": 248,
+    "artifact_corrected_pct": 68.1,
+    "lexicon_only": 102,
+    "lexicon_only_pct": 38.6,
+    "misses": 95,
+    "n_artifact_tokens": 16,
+    "unique_forms": 264,
+    "with_fallback": 183,
+    "with_fallback_pct": 69.3,
+    "with_guesser": 169,
+    "with_guesser_pct": 64.0
+  },
+  "ttb-train": {
+    "artifact_corrected_denominator": 530,
+    "artifact_corrected_pct": 73.4,
+    "lexicon_only": 237,
+    "lexicon_only_pct": 42.1,
+    "misses": 174,
+    "n_artifact_tokens": 33,
+    "unique_forms": 563,
+    "with_fallback": 409,
+    "with_fallback_pct": 72.6,
+    "with_guesser": 389,
+    "with_guesser_pct": 69.1
+  }
+}

@@ -1,0 +1,268 @@
+# Personal names for the gender slot. NOT FST-verifiable — no Tamil morphological
+# transducer covers personal names. Source: the ஆண் / பெண் sections of
+# solthiruthi/data/peyargal.txt (open-tamil, MIT), so the gender label is an
+# independent citable annotation rather than our own judgement.
+#   gender: masc | fem     — attested in exactly ONE section (the C1 cue)
+#   gender: epicene        — attested in BOTH sections (the C2/C3 anaphor)
+# Naturalness in contemporary use is NATIVE-CHECK-NAME-1; genuine epicene use is
+# NATIVE-CHECK-NAME-2 and it is unresolved.
+- id: NM-0000
+  tamil: அகரன்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0001
+  tamil: அஞ்சி
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0002
+  tamil: அரிமா
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0003
+  tamil: அருண்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0004
+  tamil: அறின்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0005
+  tamil: அழகர்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0006
+  tamil: அழகன்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0007
+  tamil: அரசன்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0008
+  tamil: அரசு
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0009
+  tamil: அரன்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0010
+  tamil: ஆசான்
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0011
+  tamil: ஆத்தி
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0012
+  tamil: ஆழி
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0013
+  tamil: ஆண்டி
+  gender: masc
+  attested_sections:
+  - masc
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0014
+  tamil: அகநகை
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0015
+  tamil: அருவி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0016
+  tamil: அல்லி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0017
+  tamil: அமுதா
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0018
+  tamil: அமுது
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0019
+  tamil: அமைதி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0020
+  tamil: அவ்வை
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0021
+  tamil: அழகி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0022
+  tamil: அரசி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0023
+  tamil: ஆராயி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0024
+  tamil: ஆதி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0025
+  tamil: ஆதிரை
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0026
+  tamil: இளநகை
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0027
+  tamil: இறைவி
+  gender: fem
+  attested_sections:
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-1
+- id: NM-0028
+  tamil: அறம்
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0029
+  tamil: அருள்
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0030
+  tamil: அருளி
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0031
+  tamil: அன்பு
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0032
+  tamil: எழில்
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0033
+  tamil: ஈழமணி
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0034
+  tamil: தவமணி
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2
+- id: NM-0035
+  tamil: மணி
+  gender: epicene
+  attested_sections:
+  - masc
+  - fem
+  verified_by: name-list:solthiruthi/peyargal.txt
+  native_check: NATIVE-CHECK-NAME-2

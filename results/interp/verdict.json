@@ -1,0 +1,180 @@
+{
+  "preregistration_frozen": "2026-08-08T13:15:00Z",
+  "thresholds": {
+    "probe_excess_auc": 0.75,
+    "probe_excess_auc_definition": "excess_AUC(L) = AUC_resid(L) - max(AUC_bag_of_token_ids, AUC_layer0_embedding). In C1 the English cue word is lexically present, so raw AUC is ~1.0 from layer 0 and means nothing; the excess is the reportable quantity.",
+    "onset_probe_definition": "smallest normalized depth L/n_layers at which excess_AUC first reaches 0.75 AND stays >= 0.75 at every deeper layer; linearly interpolated between bracketing layers; 1.0 ('never') if unmet",
+    "patch_restored_effect": 0.5,
+    "onset_patch_definition": "normalized depth at which mean r(L) = (LD_patched - LD_corrupted)/(LD_clean - LD_corrupted) first crosses 0.5 and stays above it; linearly interpolated; 1.0 ('never') if unmet",
+    "early_depth": 0.5,
+    "late_depth": 0.8,
+    "effect_floor_delta_onset": 0.2,
+    "effect_floor_rule": "Delta_onset >= 0.20 in normalized depth AND the 95% CI must exclude 0. Below that we report 'no detectable dissociation', not a trend."
+  },
+  "primary": {
+    "onset_rationality_C1": 0.8875217369882579,
+    "ci_rationality": [
+      0.8780041666506783,
+      0.8911883303302929
+    ],
+    "onset_number_C1": 0.5608263432960193,
+    "ci_number": [
+      0.5497409455078807,
+      0.5849797988554457
+    ],
+    "delta_onset": 0.32669539369223854,
+    "delta_ci95": [
+      0.3007697563559655,
+      0.3394642541358188
+    ],
+    "one_sided_p": 0.0,
+    "clears_effect_floor": true,
+    "ci_excludes_zero": true,
+    "verdict": "DISSOCIATION DETECTED"
+  },
+  "secondary": {
+    "Delta_onset(gender - number), C1": {
+      "delta": 0.1703941247117713,
+      "ci95": [
+        0.1350798979317922,
+        0.3026754035791544
+      ],
+      "p_raw": 0.0,
+      "p_holm": 0.0005
+    },
+    "direction_asymmetry(number)": {
+      "onset_plus_to_minus": 0.5880273841854763,
+      "onset_minus_to_plus": 0.5468709331474537,
+      "asymmetry": 0.04115645103802257,
+      "max_r_plus_to_minus": 0.9917723424706161,
+      "max_r_minus_to_plus": 0.9922428610483424
+    },
+    "direction_asymmetry(rationality)": {
+      "onset_plus_to_minus": 0.887338177880026,
+      "onset_minus_to_plus": 0.8877122467441245,
+      "asymmetry": -0.00037406886409852014,
+      "max_r_plus_to_minus": 0.8522552531301738,
+      "max_r_minus_to_plus": 0.8348056935269277
+    },
+    "direction_asymmetry(gender)": {
+      "onset_plus_to_minus": 0.7346718362409984,
+      "onset_minus_to_plus": 0.7276332614826341,
+      "asymmetry": 0.0070385747583643354,
+      "max_r_plus_to_minus": 0.993091068778078,
+      "max_r_minus_to_plus": 0.9965071356979602
+    }
+  },
+  "kill_criteria": {
+    "primary_below_floor_or_ci_includes_0": false,
+    "number_control_failed": false,
+    "both_unmarked_slots_inconclusive": true,
+    "tuned_lens_missing": true
+  },
+  "number_control": {
+    "max_r": 0.9920076017594794,
+    "reproduced": true,
+    "onset": 0.5608263432960193
+  },
+  "probe": [
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "gender",
+      "condition": "C1",
+      "probe": "P_out",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.016718995290423755",
+      "n_pairs": "114",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "gender",
+      "condition": "C1",
+      "probe": "P_cue",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.0",
+      "n_pairs": "114",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "gender",
+      "condition": "C3",
+      "probe": "P_out",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.055718475073313734",
+      "n_pairs": "150",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "number",
+      "condition": "C1",
+      "probe": "P_out",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.18096872616323412",
+      "n_pairs": "80",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "number",
+      "condition": "C1",
+      "probe": "P_cue",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.12062499999999998",
+      "n_pairs": "80",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "number",
+      "condition": "C3",
+      "probe": "P_out",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.006054131054130996",
+      "n_pairs": "80",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "rationality",
+      "condition": "C1",
+      "probe": "P_out",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.28935185185185186",
+      "n_pairs": "105",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "rationality",
+      "condition": "C1",
+      "probe": "P_cue",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.011020408163265216",
+      "n_pairs": "105",
+      "band": "NEVER REACHED"
+    },
+    {
+      "model": "gemma-3-4b-pt",
+      "slot": "rationality",
+      "condition": "C3",
+      "probe": "P_out",
+      "threshold": "0.75",
+      "onset_probe": "1.0",
+      "max_excess_auc": "0.0019305019305020377",
+      "n_pairs": "200",
+      "band": "NEVER REACHED"
+    }
+  ],
+  "kill_verdict": "DROP"
+}

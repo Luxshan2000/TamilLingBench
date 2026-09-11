@@ -1,0 +1,60 @@
+{
+  "_licence_note": "Counts only. UD_Tamil-TTB is CC BY-NC-SA 3.0 and no TTB text is reproduced here or anywhere in the release path. UD_Tamil-MWTT is CC BY-SA 4.0.",
+  "_source": "scripts/ud_negative_facts.py",
+  "_treebank_files": {
+    "mwtt": [
+      "ta_mwtt-ud-test.conllu"
+    ],
+    "ttb": [
+      "ta_ttb-ud-dev.conllu",
+      "ta_ttb-ud-test.conllu",
+      "ta_ttb-ud-train.conllu"
+    ]
+  },
+  "ud_aspect_tokens_both_treebanks": 0,
+  "ud_clusivity_tokens_both_treebanks": 0,
+  "ud_deixis_tokens_both_treebanks": 0,
+  "ud_evident_tokens_both_treebanks": 0,
+  "ud_illai_all_polarity_pos": true,
+  "ud_illai_polarity_values": {
+    "Pos": 41
+  },
+  "ud_illai_tokens_both_treebanks": 41,
+  "ud_mood_ind_tokens": 761,
+  "ud_mood_pot_nec_des_tokens": 0,
+  "ud_mood_values": {
+    "Cnd": 29,
+    "Imp": 21,
+    "Ind": 761,
+    "Opt": 1
+  },
+  "ud_mwtt_aan_verb_aux_tokens": 215,
+  "ud_mwtt_gender_fem_tokens": 5,
+  "ud_mwtt_gender_masc_tokens": 267,
+  "ud_mwtt_polarity_neg_tokens": 38,
+  "ud_mwtt_tokens": 2584,
+  "ud_n_unexpressable_categories": 7,
+  "ud_naam_naangal_feats_identical": false,
+  "ud_naam_tokens": 4,
+  "ud_naangal_tokens": 6,
+  "ud_polite_distinct_values": 1,
+  "ud_polite_elev_tokens": 0,
+  "ud_polite_form_tokens": 892,
+  "ud_polite_infm_tokens": 0,
+  "ud_ttb_aan_aal_finite_verbs": 0,
+  "ud_ttb_gender_fem_tokens": 0,
+  "ud_ttb_gender_masc_tokens": 2,
+  "ud_ttb_tokens": 9581,
+  "ud_unexpressable_categories": [
+    "aspect",
+    "causation",
+    "clusivity",
+    "deixis",
+    "evidentiality",
+    "honorific contrast",
+    "modality"
+  ],
+  "ud_voice_act_tokens": 1644,
+  "ud_voice_cau_tokens": 0,
+  "ud_voice_pass_tokens": 157
+}

@@ -1,0 +1,76 @@
+{
+ "sacrebleu": {
+  "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
+  "chrfpp": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0"
+ },
+ "checkpoints": {
+  "Unbabel--wmt22-comet-da": "2760a223ac957f30acfb18c8aa649b01cf1d75f2",
+  "Unbabel--wmt22-cometkiwi-da": "1ad785194e391eebc6c53e2d0776cada8f83179a",
+  "Unbabel--XCOMET-XL": "6a123c5e8e6dccab25e5fcffa3c8b417abadb462",
+  "google--metricx-24-hybrid-xl-v2p6": "f6e7f99a655582f28cb998dd3e6ca86b4217430d",
+  "google--mt5-xl": "63fc6450d80515b48e026b69ef2fbbd426433e84"
+ },
+ "metricx_src_commit": "fc4978eb064670f7cc33e93ea4f52d38396b8ae6",
+ "mt_thresholds": "1.0.4",
+ "input_sha256": "1d13a54e33d0e5c62edaa97ee316e214e03a450c0c6f347046d6cdd02b8a8cf9",
+ "input_sha256_heldout": "ad72f7c10868492f7a90d90016b82d41c60b1b4a5df3d1659b42f8968caff863",
+ "bootstrap": {
+  "B": 10000,
+  "seed": 20260809,
+  "cluster": "template_id"
+ },
+ "raw_metric_files": {
+  "chrf.json": {
+   "metric": "chrf",
+   "word_order": 0,
+   "scale": "0-100, higher is better",
+   "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0",
+   "sacrebleu_version": "2.6.0",
+   "toship_key": "chrf",
+   "input_sha256": "1d13a54e33d0e5c62edaa97ee316e214e03a450c0c6f347046d6cdd02b8a8cf9",
+   "n": 25157,
+   "corpus_score": 75.47035509239221
+  },
+  "chrfpp.json": {
+   "metric": "chrfpp",
+   "word_order": 2,
+   "scale": "0-100, higher is better",
+   "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+   "sacrebleu_version": "2.6.0",
+   "toship_key": null,
+   "input_sha256": "1d13a54e33d0e5c62edaa97ee316e214e03a450c0c6f347046d6cdd02b8a8cf9",
+   "n": 25157,
+   "corpus_score": 74.28426324768367
+  },
+  "comet22.json": {
+   "metric": "comet22",
+   "hf_model": "Unbabel/wmt22-comet-da",
+   "reference_based": true,
+   "input_sha256": "1d13a54e33d0e5c62edaa97ee316e214e03a450c0c6f347046d6cdd02b8a8cf9",
+   "n": 25157,
+   "batch_size": 32,
+   "system_score": 0.8167877310542171
+  },
+  "cometkiwi22.json": {
+   "metric": "cometkiwi22",
+   "hf_model": "Unbabel/wmt22-cometkiwi-da",
+   "reference_based": false,
+   "input_sha256": "1d13a54e33d0e5c62edaa97ee316e214e03a450c0c6f347046d6cdd02b8a8cf9",
+   "n": 25157,
+   "batch_size": 32,
+   "system_score": 0.6555186410977967
+  },
+  "metricx24xl.json": {
+   "metric": "metricx24xl",
+   "hf_model": "google/metricx-24-hybrid-xl-v2p6",
+   "module": "metricx24",
+   "qe": false,
+   "scale": "0-25, LOWER IS BETTER",
+   "input_sha256": "1d13a54e33d0e5c62edaa97ee316e214e03a450c0c6f347046d6cdd02b8a8cf9",
+   "n": 25157,
+   "batch_size": 32,
+   "toship_key": null,
+   "inference": "direct forward with per-batch dynamic padding; upstream predict.py crashes on ragged collation (padding=False + default collator)"
+  }
+ }
+}

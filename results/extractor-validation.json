@@ -1,0 +1,325 @@
+{
+ "generated_utc": "2026-08-08T05:56:06.705861+00:00",
+ "what_this_is": "Extractor validated against the benchmark's own gold and contrast targets. Recall = gold target scores CORRECT. Precision = contrast target does NOT score CORRECT.",
+ "by_slot": {
+  "clusivity": {
+   "n_gold_targets": 480,
+   "recall_correct": 480,
+   "recall_rate": 1.0,
+   "recall_outcomes": {
+    "CORRECT": 480
+   },
+   "recall_by_gold_value": {
+    "EXCL->CORRECT": 240,
+    "INCL->CORRECT": 240
+   },
+   "n_contrast_targets": 480,
+   "contrast_false_positives": 0,
+   "contrast_fp_rate": 0.0,
+   "contrast_outcomes": {
+    "WRONG": 480
+   }
+  },
+  "gender": {
+   "n_gold_targets": 480,
+   "recall_correct": 480,
+   "recall_rate": 1.0,
+   "recall_outcomes": {
+    "CORRECT": 480
+   },
+   "recall_by_gold_value": {
+    "FEM->CORRECT": 240,
+    "MASC->CORRECT": 240
+   },
+   "n_contrast_targets": 480,
+   "contrast_false_positives": 0,
+   "contrast_fp_rate": 0.0,
+   "contrast_outcomes": {
+    "WRONG": 480
+   }
+  },
+  "honorificity": {
+   "n_gold_targets": 504,
+   "recall_correct": 398,
+   "recall_rate": 0.7897,
+   "recall_outcomes": {
+    "CORRECT": 398,
+    "AVOIDANT_DROP": 106
+   },
+   "recall_by_gold_value": {
+    "T->CORRECT": 199,
+    "V->CORRECT": 199,
+    "VV->AVOIDANT_DROP": 106
+   },
+   "n_contrast_targets": 504,
+   "contrast_false_positives": 0,
+   "contrast_fp_rate": 0.0,
+   "contrast_outcomes": {
+    "WRONG": 504
+   }
+  },
+  "number": {
+   "n_gold_targets": 244,
+   "recall_correct": 244,
+   "recall_rate": 1.0,
+   "recall_outcomes": {
+    "CORRECT": 244
+   },
+   "recall_by_gold_value": {
+    "PL->CORRECT": 122,
+    "SG->CORRECT": 122
+   },
+   "n_contrast_targets": 244,
+   "contrast_false_positives": 0,
+   "contrast_fp_rate": 0.0,
+   "contrast_outcomes": {
+    "WRONG": 244
+   }
+  },
+  "rationality": {
+   "n_gold_targets": 496,
+   "recall_correct": 496,
+   "recall_rate": 1.0,
+   "recall_outcomes": {
+    "CORRECT": 496
+   },
+   "recall_by_gold_value": {
+    "AHRI->CORRECT": 248,
+    "UYAR->CORRECT": 248
+   },
+   "n_contrast_targets": 496,
+   "contrast_false_positives": 0,
+   "contrast_fp_rate": 0.0,
+   "contrast_outcomes": {
+    "WRONG": 496
+   }
+  }
+ },
+ "totals": {
+  "n_gold": 2204,
+  "n_gold_correct": 2098,
+  "n_contrast": 2204,
+  "n_contrast_false_positive": 0
+ },
+ "known_structural_failure": {
+  "slot": "honorificity",
+  "gold_value": "VV",
+  "note": "Every VV gold target fails, and this is not a bug in the extractor. ThamizhiMorph licenses no DEFERENTIAL reading (தாங்கள் is +pron+3pl+refl; the optative வருக/செய்க carries no honorificity tag). The benchmark's own generator recorded the same failure: 106/106 VV items have checker_verified=false. This is the concrete form of the open NATIVE-CHECK-HON-3/4 question."
+ },
+ "failure_examples": {
+  "recall:honorificity:AVOIDANT_DROP": [
+   {
+    "item_id": "HON-HON-I-0381-C1-VV",
+    "gold_value": "VV",
+    "target": "எழுதுக.",
+    "why": "anchor 'எழுதுக' (எழுது+verb+fin+sim+opt=க) present but no honorificity exponent on any person-(2,) form"
+   },
+   {
+    "item_id": "HON-HON-I-0381-C2-VV",
+    "gold_value": "VV",
+    "target": "எழுதுக.",
+    "why": "anchor 'எழுதுக' (எழுது+verb+fin+sim+opt=க) present but no honorificity exponent on any person-(2,) form"
+   },
+   {
+    "item_id": "HON-HON-I-0382-C1-VV",
+    "gold_value": "VV",
+    "target": "ஓடுக.",
+    "why": "anchor 'ஓடுக' (ஓடு+verb+fin+sim+opt=க) present but no honorificity exponent on any person-(2,) form"
+   }
+  ]
+ },
+ "scoring_repair_ablation": {
+  "n_records": 37349,
+  "with_repairs": {
+   "clusivity|AVOIDANT_DROP": 3245,
+   "clusivity|AVOIDANT_NEG": 1,
+   "clusivity|COMMITTED": 1734,
+   "clusivity|CORRECT": 1657,
+   "clusivity|UNDECIDABLE": 30,
+   "clusivity|UNPARSED": 65,
+   "clusivity|WRONG": 1458,
+   "gender|AVOIDANT_DROP": 290,
+   "gender|AVOIDANT_NEG": 3,
+   "gender|AVOIDANT_NEUTRAL": 2704,
+   "gender|COMMITTED": 634,
+   "gender|CORRECT": 3699,
+   "gender|UNPARSED": 517,
+   "gender|WRONG": 343,
+   "honorificity|AVOIDANT_DROP": 997,
+   "honorificity|AVOIDANT_NEG": 13,
+   "honorificity|COMMITTED": 1638,
+   "honorificity|CORRECT": 3115,
+   "honorificity|UNDECIDABLE": 586,
+   "honorificity|UNPARSED": 598,
+   "honorificity|WRONG": 1646,
+   "number|AVOIDANT_DROP": 258,
+   "number|AVOIDANT_NEG": 2,
+   "number|COMMITTED": 734,
+   "number|CORRECT": 1498,
+   "number|UNDECIDABLE": 16,
+   "number|UNPARSED": 464,
+   "number|WRONG": 1084,
+   "rationality|AVOIDANT_DROP": 140,
+   "rationality|AVOIDANT_NEG": 19,
+   "rationality|COMMITTED": 1832,
+   "rationality|CORRECT": 3911,
+   "rationality|UNPARSED": 1019,
+   "rationality|WRONG": 1399
+  },
+  "without_anar_repair": {
+   "clusivity|AVOIDANT_DROP": 3245,
+   "clusivity|AVOIDANT_NEG": 1,
+   "clusivity|COMMITTED": 1734,
+   "clusivity|CORRECT": 1657,
+   "clusivity|UNDECIDABLE": 30,
+   "clusivity|UNPARSED": 65,
+   "clusivity|WRONG": 1458,
+   "gender|AVOIDANT_DROP": 290,
+   "gender|AVOIDANT_NEG": 3,
+   "gender|AVOIDANT_NEUTRAL": 2704,
+   "gender|COMMITTED": 634,
+   "gender|CORRECT": 3699,
+   "gender|UNPARSED": 517,
+   "gender|WRONG": 343,
+   "honorificity|AVOIDANT_DROP": 997,
+   "honorificity|AVOIDANT_NEG": 13,
+   "honorificity|COMMITTED": 1638,
+   "honorificity|CORRECT": 3115,
+   "honorificity|UNDECIDABLE": 586,
+   "honorificity|UNPARSED": 598,
+   "honorificity|WRONG": 1646,
+   "number|AVOIDANT_DROP": 258,
+   "number|AVOIDANT_NEG": 2,
+   "number|COMMITTED": 734,
+   "number|CORRECT": 1197,
+   "number|UNDECIDABLE": 16,
+   "number|UNPARSED": 464,
+   "number|WRONG": 1385,
+   "rationality|AVOIDANT_DROP": 140,
+   "rationality|AVOIDANT_NEG": 19,
+   "rationality|COMMITTED": 1832,
+   "rationality|CORRECT": 3911,
+   "rationality|UNPARSED": 1019,
+   "rationality|WRONG": 1399
+  },
+  "without_sandhi_repair": {
+   "clusivity|AVOIDANT_DROP": 3442,
+   "clusivity|AVOIDANT_NEG": 1,
+   "clusivity|COMMITTED": 1639,
+   "clusivity|CORRECT": 1606,
+   "clusivity|UNDECIDABLE": 30,
+   "clusivity|UNPARSED": 70,
+   "clusivity|WRONG": 1402,
+   "gender|AVOIDANT_DROP": 290,
+   "gender|AVOIDANT_NEG": 3,
+   "gender|AVOIDANT_NEUTRAL": 2704,
+   "gender|COMMITTED": 634,
+   "gender|CORRECT": 3699,
+   "gender|UNPARSED": 517,
+   "gender|WRONG": 343,
+   "honorificity|AVOIDANT_DROP": 1030,
+   "honorificity|AVOIDANT_NEG": 13,
+   "honorificity|COMMITTED": 1624,
+   "honorificity|CORRECT": 3105,
+   "honorificity|UNDECIDABLE": 583,
+   "honorificity|UNPARSED": 598,
+   "honorificity|WRONG": 1640,
+   "number|AVOIDANT_DROP": 258,
+   "number|AVOIDANT_NEG": 2,
+   "number|COMMITTED": 734,
+   "number|CORRECT": 1498,
+   "number|UNDECIDABLE": 16,
+   "number|UNPARSED": 464,
+   "number|WRONG": 1084,
+   "rationality|AVOIDANT_DROP": 140,
+   "rationality|AVOIDANT_NEG": 19,
+   "rationality|COMMITTED": 1832,
+   "rationality|CORRECT": 3911,
+   "rationality|UNPARSED": 1019,
+   "rationality|WRONG": 1399
+  },
+  "without_any_repair": {
+   "clusivity|AVOIDANT_DROP": 3442,
+   "clusivity|AVOIDANT_NEG": 1,
+   "clusivity|COMMITTED": 1639,
+   "clusivity|CORRECT": 1606,
+   "clusivity|UNDECIDABLE": 30,
+   "clusivity|UNPARSED": 70,
+   "clusivity|WRONG": 1402,
+   "gender|AVOIDANT_DROP": 290,
+   "gender|AVOIDANT_NEG": 3,
+   "gender|AVOIDANT_NEUTRAL": 2704,
+   "gender|COMMITTED": 634,
+   "gender|CORRECT": 3699,
+   "gender|UNPARSED": 517,
+   "gender|WRONG": 343,
+   "honorificity|AVOIDANT_DROP": 1030,
+   "honorificity|AVOIDANT_NEG": 13,
+   "honorificity|COMMITTED": 1624,
+   "honorificity|CORRECT": 3105,
+   "honorificity|UNDECIDABLE": 583,
+   "honorificity|UNPARSED": 598,
+   "honorificity|WRONG": 1640,
+   "number|AVOIDANT_DROP": 258,
+   "number|AVOIDANT_NEG": 2,
+   "number|COMMITTED": 734,
+   "number|CORRECT": 1197,
+   "number|UNDECIDABLE": 16,
+   "number|UNPARSED": 464,
+   "number|WRONG": 1385,
+   "rationality|AVOIDANT_DROP": 140,
+   "rationality|AVOIDANT_NEG": 19,
+   "rationality|COMMITTED": 1832,
+   "rationality|CORRECT": 3911,
+   "rationality|UNPARSED": 1019,
+   "rationality|WRONG": 1399
+  },
+  "deltas": {
+   "vs_without_anar_repair": {
+    "number|WRONG": -301,
+    "number|CORRECT": 301
+   },
+   "vs_without_sandhi_repair": {
+    "clusivity|AVOIDANT_DROP": -197,
+    "clusivity|COMMITTED": 95,
+    "honorificity|AVOIDANT_DROP": -33,
+    "honorificity|WRONG": 6,
+    "honorificity|CORRECT": 10,
+    "clusivity|CORRECT": 51,
+    "clusivity|UNPARSED": -5,
+    "honorificity|COMMITTED": 14,
+    "honorificity|UNDECIDABLE": 3,
+    "clusivity|WRONG": 56
+   },
+   "vs_without_any_repair": {
+    "clusivity|AVOIDANT_DROP": -197,
+    "clusivity|COMMITTED": 95,
+    "honorificity|AVOIDANT_DROP": -33,
+    "honorificity|WRONG": 6,
+    "honorificity|CORRECT": 10,
+    "clusivity|CORRECT": 51,
+    "clusivity|UNPARSED": -5,
+    "number|WRONG": -301,
+    "honorificity|COMMITTED": 14,
+    "honorificity|UNDECIDABLE": 3,
+    "clusivity|WRONG": 56,
+    "number|CORRECT": 301
+   }
+  },
+  "delta_with_minus_without": {
+   "clusivity|AVOIDANT_DROP": -197,
+   "clusivity|COMMITTED": 95,
+   "honorificity|AVOIDANT_DROP": -33,
+   "honorificity|WRONG": 6,
+   "honorificity|CORRECT": 10,
+   "clusivity|CORRECT": 51,
+   "clusivity|UNPARSED": -5,
+   "number|WRONG": -301,
+   "honorificity|COMMITTED": 14,
+   "honorificity|UNDECIDABLE": 3,
+   "clusivity|WRONG": 56,
+   "number|CORRECT": 301
+  },
+  "note": "Two SCORING-layer corrections of documented ThamizhiMorph defects: (a) -அனர் is tagged 3sge (singular) though it is the unambiguously plural rational form; (b) a word-final sandhi consonant (எங்களைப் < எங்களை + ப்) blocks the pronoun analysis and returns a spurious verb reading instead. The validated checker is NOT modified — SlotExtractor(repair_anar=False, repair_sandhi=False) reproduces the unrepaired numbers, and each arm is reported separately above."
+ }
+}

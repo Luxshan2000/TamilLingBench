@@ -1,0 +1,126 @@
+{
+ "run_id": "20260808T053652Z-b6122e",
+ "system_id": "gemma3-27b",
+ "hf_name": "google/gemma-3-27b-it",
+ "revision": "005ad3404e59d6023443cb575daa05336842228a",
+ "model_class": "Gemma3ForConditionalGeneration",
+ "discarded_tower_weights": 0,
+ "backend": "causal_lm",
+ "dtype": "bfloat16",
+ "arm": "llm",
+ "prompt_set": "c0_explicit",
+ "decoding_id": "main",
+ "decoding": {
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null,
+  "num_beams": 1,
+  "max_new_tokens": 128,
+  "seed": 20260807
+ },
+ "split": "public",
+ "conditions": [
+  "C0"
+ ],
+ "canonical_prompt_per_condition": {
+  "C0": "P0_specified",
+  "C1": "P1_minimal",
+  "C2": "P4_context",
+  "C3": "P1_minimal"
+ },
+ "robustness_prompts_per_condition": {
+  "C1": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C3": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C2": [
+   "P4_context",
+   "P1_context",
+   "P2_context",
+   "P3_context"
+  ]
+ },
+ "batch_size": 16,
+ "limit_per_cell": 0,
+ "chat_template_kwargs": {},
+ "has_chat_template": true,
+ "out_dir": "outputs/raw/gemma3-27b",
+ "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+ "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+ "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+ "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+ "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+ "torch": "2.10.0+cu130",
+ "transformers": "5.12.1",
+ "python": "3.12.3",
+ "started_utc": "2026-08-08T05:40:48.453037+00:00",
+ "status": "complete",
+ "hygiene": {
+  "n": 154,
+  "cleaned": 0,
+  "think_leak": 0,
+  "low_tamil": 0,
+  "empty": 0,
+  "clean_ops": {}
+ },
+ "cells": [
+  {
+   "file": "clusivity_C0_P0_explicit.jsonl",
+   "slot": "clusivity",
+   "condition": "C0",
+   "prompt_id": "P0_explicit",
+   "n": 40,
+   "seconds": 14.5,
+   "sec_per_item": 0.363,
+   "completed_utc": "2026-08-08T05:41:02.985663+00:00"
+  },
+  {
+   "file": "gender_C0_P0_explicit.jsonl",
+   "slot": "gender",
+   "condition": "C0",
+   "prompt_id": "P0_explicit",
+   "n": 40,
+   "seconds": 12.2,
+   "sec_per_item": 0.305,
+   "completed_utc": "2026-08-08T05:41:15.181246+00:00"
+  },
+  {
+   "file": "honorificity_C0_P0_explicit.jsonl",
+   "slot": "honorificity",
+   "condition": "C0",
+   "prompt_id": "P0_explicit",
+   "n": 14,
+   "seconds": 3.0,
+   "sec_per_item": 0.215,
+   "completed_utc": "2026-08-08T05:41:18.188305+00:00"
+  },
+  {
+   "file": "number_C0_P0_explicit.jsonl",
+   "slot": "number",
+   "condition": "C0",
+   "prompt_id": "P0_explicit",
+   "n": 20,
+   "seconds": 8.4,
+   "sec_per_item": 0.419,
+   "completed_utc": "2026-08-08T05:41:26.564807+00:00"
+  },
+  {
+   "file": "rationality_C0_P0_explicit.jsonl",
+   "slot": "rationality",
+   "condition": "C0",
+   "prompt_id": "P0_explicit",
+   "n": 40,
+   "seconds": 11.8,
+   "sec_per_item": 0.294,
+   "completed_utc": "2026-08-08T05:41:38.345805+00:00"
+  }
+ ],
+ "updated_utc": "2026-08-08T05:41:38.346008+00:00"
+}

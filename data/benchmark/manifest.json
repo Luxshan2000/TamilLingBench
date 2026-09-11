@@ -1,0 +1,81 @@
+{
+ "name": "TamilLingBench",
+ "description": "English-to-Tamil challenge set for obligatory verb agreement, public split. This is the benchmark evaluated in the paper.",
+ "dataset_version": "2.0.0",
+ "licence": "CC BY-SA 4.0",
+ "seed": 20260807,
+ "sha256_items_jsonl": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+ "n_items": 2873,
+ "n_items_withheld": 1107,
+ "n_templates": 57,
+ "n_templates_withheld": 23,
+ "withheld": "About 30% of template families are held out as a blind split. Their templates and items are not published.",
+ "counts": {
+  "clusivity/C0": 40,
+  "clusivity/C1": 220,
+  "clusivity/C2": 220,
+  "clusivity/C3": 150,
+  "gender/C0": 40,
+  "gender/C1": 220,
+  "gender/C2": 220,
+  "gender/C3": 150,
+  "honorificity/C0": 14,
+  "honorificity/C1": 245,
+  "honorificity/C2": 245,
+  "honorificity/C3": 157,
+  "number/C0": 20,
+  "number/C1": 112,
+  "number/C2": 112,
+  "number/C3": 68,
+  "rationality/C0": 40,
+  "rationality/C1": 228,
+  "rationality/C2": 228,
+  "rationality/C3": 144
+ },
+ "files": {
+  "clusivity/C0.public.jsonl": 40,
+  "clusivity/C1.public.jsonl": 220,
+  "clusivity/C2.public.jsonl": 220,
+  "clusivity/C3.public.jsonl": 150,
+  "gender/C0.public.jsonl": 40,
+  "gender/C1.public.jsonl": 220,
+  "gender/C2.public.jsonl": 220,
+  "gender/C3.public.jsonl": 150,
+  "honorificity/C0.public.jsonl": 14,
+  "honorificity/C1.public.jsonl": 245,
+  "honorificity/C2.public.jsonl": 245,
+  "honorificity/C3.public.jsonl": 157,
+  "number/C0.public.jsonl": 20,
+  "number/C1.public.jsonl": 112,
+  "number/C2.public.jsonl": 112,
+  "number/C3.public.jsonl": 68,
+  "rationality/C0.public.jsonl": 40,
+  "rationality/C1.public.jsonl": 228,
+  "rationality/C2.public.jsonl": 228,
+  "rationality/C3.public.jsonl": 144
+ },
+ "canary": "Every item carries a `canary` string. Please keep the benchmark out of training data.",
+ "source_gold_audit": "tamillingbench/gen/audit.py: 0 FAIL, 62 WARN (the WARN rows are the number C1 reference-gender note below).",
+ "known_issues": [
+  {
+   "slot": "number",
+   "what": "The number contrast is -ān (3sg masc) against -ārkaḷ (3pl). Outputs often end in -ār, which is either honorific singular or rational plural, and nothing in the word form decides. The same output string is therefore scored WRONG on singular items and CORRECT on plural ones.",
+   "consequence": "The number control cannot be read. The paper draws no conclusion from the number slot."
+  },
+  {
+   "slot": "rationality",
+   "what": "For seven verbs of the -iṉ past class the FST generator produced the non-human plural by concatenation (for example ஓடினன). These forms are not attested in Tamil text; the attested form is ஓடின. 98 items carry such a form as gold and 149 as a contrast target.",
+   "consequence": "Scoring reads the analyser's features, not the gold string. The released scoring (outputs/scored) uses the repaired analyser, which reads ஓடின correctly (fallback rule R14; see the paper's appendix on analyser repairs). The gold strings themselves are left as released."
+  },
+  {
+   "slot": "rationality",
+   "what": "Gold lists for plural non-human subjects also accept the -அது singular form as a regional variant (tagged `variety`). A native-speaker ruling (docs/DECISIONS.md, D-9) judges -அது ungrammatical with a plural subject.",
+   "consequence": "Treat the `variety` alternatives as a known over-acceptance in the gold lists."
+  },
+  {
+   "slot": "number",
+   "what": "In C1 the English cue is a neutral noun ('The student spoke') while the Tamil reference uses the masculine noun and verb.",
+   "consequence": "Not a scoring defect: the number slot never inspects gender. Reported by the source/gold audit as WARN."
+  }
+ ]
+}

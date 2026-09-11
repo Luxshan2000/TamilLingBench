@@ -1,0 +1,282 @@
+{
+ "run_id": "20260808T003035Z-98edd9",
+ "system_id": "gemma3-4b",
+ "hf_name": "google/gemma-3-4b-it",
+ "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+ "model_class": "Gemma3ForConditionalGeneration",
+ "backend": "causal_lm",
+ "dtype": "bfloat16",
+ "arm": "llm",
+ "prompt_set": "canonical",
+ "decoding_id": "main",
+ "decoding": {
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null,
+  "num_beams": 1,
+  "max_new_tokens": 128,
+  "seed": 20260807
+ },
+ "split": "public",
+ "conditions": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "canonical_prompt_per_condition": {
+  "C0": "P0_specified",
+  "C1": "P1_minimal",
+  "C2": "P4_context",
+  "C3": "P1_minimal"
+ },
+ "robustness_prompts_per_condition": {
+  "C1": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C3": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C2": [
+   "P4_context",
+   "P1_context",
+   "P2_context",
+   "P3_context"
+  ]
+ },
+ "batch_size": 64,
+ "limit_per_cell": 0,
+ "chat_template_kwargs": {},
+ "has_chat_template": true,
+ "out_dir": "outputs/raw/gemma3-4b",
+ "models_config_sha256": "a6b15e181d6f485ea7f48ab3a43ef01f7bc8ad3425152f7d727b870762f2a5d3",
+ "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+ "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+ "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+ "code_sha256": "61f8e05b08a7ad7e1e21451bd783ce93eeed1711ca6ab702d0491895ede5aecc",
+ "torch": "2.10.0+cu130",
+ "transformers": "5.12.1",
+ "python": "3.12.3",
+ "started_utc": "2026-08-08T00:31:43.420168+00:00",
+ "status": "complete",
+ "hygiene": {
+  "n": 2873,
+  "cleaned": 1155,
+  "think_leak": 0,
+  "low_tamil": 90,
+  "empty": 0,
+  "clean_ops": {
+   "strip_trailing_transliteration": 1100,
+   "strip_explanation_tail": 14,
+   "take_first_tamil_line": 60
+  }
+ },
+ "cells": [
+  {
+   "file": "clusivity_C0_P0_specified.jsonl",
+   "slot": "clusivity",
+   "condition": "C0",
+   "prompt_id": "P0_specified",
+   "n": 40,
+   "seconds": 10.4,
+   "sec_per_item": 0.261,
+   "completed_utc": "2026-08-08T00:31:53.867637+00:00"
+  },
+  {
+   "file": "gender_C0_P0_specified.jsonl",
+   "slot": "gender",
+   "condition": "C0",
+   "prompt_id": "P0_specified",
+   "n": 40,
+   "seconds": 28.6,
+   "sec_per_item": 0.716,
+   "completed_utc": "2026-08-08T00:32:22.512957+00:00"
+  },
+  {
+   "file": "honorificity_C0_P0_specified.jsonl",
+   "slot": "honorificity",
+   "condition": "C0",
+   "prompt_id": "P0_specified",
+   "n": 14,
+   "seconds": 4.5,
+   "sec_per_item": 0.323,
+   "completed_utc": "2026-08-08T00:32:27.041463+00:00"
+  },
+  {
+   "file": "number_C0_P0_specified.jsonl",
+   "slot": "number",
+   "condition": "C0",
+   "prompt_id": "P0_specified",
+   "n": 20,
+   "seconds": 5.3,
+   "sec_per_item": 0.266,
+   "completed_utc": "2026-08-08T00:32:32.366751+00:00"
+  },
+  {
+   "file": "rationality_C0_P0_specified.jsonl",
+   "slot": "rationality",
+   "condition": "C0",
+   "prompt_id": "P0_specified",
+   "n": 40,
+   "seconds": 6.6,
+   "sec_per_item": 0.165,
+   "completed_utc": "2026-08-08T00:32:38.972041+00:00"
+  },
+  {
+   "file": "clusivity_C1_P1_minimal.jsonl",
+   "slot": "clusivity",
+   "condition": "C1",
+   "prompt_id": "P1_minimal",
+   "n": 220,
+   "seconds": 23.9,
+   "sec_per_item": 0.109,
+   "completed_utc": "2026-08-08T00:33:02.908515+00:00"
+  },
+  {
+   "file": "gender_C1_P1_minimal.jsonl",
+   "slot": "gender",
+   "condition": "C1",
+   "prompt_id": "P1_minimal",
+   "n": 220,
+   "seconds": 34.6,
+   "sec_per_item": 0.157,
+   "completed_utc": "2026-08-08T00:33:37.532033+00:00"
+  },
+  {
+   "file": "honorificity_C1_P1_minimal.jsonl",
+   "slot": "honorificity",
+   "condition": "C1",
+   "prompt_id": "P1_minimal",
+   "n": 245,
+   "seconds": 26.8,
+   "sec_per_item": 0.109,
+   "completed_utc": "2026-08-08T00:34:04.313845+00:00"
+  },
+  {
+   "file": "number_C1_P1_minimal.jsonl",
+   "slot": "number",
+   "condition": "C1",
+   "prompt_id": "P1_minimal",
+   "n": 112,
+   "seconds": 8.4,
+   "sec_per_item": 0.075,
+   "completed_utc": "2026-08-08T00:34:12.691916+00:00"
+  },
+  {
+   "file": "rationality_C1_P1_minimal.jsonl",
+   "slot": "rationality",
+   "condition": "C1",
+   "prompt_id": "P1_minimal",
+   "n": 228,
+   "seconds": 19.5,
+   "sec_per_item": 0.085,
+   "completed_utc": "2026-08-08T00:34:32.153591+00:00"
+  },
+  {
+   "file": "clusivity_C2_P4_context.jsonl",
+   "slot": "clusivity",
+   "condition": "C2",
+   "prompt_id": "P4_context",
+   "n": 220,
+   "seconds": 86.0,
+   "sec_per_item": 0.391,
+   "completed_utc": "2026-08-08T00:35:58.182320+00:00"
+  },
+  {
+   "file": "gender_C2_P4_context.jsonl",
+   "slot": "gender",
+   "condition": "C2",
+   "prompt_id": "P4_context",
+   "n": 220,
+   "seconds": 45.9,
+   "sec_per_item": 0.209,
+   "completed_utc": "2026-08-08T00:36:44.098328+00:00"
+  },
+  {
+   "file": "honorificity_C2_P4_context.jsonl",
+   "slot": "honorificity",
+   "condition": "C2",
+   "prompt_id": "P4_context",
+   "n": 245,
+   "seconds": 45.4,
+   "sec_per_item": 0.185,
+   "completed_utc": "2026-08-08T00:37:29.520547+00:00"
+  },
+  {
+   "file": "number_C2_P4_context.jsonl",
+   "slot": "number",
+   "condition": "C2",
+   "prompt_id": "P4_context",
+   "n": 112,
+   "seconds": 28.9,
+   "sec_per_item": 0.258,
+   "completed_utc": "2026-08-08T00:37:58.446728+00:00"
+  },
+  {
+   "file": "rationality_C2_P4_context.jsonl",
+   "slot": "rationality",
+   "condition": "C2",
+   "prompt_id": "P4_context",
+   "n": 228,
+   "seconds": 41.3,
+   "sec_per_item": 0.181,
+   "completed_utc": "2026-08-08T00:38:39.779098+00:00"
+  },
+  {
+   "file": "clusivity_C3_P1_minimal.jsonl",
+   "slot": "clusivity",
+   "condition": "C3",
+   "prompt_id": "P1_minimal",
+   "n": 150,
+   "seconds": 18.9,
+   "sec_per_item": 0.126,
+   "completed_utc": "2026-08-08T00:38:58.648020+00:00"
+  },
+  {
+   "file": "gender_C3_P1_minimal.jsonl",
+   "slot": "gender",
+   "condition": "C3",
+   "prompt_id": "P1_minimal",
+   "n": 150,
+   "seconds": 15.2,
+   "sec_per_item": 0.102,
+   "completed_utc": "2026-08-08T00:39:13.895339+00:00"
+  },
+  {
+   "file": "honorificity_C3_P1_minimal.jsonl",
+   "slot": "honorificity",
+   "condition": "C3",
+   "prompt_id": "P1_minimal",
+   "n": 157,
+   "seconds": 49.2,
+   "sec_per_item": 0.314,
+   "completed_utc": "2026-08-08T00:40:03.150650+00:00"
+  },
+  {
+   "file": "number_C3_P1_minimal.jsonl",
+   "slot": "number",
+   "condition": "C3",
+   "prompt_id": "P1_minimal",
+   "n": 68,
+   "seconds": 7.2,
+   "sec_per_item": 0.107,
+   "completed_utc": "2026-08-08T00:40:10.399400+00:00"
+  },
+  {
+   "file": "rationality_C3_P1_minimal.jsonl",
+   "slot": "rationality",
+   "condition": "C3",
+   "prompt_id": "P1_minimal",
+   "n": 144,
+   "seconds": 14.9,
+   "sec_per_item": 0.104,
+   "completed_utc": "2026-08-08T00:40:25.327537+00:00"
+  }
+ ],
+ "updated_utc": "2026-08-08T00:40:25.327930+00:00"
+}

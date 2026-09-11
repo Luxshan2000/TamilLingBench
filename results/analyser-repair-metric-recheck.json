@@ -1,0 +1,24 @@
+{
+ "_source": "direct re-judgement of outputs/metric_blindness/scoring_set.jsonl rationality records with the repaired analyser (repair_in_class=True)",
+ "arms": {
+  "natural": {
+   "n": 73,
+   "bad_outcomes": {
+    "WRONG": 73
+   },
+   "good_outcomes": {
+    "CORRECT": 73
+   }
+  },
+  "controlled": {
+   "n": 1415,
+   "bad_outcomes": {
+    "WRONG": 1415
+   },
+   "good_outcomes": {
+    "CORRECT": 1415
+   }
+  }
+ },
+ "natural_flipped": []
+}

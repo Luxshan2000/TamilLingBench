@@ -1,0 +1,431 @@
+{
+ "run_id": "20260808T034735Z-42cf6c",
+ "system_id": "gemma3-27b",
+ "hf_name": "google/gemma-3-27b-it",
+ "revision": "005ad3404e59d6023443cb575daa05336842228a",
+ "model_class": "Gemma3ForConditionalGeneration",
+ "discarded_tower_weights": 0,
+ "backend": "causal_lm",
+ "dtype": "bfloat16",
+ "arm": "llm",
+ "prompt_set": "robustness",
+ "decoding_id": "main",
+ "decoding": {
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null,
+  "num_beams": 1,
+  "max_new_tokens": 128,
+  "seed": 20260807
+ },
+ "split": "public",
+ "conditions": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "canonical_prompt_per_condition": {
+  "C0": "P0_specified",
+  "C1": "P1_minimal",
+  "C2": "P4_context",
+  "C3": "P1_minimal"
+ },
+ "robustness_prompts_per_condition": {
+  "C1": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C3": [
+   "P1_minimal",
+   "P2_persona",
+   "P3_fewshot"
+  ],
+  "C2": [
+   "P4_context",
+   "P1_context",
+   "P2_context",
+   "P3_context"
+  ]
+ },
+ "batch_size": 64,
+ "limit_per_cell": 0,
+ "chat_template_kwargs": {},
+ "has_chat_template": true,
+ "out_dir": "outputs/raw/gemma3-27b",
+ "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+ "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+ "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+ "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+ "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+ "torch": "2.10.0+cu130",
+ "transformers": "5.12.1",
+ "python": "3.12.3",
+ "started_utc": "2026-08-08T03:53:12.460591+00:00",
+ "status": "complete",
+ "hygiene": {
+  "n": 1400,
+  "cleaned": 2,
+  "think_leak": 0,
+  "low_tamil": 11,
+  "empty": 0,
+  "clean_ops": {
+   "take_first_tamil_line": 2
+  }
+ },
+ "cells": [
+  {
+   "file": "clusivity_C1_P2_persona.jsonl",
+   "slot": "clusivity",
+   "condition": "C1",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 10.3,
+   "sec_per_item": 0.257,
+   "completed_utc": "2026-08-08T03:53:22.729052+00:00"
+  },
+  {
+   "file": "gender_C1_P2_persona.jsonl",
+   "slot": "gender",
+   "condition": "C1",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 8.0,
+   "sec_per_item": 0.2,
+   "completed_utc": "2026-08-08T03:53:30.718229+00:00"
+  },
+  {
+   "file": "honorificity_C1_P2_persona.jsonl",
+   "slot": "honorificity",
+   "condition": "C1",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 8.8,
+   "sec_per_item": 0.219,
+   "completed_utc": "2026-08-08T03:53:39.491585+00:00"
+  },
+  {
+   "file": "number_C1_P2_persona.jsonl",
+   "slot": "number",
+   "condition": "C1",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 6.4,
+   "sec_per_item": 0.161,
+   "completed_utc": "2026-08-08T03:53:45.923542+00:00"
+  },
+  {
+   "file": "rationality_C1_P2_persona.jsonl",
+   "slot": "rationality",
+   "condition": "C1",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 7.0,
+   "sec_per_item": 0.176,
+   "completed_utc": "2026-08-08T03:53:52.960243+00:00"
+  },
+  {
+   "file": "clusivity_C1_P3_fewshot.jsonl",
+   "slot": "clusivity",
+   "condition": "C1",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 10.6,
+   "sec_per_item": 0.266,
+   "completed_utc": "2026-08-08T03:54:03.587558+00:00"
+  },
+  {
+   "file": "gender_C1_P3_fewshot.jsonl",
+   "slot": "gender",
+   "condition": "C1",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 11.2,
+   "sec_per_item": 0.281,
+   "completed_utc": "2026-08-08T03:54:14.818795+00:00"
+  },
+  {
+   "file": "honorificity_C1_P3_fewshot.jsonl",
+   "slot": "honorificity",
+   "condition": "C1",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 10.4,
+   "sec_per_item": 0.26,
+   "completed_utc": "2026-08-08T03:54:25.201881+00:00"
+  },
+  {
+   "file": "number_C1_P3_fewshot.jsonl",
+   "slot": "number",
+   "condition": "C1",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 9.3,
+   "sec_per_item": 0.232,
+   "completed_utc": "2026-08-08T03:54:34.475227+00:00"
+  },
+  {
+   "file": "rationality_C1_P3_fewshot.jsonl",
+   "slot": "rationality",
+   "condition": "C1",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 9.1,
+   "sec_per_item": 0.227,
+   "completed_utc": "2026-08-08T03:54:43.567899+00:00"
+  },
+  {
+   "file": "clusivity_C2_P1_context.jsonl",
+   "slot": "clusivity",
+   "condition": "C2",
+   "prompt_id": "P1_context",
+   "n": 40,
+   "seconds": 7.0,
+   "sec_per_item": 0.175,
+   "completed_utc": "2026-08-08T03:54:50.568501+00:00"
+  },
+  {
+   "file": "gender_C2_P1_context.jsonl",
+   "slot": "gender",
+   "condition": "C2",
+   "prompt_id": "P1_context",
+   "n": 40,
+   "seconds": 48.1,
+   "sec_per_item": 1.202,
+   "completed_utc": "2026-08-08T03:55:38.645535+00:00"
+  },
+  {
+   "file": "honorificity_C2_P1_context.jsonl",
+   "slot": "honorificity",
+   "condition": "C2",
+   "prompt_id": "P1_context",
+   "n": 40,
+   "seconds": 5.7,
+   "sec_per_item": 0.143,
+   "completed_utc": "2026-08-08T03:55:44.381762+00:00"
+  },
+  {
+   "file": "number_C2_P1_context.jsonl",
+   "slot": "number",
+   "condition": "C2",
+   "prompt_id": "P1_context",
+   "n": 40,
+   "seconds": 8.2,
+   "sec_per_item": 0.206,
+   "completed_utc": "2026-08-08T03:55:52.607392+00:00"
+  },
+  {
+   "file": "rationality_C2_P1_context.jsonl",
+   "slot": "rationality",
+   "condition": "C2",
+   "prompt_id": "P1_context",
+   "n": 40,
+   "seconds": 6.4,
+   "sec_per_item": 0.159,
+   "completed_utc": "2026-08-08T03:55:58.971125+00:00"
+  },
+  {
+   "file": "clusivity_C2_P2_context.jsonl",
+   "slot": "clusivity",
+   "condition": "C2",
+   "prompt_id": "P2_context",
+   "n": 40,
+   "seconds": 9.2,
+   "sec_per_item": 0.229,
+   "completed_utc": "2026-08-08T03:56:08.144445+00:00"
+  },
+  {
+   "file": "gender_C2_P2_context.jsonl",
+   "slot": "gender",
+   "condition": "C2",
+   "prompt_id": "P2_context",
+   "n": 40,
+   "seconds": 50.8,
+   "sec_per_item": 1.27,
+   "completed_utc": "2026-08-08T03:56:58.965774+00:00"
+  },
+  {
+   "file": "honorificity_C2_P2_context.jsonl",
+   "slot": "honorificity",
+   "condition": "C2",
+   "prompt_id": "P2_context",
+   "n": 40,
+   "seconds": 7.2,
+   "sec_per_item": 0.18,
+   "completed_utc": "2026-08-08T03:57:06.185526+00:00"
+  },
+  {
+   "file": "number_C2_P2_context.jsonl",
+   "slot": "number",
+   "condition": "C2",
+   "prompt_id": "P2_context",
+   "n": 40,
+   "seconds": 9.4,
+   "sec_per_item": 0.234,
+   "completed_utc": "2026-08-08T03:57:15.548753+00:00"
+  },
+  {
+   "file": "rationality_C2_P2_context.jsonl",
+   "slot": "rationality",
+   "condition": "C2",
+   "prompt_id": "P2_context",
+   "n": 40,
+   "seconds": 7.5,
+   "sec_per_item": 0.189,
+   "completed_utc": "2026-08-08T03:57:23.098905+00:00"
+  },
+  {
+   "file": "clusivity_C2_P3_context.jsonl",
+   "slot": "clusivity",
+   "condition": "C2",
+   "prompt_id": "P3_context",
+   "n": 40,
+   "seconds": 10.2,
+   "sec_per_item": 0.255,
+   "completed_utc": "2026-08-08T03:57:33.295221+00:00"
+  },
+  {
+   "file": "gender_C2_P3_context.jsonl",
+   "slot": "gender",
+   "condition": "C2",
+   "prompt_id": "P3_context",
+   "n": 40,
+   "seconds": 54.7,
+   "sec_per_item": 1.367,
+   "completed_utc": "2026-08-08T03:58:27.976427+00:00"
+  },
+  {
+   "file": "honorificity_C2_P3_context.jsonl",
+   "slot": "honorificity",
+   "condition": "C2",
+   "prompt_id": "P3_context",
+   "n": 40,
+   "seconds": 8.8,
+   "sec_per_item": 0.219,
+   "completed_utc": "2026-08-08T03:58:36.732637+00:00"
+  },
+  {
+   "file": "number_C2_P3_context.jsonl",
+   "slot": "number",
+   "condition": "C2",
+   "prompt_id": "P3_context",
+   "n": 40,
+   "seconds": 10.7,
+   "sec_per_item": 0.268,
+   "completed_utc": "2026-08-08T03:58:47.468915+00:00"
+  },
+  {
+   "file": "rationality_C2_P3_context.jsonl",
+   "slot": "rationality",
+   "condition": "C2",
+   "prompt_id": "P3_context",
+   "n": 40,
+   "seconds": 9.1,
+   "sec_per_item": 0.228,
+   "completed_utc": "2026-08-08T03:58:56.576774+00:00"
+  },
+  {
+   "file": "clusivity_C3_P2_persona.jsonl",
+   "slot": "clusivity",
+   "condition": "C3",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 7.7,
+   "sec_per_item": 0.192,
+   "completed_utc": "2026-08-08T03:59:04.273404+00:00"
+  },
+  {
+   "file": "gender_C3_P2_persona.jsonl",
+   "slot": "gender",
+   "condition": "C3",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 6.4,
+   "sec_per_item": 0.161,
+   "completed_utc": "2026-08-08T03:59:10.722106+00:00"
+  },
+  {
+   "file": "honorificity_C3_P2_persona.jsonl",
+   "slot": "honorificity",
+   "condition": "C3",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 8.7,
+   "sec_per_item": 0.217,
+   "completed_utc": "2026-08-08T03:59:19.389880+00:00"
+  },
+  {
+   "file": "number_C3_P2_persona.jsonl",
+   "slot": "number",
+   "condition": "C3",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 7.7,
+   "sec_per_item": 0.193,
+   "completed_utc": "2026-08-08T03:59:27.129474+00:00"
+  },
+  {
+   "file": "rationality_C3_P2_persona.jsonl",
+   "slot": "rationality",
+   "condition": "C3",
+   "prompt_id": "P2_persona",
+   "n": 40,
+   "seconds": 6.4,
+   "sec_per_item": 0.159,
+   "completed_utc": "2026-08-08T03:59:33.493503+00:00"
+  },
+  {
+   "file": "clusivity_C3_P3_fewshot.jsonl",
+   "slot": "clusivity",
+   "condition": "C3",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 9.1,
+   "sec_per_item": 0.227,
+   "completed_utc": "2026-08-08T03:59:42.593711+00:00"
+  },
+  {
+   "file": "gender_C3_P3_fewshot.jsonl",
+   "slot": "gender",
+   "condition": "C3",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 8.2,
+   "sec_per_item": 0.206,
+   "completed_utc": "2026-08-08T03:59:50.835289+00:00"
+  },
+  {
+   "file": "honorificity_C3_P3_fewshot.jsonl",
+   "slot": "honorificity",
+   "condition": "C3",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 7.4,
+   "sec_per_item": 0.185,
+   "completed_utc": "2026-08-08T03:59:58.223829+00:00"
+  },
+  {
+   "file": "number_C3_P3_fewshot.jsonl",
+   "slot": "number",
+   "condition": "C3",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 10.0,
+   "sec_per_item": 0.249,
+   "completed_utc": "2026-08-08T04:00:08.201364+00:00"
+  },
+  {
+   "file": "rationality_C3_P3_fewshot.jsonl",
+   "slot": "rationality",
+   "condition": "C3",
+   "prompt_id": "P3_fewshot",
+   "n": 40,
+   "seconds": 8.0,
+   "sec_per_item": 0.201,
+   "completed_utc": "2026-08-08T04:00:16.237993+00:00"
+  }
+ ],
+ "updated_utc": "2026-08-08T04:00:16.238301+00:00"
+}

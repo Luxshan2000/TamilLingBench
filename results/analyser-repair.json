@@ -1,0 +1,96 @@
+{
+ "_source": "outputs/scored_before_repair (pre-repair, 2026-08-08 05:56 UTC) vs outputs/scored (repair_in_class=True, 2026-09-10); same raw outputs, same items, only the analyser differs. Diff at results/analyser-repair-diff.json; blindness-set re-judgement at results/analyser-repair-metric-recheck.json",
+ "n_records": 54443,
+ "n_outcome_changes_total": 728,
+ "by_slot": {
+  "rationality": 725,
+  "gender": 2,
+  "number": 1
+ },
+ "rationality": {
+  "n_changes": 725,
+  "flip_types": {
+   "UNPARSED->CORRECT": 512,
+   "WRONG->CORRECT": 139,
+   "AVOIDANT_DROP->CORRECT": 56,
+   "AVOIDANT_NEG->CORRECT": 10,
+   "UNPARSED->WRONG": 8
+  },
+  "to_correct": 717,
+  "wrong_to_correct": 139,
+  "unparsed_to_correct": 512,
+  "by_condition": {
+   "C1": 568,
+   "C2": 157
+  },
+  "by_gold": {
+   "AHRI": 717,
+   "UYAR": 8
+  },
+  "n_systems_affected": 13,
+  "per_system": {
+   "indictrans2-1b": 60,
+   "nllb-3.3b": 39,
+   "gemma3-1b": 45,
+   "llama31-8b": 47,
+   "gemma3-12b": 47,
+   "gemma3n-e4b": 68,
+   "qwen3-14b": 73,
+   "qwen3-32b": 64,
+   "qwen3-8b": 58,
+   "gemma3-4b": 44,
+   "sarvam-translate": 78,
+   "gemma3n-e2b": 57,
+   "gemma3-27b": 45
+  },
+  "c1_committed_rate_range_pre": [
+   0.583,
+   0.75
+  ],
+  "c1_committed_rate_range_post": [
+   0.737,
+   0.903
+  ],
+  "c1_acc_strict_range_pre": [
+   0.561,
+   0.746
+  ],
+  "c1_acc_strict_range_post": [
+   0.671,
+   0.899
+  ],
+  "n_panel_cells_changed": 29,
+  "c1_committed_rate_delta_per_system": {
+   "gemma3-12b": 0.1579,
+   "gemma3-1b": 0.1228,
+   "gemma3-27b": 0.1535,
+   "gemma3-4b": 0.1491,
+   "gemma3n-e2b": 0.1667,
+   "gemma3n-e4b": 0.1535,
+   "indictrans2-1b": 0.1579,
+   "llama31-8b": 0.1579,
+   "nllb-3.3b": 0.1447,
+   "qwen3-14b": 0.2106,
+   "qwen3-32b": 0.1667,
+   "qwen3-8b": 0.1535,
+   "sarvam-translate": 0.1666
+  },
+  "c1_committed_rate_max_delta": 0.2106,
+  "c1_committed_rate_max_delta_system": "qwen3-14b",
+  "c1_committed_rate_min_delta": 0.1228,
+  "to_correct_on_ahri": 717,
+  "unparsed_to_wrong": 8,
+  "unparsed_to_wrong_on_uyar": 8
+ },
+ "metric_blindness_set": {
+  "natural_n": 73,
+  "natural_bad_still_wrong": 73,
+  "natural_good_still_correct": 73,
+  "controlled_n": 1415,
+  "controlled_bad_still_wrong": 1415,
+  "controlled_good_still_correct": 1415,
+  "n_natural_flipped": 0
+ },
+ "non_rationality_panel_cells_changed": 0,
+ "n_non_rationality_changes": 3
+}

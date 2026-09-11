@@ -1,0 +1,197 @@
+{
+ "generated_utc": "2026-08-07T20:22:07.116206+00:00",
+ "transformers": "5.12.1",
+ "what_this_is": "Tokenizer-only proof that the double-BOS and Qwen3 <think> hazards are actually handled for the INSTALLED transformers version.",
+ "models": {
+  "gemma3-1b": {
+   "hf_name": "google/gemma-3-1b-it",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "has_chat_template": true,
+   "rendered_prompt": "<bos><start_of_turn>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<end_of_turn>\n<start_of_turn>model\n",
+   "leading_bos_with_add_special_tokens_False": 1,
+   "leading_bos_with_add_special_tokens_True": 2,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": true,
+   "first_ids_used": [
+    2,
+    105,
+    2364,
+    107,
+    40414,
+    506,
+    2269,
+    5422
+   ]
+  },
+  "gemma3-4b": {
+   "hf_name": "google/gemma-3-4b-it",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "has_chat_template": true,
+   "rendered_prompt": "<bos><start_of_turn>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<end_of_turn>\n<start_of_turn>model\n",
+   "leading_bos_with_add_special_tokens_False": 1,
+   "leading_bos_with_add_special_tokens_True": 2,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": true,
+   "first_ids_used": [
+    2,
+    105,
+    2364,
+    107,
+    40414,
+    506,
+    2269,
+    5422
+   ]
+  },
+  "gemma3-12b": {
+   "hf_name": "google/gemma-3-12b-it",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "has_chat_template": true,
+   "rendered_prompt": "<bos><start_of_turn>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<end_of_turn>\n<start_of_turn>model\n",
+   "leading_bos_with_add_special_tokens_False": 1,
+   "leading_bos_with_add_special_tokens_True": 2,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": true,
+   "first_ids_used": [
+    2,
+    105,
+    2364,
+    107,
+    40414,
+    506,
+    2269,
+    5422
+   ]
+  },
+  "gemma3-27b": {
+   "hf_name": "google/gemma-3-27b-it",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "has_chat_template": true,
+   "rendered_prompt": "<bos><start_of_turn>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<end_of_turn>\n<start_of_turn>model\n",
+   "leading_bos_with_add_special_tokens_False": 1,
+   "leading_bos_with_add_special_tokens_True": 2,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": true,
+   "first_ids_used": [
+    2,
+    105,
+    2364,
+    107,
+    40414,
+    506,
+    2269,
+    5422
+   ]
+  },
+  "qwen3-8b": {
+   "hf_name": "Qwen/Qwen3-8B",
+   "bos_token": null,
+   "bos_token_id": null,
+   "has_chat_template": true,
+   "rendered_prompt": "<|im_start|>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "leading_bos_with_add_special_tokens_False": 0,
+   "leading_bos_with_add_special_tokens_True": 0,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": false,
+   "first_ids_used": [
+    151644,
+    872,
+    198,
+    27473,
+    279,
+    2701,
+    6364,
+    11652
+   ],
+   "thinking_default_render_tail": "llowing English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|im_end|>\n<|im_start|>assistant\n",
+   "thinking_disabled_render_tail": "tence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "switch_changes_prompt": true,
+   "disabled_render_contains_think_open": true,
+   "default_render_contains_think_open": false,
+   "think_block_is_prefilled_and_closed": true,
+   "thinking_disabled_correctly": true,
+   "verdict": "thinking disabled via a pre-filled closed empty think block — correct for transformers 5.12.1"
+  },
+  "qwen3-14b": {
+   "hf_name": "Qwen/Qwen3-14B",
+   "bos_token": null,
+   "bos_token_id": null,
+   "has_chat_template": true,
+   "rendered_prompt": "<|im_start|>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "leading_bos_with_add_special_tokens_False": 0,
+   "leading_bos_with_add_special_tokens_True": 0,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": false,
+   "first_ids_used": [
+    151644,
+    872,
+    198,
+    27473,
+    279,
+    2701,
+    6364,
+    11652
+   ],
+   "thinking_default_render_tail": "llowing English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|im_end|>\n<|im_start|>assistant\n",
+   "thinking_disabled_render_tail": "tence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+   "switch_changes_prompt": true,
+   "disabled_render_contains_think_open": true,
+   "default_render_contains_think_open": false,
+   "think_block_is_prefilled_and_closed": true,
+   "thinking_disabled_correctly": true,
+   "verdict": "thinking disabled via a pre-filled closed empty think block — correct for transformers 5.12.1"
+  },
+  "llama31-8b": {
+   "hf_name": "meta-llama/Llama-3.1-8B-Instruct",
+   "bos_token": "<|begin_of_text|>",
+   "bos_token_id": 128000,
+   "has_chat_template": true,
+   "rendered_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+   "leading_bos_with_add_special_tokens_False": 1,
+   "leading_bos_with_add_special_tokens_True": 2,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": true,
+   "first_ids_used": [
+    128000,
+    128006,
+    9125,
+    128007,
+    271,
+    38766,
+    1303,
+    33025
+   ]
+  },
+  "llama31-8b-base": {
+   "hf_name": "meta-llama/Llama-3.1-8B",
+   "bos_token": "<|begin_of_text|>",
+   "bos_token_id": 128000,
+   "has_chat_template": false
+  },
+  "sarvam-translate": {
+   "hf_name": "sarvamai/sarvam-translate",
+   "bos_token": "<bos>",
+   "bos_token_id": 2,
+   "has_chat_template": true,
+   "rendered_prompt": "<bos><start_of_turn>user\nTranslate the following English sentence into Tamil. Output only the Tamil translation.\n\nThe dogs came.<end_of_turn>\n<start_of_turn>model\n",
+   "leading_bos_with_add_special_tokens_False": 1,
+   "leading_bos_with_add_special_tokens_True": 2,
+   "double_bos_avoided": true,
+   "double_bos_would_have_occurred": true,
+   "first_ids_used": [
+    2,
+    105,
+    2364,
+    107,
+    40414,
+    506,
+    2269,
+    5422
+   ]
+  }
+ }
+}

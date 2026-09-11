@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-it2/
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+
+# Built or downloaded locally by scripts/setup_env.sh and the build scripts
+build/
+third_party/
+data/ud/
+data/corpus/
+data/external/
+*.sqlite
+*.sqlite-journal
+*.log
+
+# Generated locally when the analysis scripts are re-run
+results/*.md
+results/ttb-derived/
+results/interp/cache/

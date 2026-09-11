@@ -1,0 +1,111 @@
+panel:
+- id: gemma3-1b
+  hf_name: google/gemma-3-1b-it
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: false
+  chat_template_kwargs: {}
+  arm: llm
+  notes: Gemma3ForCausalLM (text-only). Shakeout model.
+- id: gemma3-4b
+  hf_name: google/gemma-3-4b-it
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: false
+  chat_template_kwargs: {}
+  arm: llm
+  notes: Gemma3ForConditionalGeneration (multimodal); text tower driven with input_ids only.
+- id: gemma3-12b
+  hf_name: google/gemma-3-12b-it
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: false
+  chat_template_kwargs: {}
+  arm: llm
+- id: gemma3-27b
+  hf_name: google/gemma-3-27b-it
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: false
+  chat_template_kwargs: {}
+  arm: llm
+- id: gemma3n-e2b
+  hf_name: google/gemma-3n-E2B-it
+  backend: causal_lm
+  text_only_class: Gemma3nForCausalLM
+  dtype: bfloat16
+  supports_system: false
+  chat_template_kwargs: {}
+  arm: llm
+  notes: Gemma3nForConditionalGeneration (text+vision+audio); AutoModelForCausalLM resolves to it exactly
+    as for Gemma-3, and the text tower is driven with input_ids only. E2B = ~2B effective params at inference,
+    ~5B raw.
+- id: gemma3n-e4b
+  hf_name: google/gemma-3n-E4B-it
+  backend: causal_lm
+  text_only_class: Gemma3nForCausalLM
+  dtype: bfloat16
+  supports_system: false
+  chat_template_kwargs: {}
+  arm: llm
+  notes: As gemma3n-e2b. E4B = ~4B effective params at inference, ~8B raw.
+- id: qwen3-8b
+  hf_name: Qwen/Qwen3-8B
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: true
+  chat_template_kwargs:
+    enable_thinking: false
+  arm: llm
+- id: qwen3-14b
+  hf_name: Qwen/Qwen3-14B
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: true
+  chat_template_kwargs:
+    enable_thinking: false
+  arm: llm
+- id: qwen3-32b
+  hf_name: Qwen/Qwen3-32B
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: true
+  chat_template_kwargs:
+    enable_thinking: false
+  arm: llm
+- id: llama31-8b
+  hf_name: meta-llama/Llama-3.1-8B-Instruct
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: true
+  chat_template_kwargs: {}
+  arm: llm
+- id: sarvam-translate
+  hf_name: sarvamai/sarvam-translate
+  backend: causal_lm
+  dtype: bfloat16
+  supports_system: true
+  chat_template_kwargs: {}
+  system_override: Translate the text below to Tamil.
+  arm: llm
+  notes: Gemma-3-4b-it derivative fine-tuned for Indic translation; documented prompt form is a system
+    turn naming the target language.
+- id: nllb-3.3b
+  hf_name: facebook/nllb-200-3.3B
+  backend: nllb
+  dtype: float16
+  src_lang: eng_Latn
+  tgt_lang: tam_Taml
+  max_position_embeddings: 1024
+  arm: nmt
+  notes: No prompt. Exempt from the prompt-robustness run.
+- id: indictrans2-1b
+  hf_name: ai4bharat/indictrans2-en-indic-1B
+  backend: indictrans2
+  dtype: float16
+  src_lang: eng_Latn
+  tgt_lang: tam_Taml
+  arm: nmt
+  notes: ⚠ IndicTransToolkit 1.1.x does NOT import under transformers 5.12.1 (`cannot import name 'PreTrainedTokenizerBase'
+    from 'transformers.tokenization_utils'`). The fallback is a separate venv pinned
+    to transformers<5; see scripts/eval/setup_it2_venv.sh. Do not run this backend from the main venv.

@@ -1,0 +1,11 @@
+# Python 3.12. Install torch FIRST with the CUDA index appropriate to your machine.
+# For the GPU machine that runs generation and interpretability; not needed for scoring.
+torch==2.13.0
+transformers==5.14.1
+transformer-lens==3.6.0        # OFFICIAL_MODEL_NAMES lives in transformer_lens/supported_models.py
+nnsight==0.7.0                 # fallback / cross-check for patching
+accelerate                     # ⚠ pin after first install
+sentencepiece==0.2.2
+huggingface_hub[cli]
+# NOT tuned-lens: PyPI 0.2.0 (2023-07-18) cannot load Gemma-3/Qwen3. The probes here are trained by hand.
+# NOT pyvene: stale.

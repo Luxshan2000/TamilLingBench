@@ -1,0 +1,83 @@
+# Hand-written template family. NO TAMIL outside `provenance` — the loader raises.
+# Target values are FEATURE BUNDLES; surfaces come from ThamizhiMorph generation.
+id: CLU-011
+version: 1.0.0
+slot: clusivity
+slot_family: null
+k: 2
+values:
+- INCL
+- EXCL
+register: literary
+stratum: addressee-excluded
+holds_constant:
+  person: 1
+  number: PL
+  tinai: uyar
+  hon: null
+  gender: null
+  polarity: positive
+fillers:
+  verb:
+    from: verbs
+    where:
+      bundles_verified:
+      - past.3sg.neut
+      transitivity: intr
+  noun:
+    from: nouns
+    where:
+      tinai: akrinai
+      animacy: inanim
+source:
+  C1: The {NOUN_EN} that belongs to {CUE} stayed in the yard.
+  C2: Our {NOUN_EN} stayed in the yard.
+  C3: Our {NOUN_EN} stayed in the yard.
+context_slot: clusivity
+target:
+  INCL:
+    pron:
+      entry: 1plobl.INCL
+      bundle: gen
+    noun:
+      id: '{NOUN}'
+      bundle: sg.nom
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.neut
+  EXCL:
+    pron:
+      entry: 1plobl.EXCL
+      bundle: gen
+    noun:
+      id: '{NOUN}'
+      bundle: sg.nom
+    verb:
+      lemma: '{VERB}'
+      bundle: past.3sg.neut
+target_frame:
+  C1: '{PRON} {NOUN} {VERB}.'
+  C2: '{PRON} {NOUN} {VERB}.'
+  C3: '{PRON} {NOUN} {VERB}.'
+decides_on: pron
+referent_number: PL
+cue_source: cue_table
+confound_checks:
+  register:
+    checked_by: rule
+    passed: true
+  addressee_membership:
+    determinate: true
+    checked_by: rule
+    passed: true
+avoidance:
+  drop_possible: false
+  overt_environment: gen
+  neutral_form_possible: false
+interp:
+  eligible: true
+provenance:
+  inspired_by: UD_Tamil-MWTT:test:s0207
+  handwritten: true
+flags: []
+c0_probe: false

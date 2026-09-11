@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use TamilLingBench or this code, please cite the paper."
+title: "TamilLingBench"
+type: software
+authors:
+  - family-names: Thavarasa
+    given-names: Luxshan
+    affiliation: "Independent Researcher, Colombo, Sri Lanka"
+  - family-names: Thevakumar
+    given-names: Jubeerathan
+    affiliation: "Department of Computer Science and Engineering, University of Moratuwa"
+  - family-names: Sukumar
+    given-names: Sivasuthan
+    affiliation: "Department of Computer Science and Engineering, University of Moratuwa"
+license: Apache-2.0
+keywords:
+  - machine translation
+  - Tamil
+  - benchmark
+  - MT evaluation
+  - quality estimation
+  - agreement morphology
+preferred-citation:
+  type: conference-paper
+  title: "Obligatory Slots: Under Reference-Free Evaluation, Dropping a Distinction the Source Never Made Is Free"
+  authors:
+    - family-names: Thavarasa
+      given-names: Luxshan
+    - family-names: Thevakumar
+      given-names: Jubeerathan
+    - family-names: Sukumar
+      given-names: Sivasuthan
+  collection-title: "Proceedings of the Eleventh Conference on Machine Translation (WMT 2026)"
+  year: 2026

@@ -1,0 +1,51 @@
+# Python 3.12.13 — REQUIRED. hfst has cp<=312 wheels and no sdist; transformer-lens needs >=3.10.
+# If hfst is ever dropped, this ceiling disappears. foma/flookup is the real FST runtime.
+#
+# Versions below were installed and exercised on macOS 26.4 / Apple M5 / arm64 on 2026-08-07.
+
+# --- FST ---
+hfst==3.16.0.1                 # optional insurance; flookup(1) is the primary runtime
+
+# --- Tamil text processing ---
+indic-nlp-library==0.92        # TamilNormalizer  (no INDIC_RESOURCES_PATH needed)
+open-tamil==1.1                # tamil.utf8.get_letters ONLY; never solthiruthi.morphology
+aksharamukha==2.3              # ISO 15919; AGPL/GPL — build-time only, do not redistribute
+PyStemmer==3.1.0               # suffix inventory to mine; NOT used at runtime
+
+# --- evaluation / analysis ---
+conllu==6.0.0                  # VERIFIED 2026-08-07
+pytest==9.1.1                  # VERIFIED 2026-08-07
+
+# --- transitively pinned by the above (recorded for reproducibility; all VERIFIED) ---
+numpy==2.5.1
+pandas==3.0.5
+regex==2026.7.19
+lxml==6.1.1
+morfessor==2.0.6
+langcodes==3.5.1
+marisa-trie==1.4.1
+jaconv==0.5.0
+pykakasi==2.3.0
+unicodedata2==17.0.1
+
+# --- human validation ---
+nltk==3.10.2                   # Apache-2.0 (verified via importlib.metadata). Supplies
+                               # nltk.metrics.agreement.AnnotationTask -> Krippendorff's alpha.
+                               # ⚠ DO NOT add the `krippendorff` PyPI package: it is GPL-3.0 and
+                               # would contaminate the Apache-2.0 code licence.
+statsmodels==0.14.6            # BSD. Wilson intervals on the audit error rate.
+
+# --- metric blindness ---
+scipy==1.18.0                  # cluster bootstrap + exact binomial
+sacrebleu==2.6.0               # chrF/chrF++; signature recorded in outputs/metric_blindness/env/
+mt-thresholds==1.0.4           # ⚠ PIN IS LOAD-BEARING. The ToShip23 constants are fitted values
+                               # baked into the module; a different release silently changes every
+                               # calibrated number. tests/test_toship_scale.py
+                               # asserts this exact version and fails the build otherwise.
+# matplotlib==3.10.6           # ⚠ pin unverified
+# unbabel-comet==2.2.7         # GPU machine only, in its OWN venv: it pins
+                               # transformers 4.57.6 against the main venv's 5.12.1. Full freeze in
+                               # outputs/metric_blindness/env/pip-freeze-comet.txt
+# metricx                      # GPU machine only, own venv + a CLONE on PYTHONPATH: the
+                               # upstream repo has NO setup.py at HEAD, so pip install git+ fails.
+                               # Commit pinned in outputs/metric_blindness/env/metricx-src-commit.txt

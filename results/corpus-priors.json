@@ -1,0 +1,6501 @@
+{
+ "generated_utc": "2026-08-07T19:24:01Z",
+ "n_bootstrap": 4000,
+ "corpora": [
+  {
+   "key": "tawiki",
+   "name": "Tamil Wikipedia (tawiki-20260804 pages-articles)",
+   "register": "Literary / encyclopaedic (செந்தமிழ்)",
+   "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+   "release_ok": true,
+   "derived_ok": true,
+   "n_docs": 178356,
+   "n_tokens": 29950273,
+   "n_types": 1845704,
+   "n_sents": 3182502,
+   "doc_sample_every": 1,
+   "url": "https://dumps.wikimedia.org/tawiki/latest/tawiki-latest-pages-articles.xml.bz2"
+  },
+  {
+   "key": "sangraha",
+   "name": "AI4Bharat Sangraha, verified Tamil (2 of 53 shards)",
+   "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+   "licence": "CC BY-4.0 (dataset card)",
+   "release_ok": true,
+   "derived_ok": true,
+   "n_docs": 99066,
+   "n_tokens": 25885444,
+   "n_types": 1907436,
+   "n_sents": 2587541,
+   "doc_sample_every": 3,
+   "url": "https://huggingface.co/datasets/ai4bharat/sangraha/tree/main/verified/tam"
+  },
+  {
+   "key": "cc100",
+   "name": "CC-100 Tamil (statmt.org)",
+   "register": "Raw web crawl",
+   "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+   "release_ok": false,
+   "derived_ok": true,
+   "n_docs": 311752,
+   "n_tokens": 48738699,
+   "n_types": 210585,
+   "n_sents": 0,
+   "doc_sample_every": 8,
+   "url": "https://data.statmt.org/cc-100/ta.txt.xz"
+  },
+  {
+   "key": "sangraha_speech",
+   "name": "AI4Bharat Sangraha, verified Tamil — `speech` slice (transcribed audio)",
+   "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+   "licence": "CC BY-4.0 (dataset card)",
+   "release_ok": true,
+   "derived_ok": true,
+   "n_docs": 1228,
+   "n_tokens": 419477,
+   "n_types": 60371,
+   "n_sents": 47896,
+   "doc_sample_every": 1,
+   "url": "https://huggingface.co/datasets/ai4bharat/sangraha/tree/main/verified/tam"
+  },
+  {
+   "key": "opensubs",
+   "name": "OPUS OpenSubtitles v2024, Tamil monolingual",
+   "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+   "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+   "release_ok": false,
+   "derived_ok": true,
+   "n_docs": 113,
+   "n_tokens": 67863,
+   "n_types": 15564,
+   "n_sents": 16144,
+   "doc_sample_every": 1,
+   "url": "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/mono/ta.txt.gz"
+  },
+  {
+   "key": "ud_mwtt",
+   "name": "UD_Tamil-MWTT r2.18",
+   "register": "Constructed grammar examples (Lehmann 1993)",
+   "licence": "CC BY-SA 4.0",
+   "release_ok": true,
+   "derived_ok": true,
+   "n_docs": 1,
+   "n_tokens": 1984,
+   "n_types": 842,
+   "n_sents": 529,
+   "doc_sample_every": 1,
+   "url": "https://github.com/UniversalDependencies/UD_Tamil-MWTT"
+  },
+  {
+   "key": "irumozhi",
+   "name": "IruMozhi (aryaman/irumozhi)",
+   "register": "Parallel Literary ↔ Spoken Tamil",
+   "licence": "MIT",
+   "release_ok": true,
+   "derived_ok": true,
+   "n_docs": 1,
+   "n_tokens": 2181,
+   "n_types": 1729,
+   "n_sents": 493,
+   "doc_sample_every": 1,
+   "url": "https://huggingface.co/datasets/aryaman/irumozhi"
+  }
+ ],
+ "not_obtained": [
+  {
+   "name": "OSCAR 23.01, Tamil",
+   "notes": "NOT OBTAINED. HF API reports `gated: 'manual'` — access requires a human approval step on the dataset page, which cannot complete today. CC-100 fills the same role (independent crawl) without a gate.",
+   "url": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301"
+  },
+  {
+   "name": "CulturaX, Tamil",
+   "notes": "NOT OBTAINED. HF API reports `gated: 'auto'` — requires an authenticated token with the terms accepted. No authenticated token was available on the analysis machine. Deferrable, not blocking: it is mC4+OSCAR, i.e. not independent of CC-100's provenance.",
+   "url": "https://huggingface.co/datasets/uonlp/CulturaX"
+  },
+  {
+   "name": "mC4 Tamil (allenai/c4, multilingual config)",
+   "notes": "NOT OBTAINED — deliberately deprioritised. Ungated and downloadable, but the Tamil config is ~100 GB and shares Common Crawl provenance with CC-100, so it buys volume, not independence. Named here so the omission is a choice on record rather than an oversight.",
+   "url": "https://huggingface.co/datasets/allenai/c4"
+  },
+  {
+   "name": "AI4Bharat IndicCorp v2, Tamil",
+   "notes": "NOT OBTAINED. Ungated and downloadable, but Sangraha is the same lab's newer and larger corpus, carries an explicit CC-BY-4.0, and was obtained. Indexing both would double the cost for a near-duplicate provenance.",
+   "url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+  },
+  {
+   "name": "Samanantar, en–ta parallel",
+   "notes": "NOT OBTAINED, and there is a substantive reason beyond cost. (1) ⛔ NON-COMMERCIAL, so it is release-gated like TTB. (2) The Tamil side is *translated from English*, so its slot distribution reflects translator defaults — which is the very phenomenon under test. Using it as the DFR anchor would make the prior and the measurement circular. Recommended as a Tier-1 prior for the IndicTrans2 arm ONLY, where circularity is the point.",
+   "url": "https://huggingface.co/datasets/ai4bharat/samanantar"
+  }
+ ],
+ "inventory": {
+  "n_types_analysed": 372616,
+  "n_types_finite": 119567,
+  "n_types_noun_vetoed": 2329,
+  "noun_veto": true,
+  "path": "data/corpus/slot_forms.json.gz"
+ },
+ "hon_bracket_sample": {
+  "path": "data/corpus/hon-bracket-sample.jsonl",
+  "n_written": 300,
+  "n_candidates": 1118,
+  "seed": 20260807
+ },
+ "slots": [
+  {
+   "slot": "clusivity",
+   "variant": "nominative",
+   "values": [
+    "INCL",
+    "EXCL"
+   ],
+   "pooled_p": {
+    "INCL": 0.7088211681273834,
+    "EXCL": 0.29117883187261656
+   },
+   "pooled_n": {
+    "INCL": 84758,
+    "EXCL": 34818
+   },
+   "pooled_ci": {
+    "INCL": [
+     0.6238295912742615,
+     0.8349610462784767
+    ],
+    "EXCL": [
+     0.16503893882036208,
+     0.37617040872573854
+    ]
+   },
+   "between_corpus_range": {
+    "INCL": [
+     0.6368456107632876,
+     0.7794427534535238
+    ],
+    "EXCL": [
+     0.22055724654647624,
+     0.3631543892367124
+    ]
+   },
+   "headline_interval": {
+    "INCL": [
+     0.6238295912742615,
+     0.8349610462784767
+    ],
+    "EXCL": [
+     0.16503893882036208,
+     0.37617040872573854
+    ]
+   },
+   "max_pairwise_tvd": 0.14259714269023616,
+   "max_pairwise_jsd": 0.017879393234386226,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha"
+   ],
+   "within_vs_between": {
+    "INCL": {
+     "widest_within_corpus_ci_width": 0.11298669874668121,
+     "between_corpus_range_width": 0.14259714269023616,
+     "between_over_within": 1.2620701752685264
+    },
+    "EXCL": {
+     "widest_within_corpus_ci_width": 0.11298671290278434,
+     "between_corpus_range_width": 0.14259714269023616,
+     "between_over_within": 1.262070017143778
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 1.3× the widest within-corpus CI (worst value: INCL); max pairwise TVD 0.143 between tawiki and sangraha. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "நாம் also has a generic/impersonal 'one' use; not separated here.",
+    "The 1PL verb ending -ஓம் does not mark clusivity, so there is no verb-borne variant of this slot.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 3329,
+      "EXCL": 942
+     },
+     "p": {
+      "INCL": 0.7794427534535238,
+      "EXCL": 0.22055724654647624
+     },
+     "ci": {
+      "INCL": [
+       0.7546803370118141,
+       0.8019091725349426
+      ],
+      "EXCL": [
+       0.19809081219136715,
+       0.2453196492046118
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.7667599703535951,
+       0.7916233107560872
+      ],
+      "EXCL": [
+       0.2083766892439128,
+       0.2332400296464049
+      ]
+     },
+     "deff": {
+      "INCL": 3.6420259264582504,
+      "EXCL": 3.6420262279008053
+     },
+     "total": 4271,
+     "n_docs": 178356,
+     "n_docs_with_slot": 2467,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 142.6
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 23904,
+      "EXCL": 13631
+     },
+     "p": {
+      "INCL": 0.6368456107632876,
+      "EXCL": 0.3631543892367124
+     },
+     "ci": {
+      "INCL": [
+       0.6238295912742615,
+       0.6502757653594017
+      ],
+      "EXCL": [
+       0.34972423538565633,
+       0.37617040872573854
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.6319667263449448,
+       0.6416964875629554
+      ],
+      "EXCL": [
+       0.3583035124370446,
+       0.3680332736550552
+      ]
+     },
+     "deff": {
+      "INCL": 7.389735969739534,
+      "EXCL": 7.389737200718348
+     },
+     "total": 37535,
+     "n_docs": 99066,
+     "n_docs_with_slot": 14514,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 1450.04
+    },
+    {
+     "corpus": "cc100",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 53235,
+      "EXCL": 18957
+     },
+     "p": {
+      "INCL": 0.7374085771276596,
+      "EXCL": 0.26259142287234044
+     },
+     "ci": {
+      "INCL": [
+       0.7321720987558364,
+       0.7427393645048141
+      ],
+      "EXCL": [
+       0.2572606071829796,
+       0.2678279019892216
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.7341860580376915,
+       0.7406058317355111
+      ],
+      "EXCL": [
+       0.25939416826448897,
+       0.2658139419623086
+      ]
+     },
+     "deff": {
+      "INCL": 2.678182243324644,
+      "EXCL": 2.678182889554805
+     },
+     "total": 72192,
+     "n_docs": 311752,
+     "n_docs_with_slot": 37088,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 1481.2
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 3762,
+      "EXCL": 1066
+     },
+     "p": {
+      "INCL": 0.7792046396023198,
+      "EXCL": 0.2207953603976802
+     },
+     "ci": {
+      "INCL": [
+       0.7219743475317955,
+       0.8349610462784767
+      ],
+      "EXCL": [
+       0.16503893882036208,
+       0.2780256517231464
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.7672852269483489,
+       0.7906801001379442
+      ],
+      "EXCL": [
+       0.20931989986205585,
+       0.23271477305165114
+      ]
+     },
+     "deff": {
+      "INCL": 24.075904175821005,
+      "EXCL": 24.075904098165335
+     },
+     "total": 4828,
+     "n_docs": 1228,
+     "n_docs_with_slot": 727,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 11509.57
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 528,
+      "EXCL": 219
+     },
+     "p": {
+      "INCL": 0.7068273092369478,
+      "EXCL": 0.2931726907630522
+     },
+     "ci": {
+      "INCL": [
+       0.6612447649240494,
+       0.7530213445425034
+      ],
+      "EXCL": [
+       0.24697862640023233,
+       0.3387552350759506
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.673191349396063,
+       0.7383469272533506
+      ],
+      "EXCL": [
+       0.26165307274664945,
+       0.32680865060393716
+      ]
+     },
+     "deff": {
+      "INCL": 1.9765302823639475,
+      "EXCL": 1.9765303470570936
+     },
+     "total": 747,
+     "n_docs": 113,
+     "n_docs_with_slot": 99,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 11007.47
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 0,
+      "EXCL": 3
+     },
+     "p": {
+      "INCL": 0.0,
+      "EXCL": 1.0
+     },
+     "ci": {
+      "INCL": [
+       0.0,
+       0.0
+      ],
+      "EXCL": [
+       1.0,
+       1.0
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       4.8683609171202235e-17,
+       0.5614970317550455
+      ],
+      "EXCL": [
+       0.4385029682449545,
+       1.0
+      ]
+     },
+     "deff": {
+      "INCL": NaN,
+      "EXCL": NaN
+     },
+     "total": 3,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 1512.1
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "clusivity",
+     "variant": "nominative",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 0,
+      "EXCL": 0
+     },
+     "p": {
+      "INCL": 0.0,
+      "EXCL": 0.0
+     },
+     "ci": {
+      "INCL": [
+       0.0,
+       1.0
+      ],
+      "EXCL": [
+       0.0,
+       1.0
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.0,
+       1.0
+      ],
+      "EXCL": [
+       0.0,
+       1.0
+      ]
+     },
+     "deff": {
+      "INCL": NaN,
+      "EXCL": NaN
+     },
+     "total": 0,
+     "n_docs": 1,
+     "n_docs_with_slot": 0,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 0.0
+    }
+   ],
+   "top_forms": {
+    "INCL": [
+     [
+      "நாம்",
+      84758
+     ]
+    ],
+    "EXCL": [
+     [
+      "நாங்கள்",
+      34818
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "clusivity",
+   "variant": "all_forms",
+   "values": [
+    "INCL",
+    "EXCL"
+   ],
+   "pooled_p": {
+    "INCL": 0.6970915164811856,
+    "EXCL": 0.30290848351881433
+   },
+   "pooled_n": {
+    "INCL": 210339,
+    "EXCL": 91399
+   },
+   "pooled_ci": {
+    "INCL": [
+     0.6007524609565735,
+     0.8004204362630845
+    ],
+    "EXCL": [
+     0.19957957826554776,
+     0.3992475397884846
+    ]
+   },
+   "between_corpus_range": {
+    "INCL": [
+     0.6372701523031203,
+     0.7732724763825496
+    ],
+    "EXCL": [
+     0.22672752361745038,
+     0.36272984769687966
+    ]
+   },
+   "headline_interval": {
+    "INCL": [
+     0.6007524609565735,
+     0.8004204362630845
+    ],
+    "EXCL": [
+     0.19957957826554776,
+     0.3992475397884846
+    ]
+   },
+   "max_pairwise_tvd": 0.13600232407942925,
+   "max_pairwise_jsd": 0.0161571448646226,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha"
+   ],
+   "within_vs_between": {
+    "INCL": {
+     "widest_within_corpus_ci_width": 0.11524701267480852,
+     "between_corpus_range_width": 0.13600232407942925,
+     "between_over_within": 1.180094137998924
+    },
+    "EXCL": {
+     "widest_within_corpus_ci_width": 0.11524696983397006,
+     "between_corpus_range_width": 0.13600232407942928,
+     "between_over_within": 1.1800945766761617
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 1.2× the widest within-corpus CI (worst value: EXCL); max pairwise TVD 0.136 between tawiki and sangraha. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "நாம் also has a generic/impersonal 'one' use; not separated here.",
+    "The 1PL verb ending -ஓம் does not mark clusivity, so there is no verb-borne variant of this slot.",
+    "Oblique நம் is homographous with the possessive 'our(incl)'.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 7285,
+      "EXCL": 2136
+     },
+     "p": {
+      "INCL": 0.7732724763825496,
+      "EXCL": 0.22672752361745038
+     },
+     "ci": {
+      "INCL": [
+       0.7541546210646629,
+       0.7916417852044105
+      ],
+      "EXCL": [
+       0.20835820063948632,
+       0.24584540836513044
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.764706997932051,
+       0.7816151892895767
+      ],
+      "EXCL": [
+       0.2183848107104231,
+       0.23529300206794895
+      ]
+     },
+     "deff": {
+      "INCL": 4.880763715582584,
+      "EXCL": 4.880763715012484
+     },
+     "total": 9421,
+     "n_docs": 178356,
+     "n_docs_with_slot": 4501,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 314.55
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 54897,
+      "EXCL": 31247
+     },
+     "p": {
+      "INCL": 0.6372701523031203,
+      "EXCL": 0.36272984769687966
+     },
+     "ci": {
+      "INCL": [
+       0.6265184640884399,
+       0.6483817175030708
+      ],
+      "EXCL": [
+       0.35161825343966485,
+       0.373481535166502
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.6340534762118908,
+       0.6404745862388077
+      ],
+      "EXCL": [
+       0.3595254137611924,
+       0.3659465237881092
+      ]
+     },
+     "deff": {
+      "INCL": 11.874643696433337,
+      "EXCL": 11.87464186249582
+     },
+     "total": 86144,
+     "n_docs": 99066,
+     "n_docs_with_slot": 22907,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 3327.89
+    },
+    {
+     "corpus": "cc100",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 142625,
+      "EXCL": 55943
+     },
+     "p": {
+      "INCL": 0.7182677974295959,
+      "EXCL": 0.2817322025704041
+     },
+     "ci": {
+      "INCL": [
+       0.7141972750425338,
+       0.7223874405026436
+      ],
+      "EXCL": [
+       0.27761258780956266,
+       0.2858027257025242
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.7162850037057721,
+       0.7202421461820727
+      ],
+      "EXCL": [
+       0.2797578538179271,
+       0.28371499629422786
+      ]
+     },
+     "deff": {
+      "INCL": 4.3591123212204845,
+      "EXCL": 4.359111379391612
+     },
+     "total": 198568,
+     "n_docs": 311752,
+     "n_docs_with_slot": 68655,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 4074.13
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 4772,
+      "EXCL": 1659
+     },
+     "p": {
+      "INCL": 0.7420307883688384,
+      "EXCL": 0.25796921163116154
+     },
+     "ci": {
+      "INCL": [
+       0.6851734235882759,
+       0.8004204362630845
+      ],
+      "EXCL": [
+       0.19957957826554776,
+       0.3148265480995178
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.7311954144670072,
+       0.752577188155982
+      ],
+      "EXCL": [
+       0.24742281184401796,
+       0.2688045855329928
+      ]
+     },
+     "deff": {
+      "INCL": 29.87850495404752,
+      "EXCL": 29.878504328793955
+     },
+     "total": 6431,
+     "n_docs": 1228,
+     "n_docs_with_slot": 785,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 15331.0
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 760,
+      "EXCL": 406
+     },
+     "p": {
+      "INCL": 0.6518010291595198,
+      "EXCL": 0.3481989708404803
+     },
+     "ci": {
+      "INCL": [
+       0.6007524609565735,
+       0.7011799991130829
+      ],
+      "EXCL": [
+       0.2988199718296528,
+       0.3992475397884846
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.6239984303177933,
+       0.6786066768365249
+      ],
+      "EXCL": [
+       0.3213933231634752,
+       0.3760015696822066
+      ]
+     },
+     "deff": {
+      "INCL": 3.328513242523713,
+      "EXCL": 3.328513407728121
+     },
+     "total": 1166,
+     "n_docs": 113,
+     "n_docs_with_slot": 110,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 17181.67
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 0,
+      "EXCL": 8
+     },
+     "p": {
+      "INCL": 0.0,
+      "EXCL": 1.0
+     },
+     "ci": {
+      "INCL": [
+       0.0,
+       0.0
+      ],
+      "EXCL": [
+       1.0,
+       1.0
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.0,
+       0.32440756488388023
+      ],
+      "EXCL": [
+       0.6755924351161198,
+       1.0
+      ]
+     },
+     "deff": {
+      "INCL": NaN,
+      "EXCL": NaN
+     },
+     "total": 8,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 4032.26
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "clusivity",
+     "variant": "all_forms",
+     "values": [
+      "INCL",
+      "EXCL"
+     ],
+     "n": {
+      "INCL": 0,
+      "EXCL": 0
+     },
+     "p": {
+      "INCL": 0.0,
+      "EXCL": 0.0
+     },
+     "ci": {
+      "INCL": [
+       0.0,
+       1.0
+      ],
+      "EXCL": [
+       0.0,
+       1.0
+      ]
+     },
+     "ci_iid": {
+      "INCL": [
+       0.0,
+       1.0
+      ],
+      "EXCL": [
+       0.0,
+       1.0
+      ]
+     },
+     "deff": {
+      "INCL": NaN,
+      "EXCL": NaN
+     },
+     "total": 0,
+     "n_docs": 1,
+     "n_docs_with_slot": 0,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 0.0
+    }
+   ],
+   "top_forms": {
+    "INCL": [
+     [
+      "நாம்",
+      84758
+     ],
+     [
+      "நம்",
+      45681
+     ],
+     [
+      "நமது",
+      31613
+     ],
+     [
+      "நமக்கு",
+      21550
+     ],
+     [
+      "நம்மை",
+      11231
+     ],
+     [
+      "நம்முடைய",
+      6025
+     ],
+     [
+      "நம்மால்",
+      3136
+     ],
+     [
+      "நம்மிடம்",
+      2714
+     ],
+     [
+      "நம்மில்",
+      1955
+     ],
+     [
+      "நம்முடன்",
+      595
+     ],
+     [
+      "நம்மிடையே",
+      577
+     ],
+     [
+      "நம்மோடு",
+      504
+     ]
+    ],
+    "EXCL": [
+     [
+      "நாங்கள்",
+      34818
+     ],
+     [
+      "எங்கள்",
+      31360
+     ],
+     [
+      "எங்களுக்கு",
+      10727
+     ],
+     [
+      "எங்களை",
+      5838
+     ],
+     [
+      "எங்களது",
+      2600
+     ],
+     [
+      "எங்களிடம்",
+      1888
+     ],
+     [
+      "எங்களுடைய",
+      1463
+     ],
+     [
+      "எங்களால்",
+      1045
+     ],
+     [
+      "எங்களுடன்",
+      979
+     ],
+     [
+      "எங்களோடு",
+      343
+     ],
+     [
+      "எங்களில்",
+      279
+     ],
+     [
+      "எங்களிடையே",
+      59
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "honorificity_pronoun",
+   "variant": "nominative",
+   "values": [
+    "FAMILIAR",
+    "POLITE",
+    "DEFERENTIAL"
+   ],
+   "pooled_p": {
+    "FAMILIAR": 0.33511333264663307,
+    "POLITE": 0.6082989531435511,
+    "DEFERENTIAL": 0.056587714209815836
+   },
+   "pooled_n": {
+    "FAMILIAR": 61814,
+    "POLITE": 112205,
+    "DEFERENTIAL": 10438
+   },
+   "pooled_ci": {
+    "FAMILIAR": [
+     0.07292570006102324,
+     0.4649488404393196
+    ],
+    "POLITE": [
+     0.2767333209514618,
+     0.9262126177549362
+    ],
+    "DEFERENTIAL": [
+     0.0,
+     0.2857150763273239
+    ]
+   },
+   "between_corpus_range": {
+    "FAMILIAR": [
+     0.10202561811140899,
+     0.43328303513688293
+    ],
+    "POLITE": [
+     0.30157361500323343,
+     0.8969317843312481
+    ],
+    "DEFERENTIAL": [
+     0.0,
+     0.2651433498598836
+    ]
+   },
+   "headline_interval": {
+    "FAMILIAR": [
+     0.07292570006102324,
+     0.4649488404393196
+    ],
+    "POLITE": [
+     0.2767333209514618,
+     0.9262126177549362
+    ],
+    "DEFERENTIAL": [
+     0.0,
+     0.2857150763273239
+    ]
+   },
+   "max_pairwise_tvd": 0.5953581693280147,
+   "max_pairwise_jsd": 0.31930036366816705,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "FAMILIAR": {
+     "widest_within_corpus_ci_width": 0.10539375692605973,
+     "between_corpus_range_width": 0.33125741702547395,
+     "between_over_within": 3.143045913600666
+    },
+    "POLITE": {
+     "widest_within_corpus_ci_width": 0.10539377182722087,
+     "between_corpus_range_width": 0.5953581693280147,
+     "between_over_within": 5.6488932790452315
+    },
+    "DEFERENTIAL": {
+     "widest_within_corpus_ci_width": 0.04030423313379286,
+     "between_corpus_range_width": 0.2651433498598836,
+     "between_over_within": 6.578548436332253
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 6.6× the widest within-corpus CI (worst value: DEFERENTIAL); max pairwise TVD 0.595 between tawiki and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "நீங்கள் is syncretic: honorific-SINGULAR or plain PLURAL addressee. The POLITE count is an UPPER bound on the honorific-singular reading (DECISIONS D-2).",
+    "தாங்கள்/தங்கள் is syncretic with the 3rd-person REFLEXIVE plural ('they themselves'), and ThamizhiMorph analyses it ONLY as +pron+3pl+refl. The DEFERENTIAL count is therefore a gross upper bound before the `thangal_second_person_rate` correction is applied.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 2010,
+      "POLITE": 1399,
+      "DEFERENTIAL": 1230
+     },
+     "p": {
+      "FAMILIAR": 0.43328303513688293,
+      "POLITE": 0.30157361500323343,
+      "DEFERENTIAL": 0.2651433498598836
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.4031513430178165,
+       0.4649488404393196
+      ],
+      "POLITE": [
+       0.2767333209514618,
+       0.32559306025505064
+      ],
+      "DEFERENTIAL": [
+       0.24541084319353104,
+       0.2857150763273239
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.41908451152654236,
+       0.4475919611701519
+      ],
+      "POLITE": [
+       0.28853557874137103,
+       0.31494000483635803
+      ],
+      "DEFERENTIAL": [
+       0.2526392775920485,
+       0.2780360600591583
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 4.702994825919346,
+      "POLITE": 3.3580596336912443,
+      "DEFERENTIAL": 2.4910777589389554
+     },
+     "total": 4639,
+     "n_docs": 178356,
+     "n_docs_with_slot": 2826,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 154.89
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 10832,
+      "POLITE": 31165,
+      "DEFERENTIAL": 2820
+     },
+     "p": {
+      "FAMILIAR": 0.24169400004462593,
+      "POLITE": 0.6953834482450856,
+      "DEFERENTIAL": 0.0629225517102885
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.22729773968458175,
+       0.25795163959264755
+      ],
+      "POLITE": [
+       0.6781116768717765,
+       0.7113995850086212
+      ],
+      "DEFERENTIAL": [
+       0.05866561634466052,
+       0.06737552918493747
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.23775271914869686,
+       0.24567955819326467
+      ],
+      "POLITE": [
+       0.6911058120972258,
+       0.6996275929435996
+      ],
+      "DEFERENTIAL": [
+       0.060711686288074114,
+       0.06520833830597533
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 15.843380331968008,
+      "POLITE": 15.44200762981099,
+      "DEFERENTIAL": 3.7099034939647604
+     },
+     "total": 44817,
+     "n_docs": 99066,
+     "n_docs_with_slot": 13124,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 1731.36
+    },
+    {
+     "corpus": "cc100",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 47663,
+      "POLITE": 72050,
+      "DEFERENTIAL": 6381
+     },
+     "p": {
+      "FAMILIAR": 0.3779957809253414,
+      "POLITE": 0.5713991149459927,
+      "DEFERENTIAL": 0.050605104128665916
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.3713333435356617,
+       0.3845414876937866
+      ],
+      "POLITE": [
+       0.5648138701915741,
+       0.5779140502214432
+      ],
+      "DEFERENTIAL": [
+       0.04889050181955099,
+       0.052478804532438514
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.37532319748450116,
+       0.380675797866678
+      ],
+      "POLITE": [
+       0.5686655058045005,
+       0.5741283738661532
+      ],
+      "DEFERENTIAL": [
+       0.04940891348579677,
+       0.051828675604811004
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 6.223665714322285,
+      "POLITE": 5.882162593031939,
+      "DEFERENTIAL": 2.2123841940061464
+     },
+     "total": 126094,
+     "n_docs": 311752,
+     "n_docs_with_slot": 47857,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 2587.14
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 685,
+      "POLITE": 6022,
+      "DEFERENTIAL": 7
+     },
+     "p": {
+      "FAMILIAR": 0.10202561811140899,
+      "POLITE": 0.8969317843312481,
+      "DEFERENTIAL": 0.0010425975573428656
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.07292570006102324,
+       0.13787317238748073
+      ],
+      "POLITE": [
+       0.860978877544403,
+       0.9262126177549362
+      ],
+      "DEFERENTIAL": [
+       0.0003212714684195817,
+       0.0020073144522029913
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.0950115943451974,
+       0.10949478873069458
+      ],
+      "POLITE": [
+       0.8894305805139214,
+       0.9039790336712386
+      ],
+      "DEFERENTIAL": [
+       0.0005051323964024945,
+       0.00215069967853697
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 20.377037490341248,
+      "POLITE": 20.366264835888327,
+      "DEFERENTIAL": 1.1636201799115569
+     },
+     "total": 6714,
+     "n_docs": 1228,
+     "n_docs_with_slot": 730,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 16005.65
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 617,
+      "POLITE": 1563,
+      "DEFERENTIAL": 0
+     },
+     "p": {
+      "FAMILIAR": 0.2830275229357798,
+      "POLITE": 0.7169724770642202,
+      "DEFERENTIAL": 0.0
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.23498647287487984,
+       0.34038022980093957
+      ],
+      "POLITE": [
+       0.6596197411417961,
+       0.765013512969017
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.0
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.2645122357179487,
+       0.30230613556123126
+      ],
+      "POLITE": [
+       0.6976938644387688,
+       0.7354877642820513
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.0017590374086810167
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 7.890645564507628,
+      "POLITE": 7.8906452594512375,
+      "DEFERENTIAL": NaN
+     },
+     "total": 2180,
+     "n_docs": 113,
+     "n_docs_with_slot": 113,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 32123.54
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 7,
+      "POLITE": 5,
+      "DEFERENTIAL": 0
+     },
+     "p": {
+      "FAMILIAR": 0.5833333333333334,
+      "POLITE": 0.4166666666666667,
+      "DEFERENTIAL": 0.0
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.5833333134651184,
+       0.5833333134651184
+      ],
+      "POLITE": [
+       0.4166666567325592,
+       0.4166666567325592
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.0
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.3195113125495498,
+       0.8067396863412435
+      ],
+      "POLITE": [
+       0.19326031365875665,
+       0.6804886874504503
+      ],
+      "DEFERENTIAL": [
+       2.1025014877572554e-17,
+       0.24249400665524087
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0,
+      "DEFERENTIAL": NaN
+     },
+     "total": 12,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 6048.39
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "honorificity_pronoun",
+     "variant": "nominative",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 0,
+      "POLITE": 1,
+      "DEFERENTIAL": 0
+     },
+     "p": {
+      "FAMILIAR": 0.0,
+      "POLITE": 1.0,
+      "DEFERENTIAL": 0.0
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.0,
+       0.0
+      ],
+      "POLITE": [
+       1.0,
+       1.0
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.0
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.0,
+       0.7934506856227626
+      ],
+      "POLITE": [
+       0.20654931437723742,
+       1.0
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.7934506856227626
+      ]
+     },
+     "deff": {
+      "FAMILIAR": NaN,
+      "POLITE": NaN,
+      "DEFERENTIAL": NaN
+     },
+     "total": 1,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 458.51
+    }
+   ],
+   "top_forms": {
+    "FAMILIAR": [
+     [
+      "நீ",
+      61814
+     ]
+    ],
+    "POLITE": [
+     [
+      "நீங்கள்",
+      112205
+     ]
+    ],
+    "DEFERENTIAL": [
+     [
+      "தாங்கள்",
+      10438
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "honorificity_pronoun",
+   "variant": "all_forms",
+   "values": [
+    "FAMILIAR",
+    "POLITE",
+    "DEFERENTIAL"
+   ],
+   "pooled_p": {
+    "FAMILIAR": 0.2530724193304509,
+    "POLITE": 0.5710288226523578,
+    "DEFERENTIAL": 0.17589875801719138
+   },
+   "pooled_n": {
+    "FAMILIAR": 132223,
+    "POLITE": 298346,
+    "DEFERENTIAL": 91902
+   },
+   "pooled_ci": {
+    "FAMILIAR": [
+     0.09507265854626894,
+     0.3790481857955456
+    ],
+    "POLITE": [
+     0.10941185913980007,
+     0.8917150154709816
+    ],
+    "DEFERENTIAL": [
+     0.004909293376840651,
+     0.743924006819725
+    ]
+   },
+   "between_corpus_range": {
+    "FAMILIAR": [
+     0.12554375316135558,
+     0.32077801790676136
+    ],
+    "POLITE": [
+     0.11831706183170618,
+     0.8591805766312595
+    ],
+    "DEFERENTIAL": [
+     0.008335906143871565,
+     0.7286533395320006
+    ]
+   },
+   "headline_interval": {
+    "FAMILIAR": [
+     0.09507265854626894,
+     0.3790481857955456
+    ],
+    "POLITE": [
+     0.10941185913980007,
+     0.8917150154709816
+    ],
+    "DEFERENTIAL": [
+     0.004909293376840651,
+     0.743924006819725
+    ]
+   },
+   "max_pairwise_tvd": 0.7408635147995533,
+   "max_pairwise_jsd": 0.5477882183226956,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "FAMILIAR": {
+     "widest_within_corpus_ci_width": 0.10999353677034379,
+     "between_corpus_range_width": 0.19523426474540578,
+     "between_over_within": 1.7749612429777275
+    },
+    "POLITE": {
+     "widest_within_corpus_ci_width": 0.10874173045158386,
+     "between_corpus_range_width": 0.7408635147995533,
+     "between_over_within": 6.813056144342076
+    },
+    "DEFERENTIAL": {
+     "widest_within_corpus_ci_width": 0.0320399343967438,
+     "between_corpus_range_width": 0.720317433388129,
+     "between_over_within": 22.481863554044434
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 22.5× the widest within-corpus CI (worst value: DEFERENTIAL); max pairwise TVD 0.741 between tawiki and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "நீங்கள் is syncretic: honorific-SINGULAR or plain PLURAL addressee. The POLITE count is an UPPER bound on the honorific-singular reading (DECISIONS D-2).",
+    "தாங்கள்/தங்கள் is syncretic with the 3rd-person REFLEXIVE plural ('they themselves'), and ThamizhiMorph analyses it ONLY as +pron+3pl+refl. The DEFERENTIAL count is therefore a gross upper bound before the `thangal_second_person_rate` correction is applied.",
+    "Oblique உங்கள்/தங்கள் are also plain genitives, which inflates both non-familiar values relative to the nominative variant.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 3950,
+      "POLITE": 3054,
+      "DEFERENTIAL": 18808
+     },
+     "p": {
+      "FAMILIAR": 0.1530295986362932,
+      "POLITE": 0.11831706183170618,
+      "DEFERENTIAL": 0.7286533395320006
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.13981857150793076,
+       0.16864786073565483
+      ],
+      "POLITE": [
+       0.10941185913980007,
+       0.1279089480638504
+      ],
+      "DEFERENTIAL": [
+       0.7118840724229812,
+       0.743924006819725
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.14868928464566306,
+       0.15747317267451577
+      ],
+      "POLITE": [
+       0.1144335509424036,
+       0.12231416338524288
+      ],
+      "DEFERENTIAL": [
+       0.7231951088946241,
+       0.7340435218441325
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 11.259459285567065,
+      "POLITE": 5.38535255863366,
+      "DEFERENTIAL": 9.00595625298851
+     },
+     "total": 25812,
+     "n_docs": 178356,
+     "n_docs_with_slot": 12407,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 861.83
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 22418,
+      "POLITE": 68463,
+      "DEFERENTIAL": 25238
+     },
+     "p": {
+      "FAMILIAR": 0.19306056717677555,
+      "POLITE": 0.5895934343216872,
+      "DEFERENTIAL": 0.2173459985015372
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.18160250410437584,
+       0.20594496689736844
+      ],
+      "POLITE": [
+       0.5763584658503532,
+       0.6021677941083908
+      ],
+      "DEFERENTIAL": [
+       0.21038278937339783,
+       0.22434295229613782
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.19080053804279642,
+       0.19534090403276394
+      ],
+      "POLITE": [
+       0.5867612097528031,
+       0.5924197312111548
+      ],
+      "DEFERENTIAL": [
+       0.214983137693657,
+       0.21972756025909485
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 29.439029638319614,
+      "POLITE": 21.461235291268025,
+      "DEFERENTIAL": 8.853551274305484
+     },
+     "total": 116119,
+     "n_docs": 99066,
+     "n_docs_with_slot": 26445,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 4485.88
+    },
+    {
+     "corpus": "cc100",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 103564,
+      "POLITE": 216152,
+      "DEFERENTIAL": 47678
+     },
+     "p": {
+      "FAMILIAR": 0.2818881092233406,
+      "POLITE": 0.5883384050909922,
+      "DEFERENTIAL": 0.12977348568566716
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.2765925660729408,
+       0.28707466274499893
+      ],
+      "POLITE": [
+       0.583395765721798,
+       0.5932483226060867
+      ],
+      "DEFERENTIAL": [
+       0.12757667750120164,
+       0.13191475868225097
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.28043555134937875,
+       0.28334522819022223
+      ],
+      "POLITE": [
+       0.5867461390183136,
+       0.5899288238564352
+      ],
+      "DEFERENTIAL": [
+       0.12869070170956265,
+       0.13086401173180348
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 13.057599255976479,
+      "POLITE": 9.552609096180344,
+      "DEFERENTIAL": 4.029308229157533
+     },
+     "total": 367394,
+     "n_docs": 311752,
+     "n_docs_with_slot": 90110,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 7538.03
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 1241,
+      "POLITE": 8493,
+      "DEFERENTIAL": 151
+     },
+     "p": {
+      "FAMILIAR": 0.12554375316135558,
+      "POLITE": 0.8591805766312595,
+      "DEFERENTIAL": 0.015275670207384927
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.09507265854626894,
+       0.16420159041881563
+      ],
+      "POLITE": [
+       0.8186683759093285,
+       0.8917150154709816
+      ],
+      "DEFERENTIAL": [
+       0.010911368974484503,
+       0.0213702030479908
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.11915716303761378,
+       0.13222126882139448
+      ],
+      "POLITE": [
+       0.8521839742042145,
+       0.865898121617639
+      ],
+      "DEFERENTIAL": [
+       0.013039332641170076,
+       0.01788860366909287
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 29.595182584118554,
+      "POLITE": 29.92354009166575,
+      "DEFERENTIAL": 4.5381912735692085
+     },
+     "total": 9885,
+     "n_docs": 1228,
+     "n_docs_with_slot": 855,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 23565.06
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 1039,
+      "POLITE": 2173,
+      "DEFERENTIAL": 27
+     },
+     "p": {
+      "FAMILIAR": 0.32077801790676136,
+      "POLITE": 0.6708860759493671,
+      "DEFERENTIAL": 0.008335906143871565
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.2690546490252018,
+       0.3790481857955456
+      ],
+      "POLITE": [
+       0.6134316012263298,
+       0.7221733316779136
+      ],
+      "DEFERENTIAL": [
+       0.004909293376840651,
+       0.012090845149941742
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.3049234522520642,
+       0.3370571950466126
+      ],
+      "POLITE": [
+       0.6545096698666776,
+       0.6868576199183053
+      ],
+      "DEFERENTIAL": [
+       0.005735314107653159,
+       0.012101345363738024
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 12.163006832193714,
+      "POLITE": 11.71600418318102,
+      "DEFERENTIAL": 1.3605552008560138
+     },
+     "total": 3239,
+     "n_docs": 113,
+     "n_docs_with_slot": 113,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 47728.51
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 9,
+      "POLITE": 10,
+      "DEFERENTIAL": 0
+     },
+     "p": {
+      "FAMILIAR": 0.47368421052631576,
+      "POLITE": 0.5263157894736842,
+      "DEFERENTIAL": 0.0
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.4736842215061188,
+       0.4736842215061188
+      ],
+      "POLITE": [
+       0.5263158082962036,
+       0.5263158082962036
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.0
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.2732980516117956,
+       0.6829219075488682
+      ],
+      "POLITE": [
+       0.31707809245113167,
+       0.7267019483882043
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.16817922405261626
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0,
+      "DEFERENTIAL": NaN
+     },
+     "total": 19,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 9576.61
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "honorificity_pronoun",
+     "variant": "all_forms",
+     "values": [
+      "FAMILIAR",
+      "POLITE",
+      "DEFERENTIAL"
+     ],
+     "n": {
+      "FAMILIAR": 2,
+      "POLITE": 1,
+      "DEFERENTIAL": 0
+     },
+     "p": {
+      "FAMILIAR": 0.6666666666666666,
+      "POLITE": 0.3333333333333333,
+      "DEFERENTIAL": 0.0
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.6666666865348816,
+       0.6666666865348816
+      ],
+      "POLITE": [
+       0.3333333432674408,
+       0.3333333432674408
+      ],
+      "DEFERENTIAL": [
+       0.0,
+       0.0
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.20765960080204768,
+       0.9385080552796037
+      ],
+      "POLITE": [
+       0.061491944720396215,
+       0.7923403991979523
+      ],
+      "DEFERENTIAL": [
+       4.8683609171202235e-17,
+       0.5614970317550455
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0,
+      "DEFERENTIAL": NaN
+     },
+     "total": 3,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 1375.52
+    }
+   ],
+   "top_forms": {
+    "FAMILIAR": [
+     [
+      "நீ",
+      61814
+     ],
+     [
+      "உன்",
+      33618
+     ],
+     [
+      "உனக்கு",
+      15869
+     ],
+     [
+      "உன்னை",
+      11678
+     ],
+     [
+      "உனது",
+      3037
+     ],
+     [
+      "உன்னிடம்",
+      1771
+     ],
+     [
+      "உன்னுடைய",
+      1713
+     ],
+     [
+      "உன்னால்",
+      1355
+     ],
+     [
+      "உன்னோடு",
+      725
+     ],
+     [
+      "உன்னுடன்",
+      473
+     ],
+     [
+      "உன்னில்",
+      170
+     ]
+    ],
+    "POLITE": [
+     [
+      "நீங்கள்",
+      112205
+     ],
+     [
+      "உங்கள்",
+      105798
+     ],
+     [
+      "உங்களுக்கு",
+      40047
+     ],
+     [
+      "உங்களை",
+      16721
+     ],
+     [
+      "உங்களது",
+      5784
+     ],
+     [
+      "உங்களுடைய",
+      5220
+     ],
+     [
+      "உங்களிடம்",
+      5157
+     ],
+     [
+      "உங்களால்",
+      3092
+     ],
+     [
+      "உங்களுடன்",
+      1932
+     ],
+     [
+      "உங்களில்",
+      1540
+     ],
+     [
+      "உங்களோடு",
+      850
+     ]
+    ],
+    "DEFERENTIAL": [
+     [
+      "தங்கள்",
+      48089
+     ],
+     [
+      "தங்களது",
+      14831
+     ],
+     [
+      "தாங்கள்",
+      10438
+     ],
+     [
+      "தங்களை",
+      6115
+     ],
+     [
+      "தங்களுக்கு",
+      6071
+     ],
+     [
+      "தங்களுடைய",
+      3865
+     ],
+     [
+      "தங்களிடம்",
+      1014
+     ],
+     [
+      "தங்களால்",
+      753
+     ],
+     [
+      "தங்களுடன்",
+      473
+     ],
+     [
+      "தங்களோடு",
+      134
+     ],
+     [
+      "தங்களில்",
+      119
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "honorificity_verb",
+   "variant": "suffix_bound",
+   "values": [
+    "FAMILIAR",
+    "POLITE"
+   ],
+   "pooled_p": {
+    "FAMILIAR": 0.26997475717499864,
+    "POLITE": 0.7300252428250014
+   },
+   "pooled_n": {
+    "FAMILIAR": 19679,
+    "POLITE": 53213
+   },
+   "pooled_ci": {
+    "FAMILIAR": [
+     0.06805999465286731,
+     0.7340168505907059
+    ],
+    "POLITE": [
+     0.26598314866423606,
+     0.9319400057196617
+    ]
+   },
+   "between_corpus_range": {
+    "FAMILIAR": [
+     0.11725516322451698,
+     0.7081339712918661
+    ],
+    "POLITE": [
+     0.291866028708134,
+     0.882744836775483
+    ]
+   },
+   "headline_interval": {
+    "FAMILIAR": [
+     0.06805999465286731,
+     0.7340168505907059
+    ],
+    "POLITE": [
+     0.26598314866423606,
+     0.9319400057196617
+    ]
+   },
+   "max_pairwise_tvd": 0.590878808067349,
+   "max_pairwise_jsd": 0.28162440278226486,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "FAMILIAR": {
+     "widest_within_corpus_ci_width": 0.12761477604508403,
+     "between_corpus_range_width": 0.590878808067349,
+     "between_over_within": 4.630175488915187
+    },
+    "POLITE": {
+     "widest_within_corpus_ci_width": 0.1276148065924645,
+     "between_corpus_range_width": 0.590878808067349,
+     "between_over_within": 4.630174380581946
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 4.6× the widest within-corpus CI (worst value: FAMILIAR); max pairwise TVD 0.591 between tawiki and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "-ஈர்கள் is honorific-SINGULAR addressee or plain PLURAL addressee",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 1480,
+      "POLITE": 610
+     },
+     "p": {
+      "FAMILIAR": 0.7081339712918661,
+      "POLITE": 0.291866028708134
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.6810705289244652,
+       0.7340168505907059
+      ],
+      "POLITE": [
+       0.26598314866423606,
+       0.31892947033047675
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.6882756973906191,
+       0.7272285406857473
+      ],
+      "POLITE": [
+       0.27277145931425273,
+       0.31172430260938094
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 1.902563869381795,
+      "POLITE": 1.9025638251203285
+     },
+     "total": 2090,
+     "n_docs": 178356,
+     "n_docs_with_slot": 1365,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 69.78
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 4012,
+      "POLITE": 11515
+     },
+     "p": {
+      "FAMILIAR": 0.25838861338313907,
+      "POLITE": 0.741611386616861
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.24322401992976667,
+       0.27437586337327957
+      ],
+      "POLITE": [
+       0.7256241366267204,
+       0.756775951385498
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.25156356638457117,
+       0.2653331825846423
+      ],
+      "POLITE": [
+       0.7346668174153578,
+       0.7484364336154288
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 5.311488634805516,
+      "POLITE": 5.311488526811188
+     },
+     "total": 15527,
+     "n_docs": 99066,
+     "n_docs_with_slot": 6661,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 599.84
+    },
+    {
+     "corpus": "cc100",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 13903,
+      "POLITE": 39595
+     },
+     "p": {
+      "FAMILIAR": 0.25987887397659726,
+      "POLITE": 0.7401211260234027
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.2525143973529339,
+       0.26753843352198603
+      ],
+      "POLITE": [
+       0.7324615672230721,
+       0.7474856033921242
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.25617986165996975,
+       0.2636123679257237
+      ],
+      "POLITE": [
+       0.7363876320742764,
+       0.7438201383400302
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 4.1645547983947395,
+      "POLITE": 4.164554775041506
+     },
+     "total": 53498,
+     "n_docs": 311752,
+     "n_docs_with_slot": 26071,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 1097.65
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 176,
+      "POLITE": 1325
+     },
+     "p": {
+      "FAMILIAR": 0.11725516322451698,
+      "POLITE": 0.882744836775483
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.06805999465286731,
+       0.1787964515388012
+      ],
+      "POLITE": [
+       0.8212035477161408,
+       0.9319400057196617
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.10194789659614574,
+       0.1345165207914228
+      ],
+      "POLITE": [
+       0.8654834792085773,
+       0.8980521034038542
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 11.397053917028229,
+      "POLITE": 11.397053882870345
+     },
+     "total": 1501,
+     "n_docs": 1228,
+     "n_docs_with_slot": 365,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 3578.27
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 105,
+      "POLITE": 166
+     },
+     "p": {
+      "FAMILIAR": 0.3874538745387454,
+      "POLITE": 0.6125461254612546
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.322573971003294,
+       0.450188747048378
+      ],
+      "POLITE": [
+       0.5498112231492996,
+       0.6774260297417641
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.33141024306981787,
+       0.4466436201946897
+      ],
+      "POLITE": [
+       0.5533563798053104,
+       0.6685897569301822
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 1.2351513309400437,
+      "POLITE": 1.2351514168602409
+     },
+     "total": 271,
+     "n_docs": 113,
+     "n_docs_with_slot": 85,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 3993.34
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 3,
+      "POLITE": 2
+     },
+     "p": {
+      "FAMILIAR": 0.6,
+      "POLITE": 0.4
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.6000000238418579,
+       0.6000000238418579
+      ],
+      "POLITE": [
+       0.4000000059604645,
+       0.4000000059604645
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.23072428127601285,
+       0.8823792257673521
+      ],
+      "POLITE": [
+       0.11762077423264786,
+       0.769275718723987
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0
+     },
+     "total": 5,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 2520.16
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "honorificity_verb",
+     "variant": "suffix_bound",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 0,
+      "POLITE": 0
+     },
+     "p": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.0,
+       1.0
+      ],
+      "POLITE": [
+       0.0,
+       1.0
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.0,
+       1.0
+      ],
+      "POLITE": [
+       0.0,
+       1.0
+      ]
+     },
+     "deff": {
+      "FAMILIAR": NaN,
+      "POLITE": NaN
+     },
+     "total": 0,
+     "n_docs": 1,
+     "n_docs_with_slot": 0,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 0.0
+    }
+   ],
+   "top_forms": {
+    "FAMILIAR": [
+     [
+      "இருக்கிறாய்",
+      793
+     ],
+     [
+      "வந்தாய்",
+      529
+     ],
+     [
+      "செய்தாய்",
+      434
+     ],
+     [
+      "விட்டாய்",
+      419
+     ],
+     [
+      "போகிறாய்",
+      408
+     ],
+     [
+      "மானிப்பாய்",
+      376
+     ],
+     [
+      "சொல்கிறாய்",
+      352
+     ],
+     [
+      "செய்வாய்",
+      351
+     ],
+     [
+      "செய்கிறாய்",
+      301
+     ],
+     [
+      "சொன்னாய்",
+      287
+     ],
+     [
+      "என்றாய்",
+      282
+     ],
+     [
+      "கண்டிப்பாய்",
+      266
+     ]
+    ],
+    "POLITE": [
+     [
+      "இருக்கிறீர்கள்",
+      2175
+     ],
+     [
+      "விட்டீர்கள்",
+      1714
+     ],
+     [
+      "பெறுவீர்கள்",
+      1566
+     ],
+     [
+      "செய்வீர்கள்",
+      1461
+     ],
+     [
+      "விடாதீர்கள்",
+      1214
+     ],
+     [
+      "கொள்வீர்கள்",
+      1213
+     ],
+     [
+      "சொன்னீர்கள்",
+      1111
+     ],
+     [
+      "இருப்பீர்கள்",
+      1081
+     ],
+     [
+      "சொல்கிறீர்கள்",
+      1020
+     ],
+     [
+      "செய்கிறீர்கள்",
+      901
+     ],
+     [
+      "நினைக்கிறீர்கள்",
+      899
+     ],
+     [
+      "போகிறீர்கள்",
+      856
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "honorificity_verb",
+   "variant": "surface_only",
+   "values": [
+    "FAMILIAR",
+    "POLITE"
+   ],
+   "pooled_p": {
+    "FAMILIAR": 0.5571393357629885,
+    "POLITE": 0.4428606642370116
+   },
+   "pooled_n": {
+    "FAMILIAR": 273488,
+    "POLITE": 217391
+   },
+   "pooled_ci": {
+    "FAMILIAR": [
+     0.18544708713889121,
+     0.6576807782053947
+    ],
+    "POLITE": [
+     0.3423192225396633,
+     0.8145529270172119
+    ]
+   },
+   "between_corpus_range": {
+    "FAMILIAR": [
+     0.2512783053323594,
+     0.6499287450750273
+    ],
+    "POLITE": [
+     0.35007125492497276,
+     0.7487216946676406
+    ]
+   },
+   "headline_interval": {
+    "FAMILIAR": [
+     0.18544708713889121,
+     0.6576807782053947
+    ],
+    "POLITE": [
+     0.3423192225396633,
+     0.8145529270172119
+    ]
+   },
+   "max_pairwise_tvd": 0.3986504397426679,
+   "max_pairwise_jsd": 0.11923332350911062,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "FAMILIAR": {
+     "widest_within_corpus_ci_width": 0.1391584523022175,
+     "between_corpus_range_width": 0.3986504397426679,
+     "between_over_within": 2.8647231493844045
+    },
+    "POLITE": {
+     "widest_within_corpus_ci_width": 0.13915846645832064,
+     "between_corpus_range_width": 0.39865043974266784,
+     "between_over_within": 2.8647228579661563
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 2.9× the widest within-corpus CI (worst value: FAMILIAR); max pairwise TVD 0.399 between tawiki and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "-ஈர்கள் is honorific-SINGULAR addressee or plain PLURAL addressee",
+    "No FST gate: any type ending in the suffix is counted, so nouns such as நாள் ('day', -ஆள்) and மகான் (-ஆன்) are included. Diagnostic upper bound on the effect of the analyser gate; never a headline.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 62024,
+      "POLITE": 33408
+     },
+     "p": {
+      "FAMILIAR": 0.6499287450750273,
+      "POLITE": 0.35007125492497276
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.6417662501335144,
+       0.6576807782053947
+      ],
+      "POLITE": [
+       0.3423192225396633,
+       0.35823375061154367
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.6468964636869603,
+       0.6529489566769126
+      ],
+      "POLITE": [
+       0.3470510433230875,
+       0.35310353631303987
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 6.9281092983408845,
+      "POLITE": 6.928109076109851
+     },
+     "total": 95432,
+     "n_docs": 178356,
+     "n_docs_with_slot": 38540,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 3186.35
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 66519,
+      "POLITE": 54620
+     },
+     "p": {
+      "FAMILIAR": 0.5491130024187091,
+      "POLITE": 0.4508869975812909
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.5419169262051582,
+       0.5562537685036659
+      ],
+      "POLITE": [
+       0.44374620243906976,
+       0.45808307379484176
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.5463094716922214,
+       0.5519134183829197
+      ],
+      "POLITE": [
+       0.4480865816170803,
+       0.4536905283077785
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 6.832208012376391,
+      "POLITE": 6.832208524333725
+     },
+     "total": 121139,
+     "n_docs": 99066,
+     "n_docs_with_slot": 34983,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 4679.81
+    },
+    {
+     "corpus": "cc100",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 144040,
+      "POLITE": 127051
+     },
+     "p": {
+      "FAMILIAR": 0.531334496534374,
+      "POLITE": 0.4686655034656259
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.5273875460028649,
+       0.535476291179657
+      ],
+      "POLITE": [
+       0.46452370956540107,
+       0.4726124249398708
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.5294555880846521,
+       0.5332125169540807
+      ],
+      "POLITE": [
+       0.4667874830459192,
+       0.4705444119153479
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 4.627664387680798,
+      "POLITE": 4.627662659818442
+     },
+     "total": 271091,
+     "n_docs": 311752,
+     "n_docs_with_slot": 95425,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 5562.13
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 688,
+      "POLITE": 2050
+     },
+     "p": {
+      "FAMILIAR": 0.2512783053323594,
+      "POLITE": 0.7487216946676406
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.18544708713889121,
+       0.3246055394411087
+      ],
+      "POLITE": [
+       0.6753944605588913,
+       0.8145529270172119
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.23538757663262397,
+       0.2678659774274215
+      ],
+      "POLITE": [
+       0.7321340225725784,
+       0.7646124233673761
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 18.29701667599313,
+      "POLITE": 18.297016713398246
+     },
+     "total": 2738,
+     "n_docs": 1228,
+     "n_docs_with_slot": 552,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 6527.18
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 202,
+      "POLITE": 252
+     },
+     "p": {
+      "FAMILIAR": 0.44493392070484583,
+      "POLITE": 0.5550660792951542
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.39699487909674647,
+       0.49266732633113863
+      ],
+      "POLITE": [
+       0.507332643866539,
+       0.6030050918459893
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.39987272227206044,
+       0.4909191685960367
+      ],
+      "POLITE": [
+       0.5090808314039633,
+       0.6001272777279395
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 1.1059203193323879,
+      "POLITE": 1.1059202745196572
+     },
+     "total": 454,
+     "n_docs": 113,
+     "n_docs_with_slot": 106,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 6689.95
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 14,
+      "POLITE": 6
+     },
+     "p": {
+      "FAMILIAR": 0.7,
+      "POLITE": 0.3
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.699999988079071,
+       0.699999988079071
+      ],
+      "POLITE": [
+       0.30000001192092896,
+       0.30000001192092896
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.4810271816464765,
+       0.8545227551323956
+      ],
+      "POLITE": [
+       0.14547724486760433,
+       0.5189728183535235
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0
+     },
+     "total": 20,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 10080.65
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "honorificity_verb",
+     "variant": "surface_only",
+     "values": [
+      "FAMILIAR",
+      "POLITE"
+     ],
+     "n": {
+      "FAMILIAR": 1,
+      "POLITE": 4
+     },
+     "p": {
+      "FAMILIAR": 0.2,
+      "POLITE": 0.8
+     },
+     "ci": {
+      "FAMILIAR": [
+       0.20000000298023224,
+       0.20000000298023224
+      ],
+      "POLITE": [
+       0.800000011920929,
+       0.800000011920929
+      ]
+     },
+     "ci_iid": {
+      "FAMILIAR": [
+       0.03622410863243013,
+       0.6244653702374747
+      ],
+      "POLITE": [
+       0.37553462976252533,
+       0.9637758913675698
+      ]
+     },
+     "deff": {
+      "FAMILIAR": 0.0,
+      "POLITE": 0.0
+     },
+     "total": 5,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 2292.53
+    }
+   ],
+   "top_forms": {
+    "FAMILIAR": [
+     [
+      "ரூபாய்",
+      32195
+     ],
+     [
+      "தாய்",
+      19540
+     ],
+     [
+      "வருவாய்",
+      10184
+     ],
+     [
+      "வாய்",
+      7403
+     ],
+     [
+      "தேங்காய்",
+      6687
+     ],
+     [
+      "நாய்",
+      5527
+     ],
+     [
+      "செவ்வாய்",
+      5479
+     ],
+     [
+      "மிளகாய்",
+      4770
+     ],
+     [
+      "ராய்",
+      4668
+     ],
+     [
+      "குழாய்",
+      3199
+     ],
+     [
+      "பாய்",
+      3148
+     ],
+     [
+      "துபாய்",
+      2844
+     ]
+    ],
+    "POLITE": [
+     [
+      "நீர்",
+      38409
+     ],
+     [
+      "தண்ணீர்",
+      24763
+     ],
+     [
+      "திடீர்",
+      7684
+     ],
+     [
+      "குடிநீர்",
+      7001
+     ],
+     [
+      "கண்ணீர்",
+      6520
+     ],
+     [
+      "காஷ்மீர்",
+      5958
+     ],
+     [
+      "சிறுநீர்",
+      2880
+     ],
+     [
+      "பன்னீர்",
+      2589
+     ],
+     [
+      "அமீர்",
+      2250
+     ],
+     [
+      "இருக்கிறீர்கள்",
+      2175
+     ],
+     [
+      "சீர்",
+      2162
+     ],
+     [
+      "தேநீர்",
+      2155
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "rationality",
+   "variant": "suffix_bound",
+   "values": [
+    "UYARTHINAI",
+    "AHRINAI"
+   ],
+   "pooled_p": {
+    "UYARTHINAI": 0.5897895243457828,
+    "AHRINAI": 0.4102104756542172
+   },
+   "pooled_n": {
+    "UYARTHINAI": 374987,
+    "AHRINAI": 260811
+   },
+   "pooled_ci": {
+    "UYARTHINAI": [
+     0.29870097115635874,
+     0.699214069545269
+    ],
+    "AHRINAI": [
+     0.300785930454731,
+     0.7012990280985832
+    ]
+   },
+   "between_corpus_range": {
+    "UYARTHINAI": [
+     0.34539624370132843,
+     0.6962743023833565
+    ],
+    "AHRINAI": [
+     0.3037256976166434,
+     0.6546037562986715
+    ]
+   },
+   "headline_interval": {
+    "UYARTHINAI": [
+     0.29870097115635874,
+     0.699214069545269
+    ],
+    "AHRINAI": [
+     0.300785930454731,
+     0.7012990280985832
+    ]
+   },
+   "max_pairwise_tvd": 0.3508780586820281,
+   "max_pairwise_jsd": 0.0909036818573266,
+   "disagreeing_pair": [
+    "cc100",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "UYARTHINAI": {
+     "widest_within_corpus_ci_width": 0.13117073550820352,
+     "between_corpus_range_width": 0.3508780586820281,
+     "between_over_within": 2.6749721065647596
+    },
+    "AHRINAI": {
+     "widest_within_corpus_ci_width": 0.1311707064509392,
+     "between_corpus_range_width": 0.3508780586820281,
+     "between_over_within": 2.6749726991312985
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 2.7× the widest within-corpus CI (worst value: AHRINAI); max pairwise TVD 0.351 between cc100 and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "D-2: -ஆர்கள் is honorific-SINGULAR or rational-PLURAL; the count is an UPPER bound on the plural reading",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 83466,
+      "AHRINAI": 126240
+     },
+     "p": {
+      "UYARTHINAI": 0.39801436296529424,
+      "AHRINAI": 0.6019856370347058
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.39400424510240556,
+       0.40208040699362757
+      ],
+      "AHRINAI": [
+       0.5979195922613144,
+       0.6059957846999169
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.39592124431698983,
+       0.40011121795350774
+      ],
+      "AHRINAI": [
+       0.5998887820464924,
+       0.6040787556830102
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 3.6903249109039082,
+      "AHRINAI": 3.6903240726086493
+     },
+     "total": 209706,
+     "n_docs": 178356,
+     "n_docs_with_slot": 78524,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 7001.81
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 116885,
+      "AHRINAI": 57164
+     },
+     "p": {
+      "UYARTHINAI": 0.6715637550345018,
+      "AHRINAI": 0.3284362449654982
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.6671729356050491,
+       0.6759942606091499
+      ],
+      "AHRINAI": [
+       0.324005738645792,
+       0.33282706439495086
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.6693536036351523,
+       0.6737663333877055
+      ],
+      "AHRINAI": [
+       0.32623366661229447,
+       0.33064639636484777
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 4.006113525604981,
+      "AHRINAI": 4.006112362250856
+     },
+     "total": 174049,
+     "n_docs": 99066,
+     "n_docs_with_slot": 51592,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 6723.82
+    },
+    {
+     "corpus": "cc100",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 173765,
+      "AHRINAI": 75799
+     },
+     "p": {
+      "UYARTHINAI": 0.6962743023833565,
+      "AHRINAI": 0.3037256976166434
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.6934957891702652,
+       0.699214069545269
+      ],
+      "AHRINAI": [
+       0.300785930454731,
+       0.30650421157479285
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.6944670784898096,
+       0.6980754839948068
+      ],
+      "AHRINAI": [
+       0.30192451600519304,
+       0.3055329215101903
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 2.5763793705991938,
+      "AHRINAI": 2.5763770502286696
+     },
+     "total": 249564,
+     "n_docs": 311752,
+     "n_docs_with_slot": 101518,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 5120.45
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 754,
+      "AHRINAI": 1429
+     },
+     "p": {
+      "UYARTHINAI": 0.34539624370132843,
+      "AHRINAI": 0.6546037562986715
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.29870097115635874,
+       0.3884132131934166
+      ],
+      "AHRINAI": [
+       0.6115868166089058,
+       0.7012990280985832
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.3257368828995865,
+       0.3655987659297485
+      ],
+      "AHRINAI": [
+       0.6344012340702514,
+       0.6742631171004135
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 5.032575054684761,
+      "AHRINAI": 5.032575111298565
+     },
+     "total": 2183,
+     "n_docs": 1228,
+     "n_docs_with_slot": 495,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 5204.1
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 86,
+      "AHRINAI": 148
+     },
+     "p": {
+      "UYARTHINAI": 0.36752136752136755,
+      "AHRINAI": 0.6324786324786325
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.3045222729444504,
+       0.4356930084526539
+      ],
+      "AHRINAI": [
+       0.5643070206046105,
+       0.6954777270555497
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.30835081205553583,
+       0.4309713384752467
+      ],
+      "AHRINAI": [
+       0.5690286615247534,
+       0.6916491879444642
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 1.1560743004373943,
+      "AHRINAI": 1.156074352320197
+     },
+     "total": 234,
+     "n_docs": 113,
+     "n_docs_with_slot": 85,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 3448.12
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 22,
+      "AHRINAI": 7
+     },
+     "p": {
+      "UYARTHINAI": 0.7586206896551724,
+      "AHRINAI": 0.2413793103448276
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.7586206793785095,
+       0.7586206793785095
+      ],
+      "AHRINAI": [
+       0.24137930572032928,
+       0.24137930572032928
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.5789239838218866,
+       0.8778157755747992
+      ],
+      "AHRINAI": [
+       0.12218422442520087,
+       0.42107601617811335
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 0.0,
+      "AHRINAI": 0.0
+     },
+     "total": 29,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 14616.94
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "rationality",
+     "variant": "suffix_bound",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 9,
+      "AHRINAI": 24
+     },
+     "p": {
+      "UYARTHINAI": 0.2727272727272727,
+      "AHRINAI": 0.7272727272727273
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.27272728085517883,
+       0.27272728085517883
+      ],
+      "AHRINAI": [
+       0.7272727489471436,
+       0.7272727489471436
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.15067440885420644,
+       0.44217559002872625
+      ],
+      "AHRINAI": [
+       0.5578244099712737,
+       0.8493255911457935
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 0.0,
+      "AHRINAI": 0.0
+     },
+     "total": 33,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 15130.67
+    }
+   ],
+   "top_forms": {
+    "UYARTHINAI": [
+     [
+      "உள்ளனர்",
+      39930
+     ],
+     [
+      "இருந்தனர்",
+      12481
+     ],
+     [
+      "வந்தனர்",
+      12168
+     ],
+     [
+      "இருக்கிறார்கள்",
+      10789
+     ],
+     [
+      "தெரிவித்தனர்",
+      8851
+     ],
+     [
+      "நடத்தினர்",
+      6200
+     ],
+     [
+      "இருப்பார்கள்",
+      5919
+     ],
+     [
+      "மாட்டார்கள்",
+      5766
+     ],
+     [
+      "வைத்தனர்",
+      4726
+     ],
+     [
+      "என்கிறார்கள்",
+      4554
+     ],
+     [
+      "செய்கிறார்கள்",
+      4536
+     ],
+     [
+      "கூறினார்கள்",
+      4307
+     ]
+    ],
+    "AHRINAI": [
+     [
+      "உள்ளன",
+      72813
+     ],
+     [
+      "இருக்கின்றன",
+      14221
+     ],
+     [
+      "இருந்தன",
+      13068
+     ],
+     [
+      "வந்தன",
+      5032
+     ],
+     [
+      "தெரிவிக்கின்றன",
+      4940
+     ],
+     [
+      "செய்கின்றன",
+      3171
+     ],
+     [
+      "விட்டன",
+      3040
+     ],
+     [
+      "செய்யப்பட்டன",
+      2994
+     ],
+     [
+      "கூறுகின்றன",
+      2758
+     ],
+     [
+      "செய்யப்படுகின்றன",
+      2589
+     ],
+     [
+      "கிடைக்கின்றன",
+      2495
+     ],
+     [
+      "பெற்றன",
+      2293
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "rationality",
+   "variant": "surface_only",
+   "values": [
+    "UYARTHINAI",
+    "AHRINAI"
+   ],
+   "pooled_p": {
+    "UYARTHINAI": 0.3055248455902947,
+    "AHRINAI": 0.6944751544097053
+   },
+   "pooled_n": {
+    "UYARTHINAI": 1160684,
+    "AHRINAI": 2638300
+   },
+   "pooled_ci": {
+    "UYARTHINAI": [
+     0.10850678496062756,
+     0.36039095669984816
+    ],
+    "AHRINAI": [
+     0.6396090731024742,
+     0.8914932072162628
+    ]
+   },
+   "between_corpus_range": {
+    "UYARTHINAI": [
+     0.12652439024390244,
+     0.3578758688228649
+    ],
+    "AHRINAI": [
+     0.6421241311771352,
+     0.8734756097560976
+    ]
+   },
+   "headline_interval": {
+    "UYARTHINAI": [
+     0.10850678496062756,
+     0.36039095669984816
+    ],
+    "AHRINAI": [
+     0.6396090731024742,
+     0.8914932072162628
+    ]
+   },
+   "max_pairwise_tvd": 0.23135147857896243,
+   "max_pairwise_jsd": 0.05431264548784052,
+   "disagreeing_pair": [
+    "sangraha",
+    "opensubs"
+   ],
+   "within_vs_between": {
+    "UYARTHINAI": {
+     "widest_within_corpus_ci_width": 0.0373589538037777,
+     "between_corpus_range_width": 0.23135147857896243,
+     "between_over_within": 6.192664810532473
+    },
+    "AHRINAI": {
+     "widest_within_corpus_ci_width": 0.037358945608139016,
+     "between_corpus_range_width": 0.23135147857896243,
+     "between_over_within": 6.19266616905163
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 6.2× the widest within-corpus CI (worst value: AHRINAI); max pairwise TVD 0.231 between sangraha and opensubs. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "D-2: -ஆர்கள் is honorific-SINGULAR or rational-PLURAL; the count is an UPPER bound on the plural reading",
+    "No FST gate: any type ending in the suffix is counted, so nouns such as நாள் ('day', -ஆள்) and மகான் (-ஆன்) are included. Diagnostic upper bound on the effect of the analyser gate; never a headline.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 327321,
+      "AHRINAI": 865749
+     },
+     "p": {
+      "UYARTHINAI": 0.2743518821192386,
+      "AHRINAI": 0.7256481178807614
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.27229071110486985,
+       0.2764881104230881
+      ],
+      "AHRINAI": [
+       0.7235118895769119,
+       0.7277092888951302
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.27355197910860396,
+       0.27515323821336685
+      ],
+      "AHRINAI": [
+       0.7248467617866332,
+       0.7264480208913962
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 7.038783832082196,
+      "AHRINAI": 7.038794616120472
+     },
+     "total": 1193070,
+     "n_docs": 178356,
+     "n_docs_with_slot": 148384,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 39835.03
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 363973,
+      "AHRINAI": 653064
+     },
+     "p": {
+      "UYARTHINAI": 0.3578758688228649,
+      "AHRINAI": 0.6421241311771352
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.3553998053073883,
+       0.36039095669984816
+      ],
+      "AHRINAI": [
+       0.6396090731024742,
+       0.6446001946926116
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.3569447516030529,
+       0.3588080596750722
+      ],
+      "AHRINAI": [
+       0.641191940324928,
+       0.6430552483969472
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 7.236970312453451,
+      "AHRINAI": 7.236970274151175
+     },
+     "total": 1017037,
+     "n_docs": 99066,
+     "n_docs_with_slot": 95190,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 39289.92
+    },
+    {
+     "corpus": "cc100",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 466426,
+      "AHRINAI": 1104734
+     },
+     "p": {
+      "UYARTHINAI": 0.29686728277196467,
+      "AHRINAI": 0.7031327172280354
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.2954180404543877,
+       0.298333265632391
+      ],
+      "AHRINAI": [
+       0.7016667634248733,
+       0.7045819595456123
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.2961533862794206,
+       0.2975821725739877
+      ],
+      "AHRINAI": [
+       0.7024178274260123,
+       0.7038466137205796
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 4.037022802626974,
+      "AHRINAI": 4.037024532158905
+     },
+     "total": 1571160,
+     "n_docs": 311752,
+     "n_docs_with_slot": 260008,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 32236.4
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 2650,
+      "AHRINAI": 12941
+     },
+     "p": {
+      "UYARTHINAI": 0.16996985440318133,
+      "AHRINAI": 0.8300301455968186
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.1559462934732437,
+       0.18350891172885894
+      ],
+      "AHRINAI": [
+       0.8164911031723022,
+       0.8440536916255951
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.1641554990883483,
+       0.1759468015875432
+      ],
+      "AHRINAI": [
+       0.8240531984124568,
+       0.8358445009116516
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 5.469450083629029,
+      "AHRINAI": 5.469450147351823
+     },
+     "total": 15591,
+     "n_docs": 1228,
+     "n_docs_with_slot": 1091,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 37167.71
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 249,
+      "AHRINAI": 1719
+     },
+     "p": {
+      "UYARTHINAI": 0.12652439024390244,
+      "AHRINAI": 0.8734756097560976
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.10850678496062756,
+       0.14586573876440526
+      ],
+      "AHRINAI": [
+       0.8541342616081238,
+       0.8914932072162628
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.11256075920170458,
+       0.14194320032089927
+      ],
+      "AHRINAI": [
+       0.8580567996791008,
+       0.8874392407982954
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 1.6289814781649476,
+      "AHRINAI": 1.6289814573238657
+     },
+     "total": 1968,
+     "n_docs": 113,
+     "n_docs_with_slot": 113,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 28999.6
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 29,
+      "AHRINAI": 16
+     },
+     "p": {
+      "UYARTHINAI": 0.6444444444444445,
+      "AHRINAI": 0.35555555555555557
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.644444465637207,
+       0.644444465637207
+      ],
+      "AHRINAI": [
+       0.35555556416511536,
+       0.35555556416511536
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.4983581419637687,
+       0.7678091739578414
+      ],
+      "AHRINAI": [
+       0.23219082604215874,
+       0.5016418580362313
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 0.0,
+      "AHRINAI": 0.0
+     },
+     "total": 45,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 22681.45
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "rationality",
+     "variant": "surface_only",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 36,
+      "AHRINAI": 77
+     },
+     "p": {
+      "UYARTHINAI": 0.3185840707964602,
+      "AHRINAI": 0.6814159292035398
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.3185840845108032,
+       0.3185840845108032
+      ],
+      "AHRINAI": [
+       0.6814159154891968,
+       0.6814159154891968
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.23985559431776712,
+       0.4092415633707641
+      ],
+      "AHRINAI": [
+       0.5907584366292358,
+       0.7601444056822328
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 0.0,
+      "AHRINAI": 0.0
+     },
+     "total": 113,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 51811.1
+    }
+   ],
+   "top_forms": {
+    "UYARTHINAI": [
+     [
+      "பின்னர்",
+      103114
+     ],
+     [
+      "உள்ளனர்",
+      39930
+     ],
+     [
+      "வருகின்றனர்",
+      35871
+     ],
+     [
+      "உறுப்பினர்",
+      22484
+     ],
+     [
+      "செய்தனர்",
+      18122
+     ],
+     [
+      "இயக்குனர்",
+      17381
+     ],
+     [
+      "முன்னர்",
+      16830
+     ],
+     [
+      "கொண்டனர்",
+      13633
+     ],
+     [
+      "இருந்தனர்",
+      12481
+     ],
+     [
+      "வந்தனர்",
+      12168
+     ],
+     [
+      "தேர்ந்தெடுக்கின்றனர்",
+      11317
+     ],
+     [
+      "வருகிறார்கள்",
+      10808
+     ]
+    ],
+    "AHRINAI": [
+     [
+      "என",
+      275344
+     ],
+     [
+      "என்ன",
+      170964
+     ],
+     [
+      "உள்ளன",
+      72813
+     ],
+     [
+      "தொடர்பான",
+      25912
+     ],
+     [
+      "முக்கியமான",
+      21953
+     ],
+     [
+      "எதிரான",
+      21377
+     ],
+     [
+      "தேவையான",
+      20842
+     ],
+     [
+      "சரியான",
+      20323
+     ],
+     [
+      "வருகின்றன",
+      18831
+     ],
+     [
+      "விமான",
+      18466
+     ],
+     [
+      "வெளியான",
+      18210
+     ],
+     [
+      "மீதான",
+      17368
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "gender",
+   "variant": "suffix_bound",
+   "values": [
+    "MASC",
+    "FEM",
+    "EPICENE"
+   ],
+   "pooled_p": {
+    "MASC": 0.1536853467416329,
+    "FEM": 0.08002623362960028,
+    "EPICENE": 0.7662884196287668
+   },
+   "pooled_n": {
+    "MASC": 134976,
+    "FEM": 70284,
+    "EPICENE": 673002
+   },
+   "pooled_ci": {
+    "MASC": [
+     0.06732237190008164,
+     0.2882670179009438
+    ],
+    "FEM": [
+     0.02840314214117825,
+     0.1987501982599497
+    ],
+    "EPICENE": [
+     0.5663454189896584,
+     0.9034904807806015
+    ]
+   },
+   "between_corpus_range": {
+    "MASC": [
+     0.07025380299651497,
+     0.2229774203298954
+    ],
+    "FEM": [
+     0.02989092847431438,
+     0.14798694232861806
+    ],
+    "EPICENE": [
+     0.6507072905331882,
+     0.8998552685291706
+    ]
+   },
+   "headline_interval": {
+    "MASC": [
+     0.06732237190008164,
+     0.2882670179009438
+    ],
+    "FEM": [
+     0.02840314214117825,
+     0.1987501982599497
+    ],
+    "EPICENE": [
+     0.5663454189896584,
+     0.9034904807806015
+    ]
+   },
+   "max_pairwise_tvd": 0.2491479779959824,
+   "max_pairwise_jsd": 0.06913593721710759,
+   "disagreeing_pair": [
+    "tawiki",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "MASC": {
+     "widest_within_corpus_ci_width": 0.14659401625394824,
+     "between_corpus_range_width": 0.1527236173333804,
+     "between_over_within": 1.0418134466608358
+    },
+    "FEM": {
+     "widest_within_corpus_ci_width": 0.09866066407412291,
+     "between_corpus_range_width": 0.11809601385430368,
+     "between_over_within": 1.1969918808328632
+    },
+    "EPICENE": {
+     "widest_within_corpus_ci_width": 0.14885465502738948,
+     "between_corpus_range_width": 0.24914797799598243,
+     "between_over_within": 1.6737667891550911
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 1.7× the widest within-corpus CI (worst value: EPICENE); max pairwise TVD 0.249 between tawiki and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "D-2: -ஆர் is honorific-SINGULAR (epicene) or rational-PLURAL",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 20824,
+      "FEM": 8860,
+      "EPICENE": 266727
+     },
+     "p": {
+      "MASC": 0.07025380299651497,
+      "FEM": 0.02989092847431438,
+      "EPICENE": 0.8998552685291706
+     },
+     "ci": {
+      "MASC": [
+       0.06732237190008164,
+       0.07343127466738224
+      ],
+      "FEM": [
+       0.02840314214117825,
+       0.03143098317086697
+      ],
+      "EPICENE": [
+       0.8960027828812599,
+       0.9034904807806015
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.06933929745948123,
+       0.0711794473301826
+      ],
+      "FEM": [
+       0.029283965806492836,
+       0.03051007612336435
+      ],
+      "EPICENE": [
+       0.8987693906277421,
+       0.900930782391196
+      ]
+     },
+     "deff": {
+      "MASC": 11.027455077983062,
+      "FEM": 6.056722229817861,
+      "EPICENE": 12.171509015825272
+     },
+     "total": 296411,
+     "n_docs": 178356,
+     "n_docs_with_slot": 64060,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 9896.77
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 34789,
+      "FEM": 18135,
+      "EPICENE": 173434
+     },
+     "p": {
+      "MASC": 0.15369017220509104,
+      "FEM": 0.08011645269882221,
+      "EPICENE": 0.7661933750960868
+     },
+     "ci": {
+      "MASC": [
+       0.14676920361816884,
+       0.16093170493841172
+      ],
+      "FEM": [
+       0.07524439096450805,
+       0.08503398057073355
+      ],
+      "EPICENE": [
+       0.7569565251469612,
+       0.775235190987587
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.15221032700723455,
+       0.1551817714594979
+      ],
+      "FEM": [
+       0.07900521584986127,
+       0.08124194076032014
+      ],
+      "EPICENE": [
+       0.7644452629711728,
+       0.7679324523864882
+      ]
+     },
+     "deff": {
+      "MASC": 22.390326927557453,
+      "FEM": 19.462179707641027,
+      "EPICENE": 28.138412557825777
+     },
+     "total": 226358,
+     "n_docs": 99066,
+     "n_docs_with_slot": 50617,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 8744.61
+    },
+    {
+     "corpus": "cc100",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 78932,
+      "FEM": 43104,
+      "EPICENE": 231955
+     },
+     "p": {
+      "MASC": 0.2229774203298954,
+      "FEM": 0.1217658076052781,
+      "EPICENE": 0.6552567720648265
+     },
+     "ci": {
+      "MASC": [
+       0.2186224903911352,
+       0.22749009914696217
+      ],
+      "FEM": [
+       0.11795721463859081,
+       0.12532640993595123
+      ],
+      "EPICENE": [
+       0.6490451976656914,
+       0.6616061881184578
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.2216092355786007,
+       0.22435161743339171
+      ],
+      "FEM": [
+       0.12069265187995283,
+       0.12284717232635411
+      ],
+      "EPICENE": [
+       0.6536894054467358,
+       0.6568207690716874
+      ]
+     },
+     "deff": {
+      "MASC": 10.430581057511311,
+      "FEM": 11.307452211813235,
+      "EPICENE": 15.520477518970587
+     },
+     "total": 353991,
+     "n_docs": 311752,
+     "n_docs_with_slot": 102377,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 7263.04
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 185,
+      "FEM": 136,
+      "EPICENE": 598
+     },
+     "p": {
+      "MASC": 0.20130576713819368,
+      "FEM": 0.14798694232861806,
+      "EPICENE": 0.6507072905331882
+     },
+     "ci": {
+      "MASC": [
+       0.14167300164699553,
+       0.2882670179009438
+      ],
+      "FEM": [
+       0.10008953418582678,
+       0.1987501982599497
+      ],
+      "EPICENE": [
+       0.5663454189896584,
+       0.7152000740170479
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.17664887609929647,
+       0.22844937262744458
+      ],
+      "FEM": [
+       0.1264957360251093,
+       0.17240875746523945
+      ],
+      "EPICENE": [
+       0.6193145584071662,
+       0.6808453415977386
+      ]
+     },
+     "deff": {
+      "MASC": 8.067950496895028,
+      "FEM": 4.763680509495344,
+      "EPICENE": 5.838501961181422
+     },
+     "total": 919,
+     "n_docs": 1228,
+     "n_docs_with_slot": 191,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 2190.82
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 65,
+      "FEM": 47,
+      "EPICENE": 236
+     },
+     "p": {
+      "MASC": 0.1867816091954023,
+      "FEM": 0.13505747126436782,
+      "EPICENE": 0.6781609195402298
+     },
+     "ci": {
+      "MASC": [
+       0.13702236711978913,
+       0.24289425723254682
+      ],
+      "FEM": [
+       0.09253480527549982,
+       0.1807580143213272
+      ],
+      "EPICENE": [
+       0.6145536780357361,
+       0.7382387146353722
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.14933452673427564,
+       0.23106822417889222
+      ],
+      "FEM": [
+       0.10310728509414394,
+       0.17497665404321683
+      ],
+      "EPICENE": [
+       0.6273611977619951,
+       0.7250702650213405
+      ]
+     },
+     "deff": {
+      "MASC": 1.6786489744359687,
+      "FEM": 1.5085369502411563,
+      "EPICENE": 1.557288243330928
+     },
+     "total": 348,
+     "n_docs": 113,
+     "n_docs_with_slot": 98,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 5127.98
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 178,
+      "FEM": 2,
+      "EPICENE": 15
+     },
+     "p": {
+      "MASC": 0.9128205128205128,
+      "FEM": 0.010256410256410256,
+      "EPICENE": 0.07692307692307693
+     },
+     "ci": {
+      "MASC": [
+       0.9128205180168152,
+       0.9128205180168152
+      ],
+      "FEM": [
+       0.010256410576403141,
+       0.010256410576403141
+      ],
+      "EPICENE": [
+       0.07692307978868484,
+       0.07692307978868484
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.8648324791126469,
+       0.9448578186495629
+      ],
+      "FEM": [
+       0.0028171986601739506,
+       0.03661853505049644
+      ],
+      "EPICENE": [
+       0.04716791534798527,
+       0.12302525775285567
+      ]
+     },
+     "deff": {
+      "MASC": 0.0,
+      "FEM": 0.0,
+      "EPICENE": 0.0
+     },
+     "total": 195,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 98286.29
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "gender",
+     "variant": "suffix_bound",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 3,
+      "FEM": 0,
+      "EPICENE": 37
+     },
+     "p": {
+      "MASC": 0.075,
+      "FEM": 0.0,
+      "EPICENE": 0.925
+     },
+     "ci": {
+      "MASC": [
+       0.07500000298023224,
+       0.07500000298023224
+      ],
+      "FEM": [
+       0.0,
+       0.0
+      ],
+      "EPICENE": [
+       0.925000011920929,
+       0.925000011920929
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.025836025774588198,
+       0.19864233524310546
+      ],
+      "FEM": [
+       0.0,
+       0.08762160119728664
+      ],
+      "EPICENE": [
+       0.8013576647568946,
+       0.9741639742254119
+      ]
+     },
+     "deff": {
+      "MASC": 0.0,
+      "FEM": NaN,
+      "EPICENE": 0.0
+     },
+     "total": 40,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 18340.21
+    }
+   ],
+   "top_forms": {
+    "MASC": [
+     [
+      "என்றான்",
+      12938
+     ],
+     [
+      "வந்தான்",
+      4586
+     ],
+     [
+      "சொன்னான்",
+      4091
+     ],
+     [
+      "கேட்டான்",
+      3823
+     ],
+     [
+      "கொண்டான்",
+      3617
+     ],
+     [
+      "இருந்தான்",
+      3025
+     ],
+     [
+      "விட்டான்",
+      2712
+     ],
+     [
+      "பார்த்தான்",
+      2259
+     ],
+     [
+      "இருக்கிறான்",
+      2197
+     ],
+     [
+      "சென்றான்",
+      2069
+     ],
+     [
+      "கொண்டிருந்தான்",
+      1685
+     ],
+     [
+      "மாட்டான்",
+      1583
+     ]
+    ],
+    "FEM": [
+     [
+      "என்றாள்",
+      8331
+     ],
+     [
+      "கேட்டாள்",
+      2532
+     ],
+     [
+      "சொன்னாள்",
+      2330
+     ],
+     [
+      "வந்தாள்",
+      2312
+     ],
+     [
+      "கொண்டாள்",
+      1991
+     ],
+     [
+      "இருந்தாள்",
+      1833
+     ],
+     [
+      "பார்த்தாள்",
+      1619
+     ],
+     [
+      "விட்டாள்",
+      1474
+     ],
+     [
+      "இருக்கிறாள்",
+      1213
+     ],
+     [
+      "கொண்டிருந்தாள்",
+      1089
+     ],
+     [
+      "சென்றாள்",
+      1027
+     ],
+     [
+      "போனாள்",
+      914
+     ]
+    ],
+    "EPICENE": [
+     [
+      "என்றார்",
+      40636
+     ],
+     [
+      "இருந்தார்",
+      34266
+     ],
+     [
+      "பெற்றார்",
+      33155
+     ],
+     [
+      "கூறினார்",
+      31318
+     ],
+     [
+      "செய்தார்",
+      24872
+     ],
+     [
+      "வந்தார்",
+      23342
+     ],
+     [
+      "உள்ளார்",
+      22524
+     ],
+     [
+      "தெரிவித்தார்",
+      22479
+     ],
+     [
+      "கொண்டார்",
+      20012
+     ],
+     [
+      "பிறந்தார்",
+      17938
+     ],
+     [
+      "இருக்கிறார்",
+      16125
+     ],
+     [
+      "சென்றார்",
+      12816
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "gender",
+   "variant": "surface_only",
+   "values": [
+    "MASC",
+    "FEM",
+    "EPICENE"
+   ],
+   "pooled_p": {
+    "MASC": 0.35378519366117084,
+    "FEM": 0.08376804552767923,
+    "EPICENE": 0.56244676081115
+   },
+   "pooled_n": {
+    "MASC": 1236423,
+    "FEM": 292756,
+    "EPICENE": 1965662
+   },
+   "pooled_ci": {
+    "MASC": [
+     0.178838275000453,
+     0.8028491333127021
+    ],
+    "FEM": [
+     0.006224066484719515,
+     0.09670730661600828
+    ],
+    "EPICENE": [
+     0.14815633185207844,
+     0.754153136909008
+    ]
+   },
+   "between_corpus_range": {
+    "MASC": [
+     0.181266684616653,
+     0.7855106888361045
+    ],
+    "FEM": [
+     0.006224066390041493,
+     0.0956221302302204
+    ],
+    "EPICENE": [
+     0.16413301662707838,
+     0.751474090447059
+    ]
+   },
+   "headline_interval": {
+    "MASC": [
+     0.178838275000453,
+     0.8028491333127021
+    ],
+    "FEM": [
+     0.006224066390041493,
+     0.09670730661600828
+    ],
+    "EPICENE": [
+     0.14815633185207844,
+     0.754153136909008
+    ]
+   },
+   "max_pairwise_tvd": 0.6042440042194516,
+   "max_pairwise_jsd": 0.29493383904290776,
+   "disagreeing_pair": [
+    "tawiki",
+    "opensubs"
+   ],
+   "within_vs_between": {
+    "MASC": {
+     "widest_within_corpus_ci_width": 0.08063343614339824,
+     "between_corpus_range_width": 0.6042440042194516,
+     "between_over_within": 7.493715177223329
+    },
+    "FEM": {
+     "widest_within_corpus_ci_width": 0.019702154817059638,
+     "between_corpus_range_width": 0.0893980638401789,
+     "between_over_within": 4.53747646743549
+    },
+    "EPICENE": {
+     "widest_within_corpus_ci_width": 0.0726683519780636,
+     "between_corpus_range_width": 0.5873410738199807,
+     "between_over_within": 8.08248787584011
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 8.1× the widest within-corpus CI (worst value: EPICENE); max pairwise TVD 0.604 between tawiki and opensubs. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "D-2: -ஆர் is honorific-SINGULAR (epicene) or rational-PLURAL",
+    "No FST gate: any type ending in the suffix is counted, so nouns such as நாள் ('day', -ஆள்) and மகான் (-ஆன்) are included. Diagnostic upper bound on the effect of the analyser gate; never a headline.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 173693,
+      "FEM": 64449,
+      "EPICENE": 720076
+     },
+     "p": {
+      "MASC": 0.181266684616653,
+      "FEM": 0.06725922493628798,
+      "EPICENE": 0.751474090447059
+     },
+     "ci": {
+      "MASC": [
+       0.178838275000453,
+       0.18382356762886048
+      ],
+      "FEM": [
+       0.06614372711628676,
+       0.06838782168924809
+      ],
+      "EPICENE": [
+       0.7486719787120819,
+       0.754153136909008
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.18049662235189437,
+       0.18203930245018046
+      ],
+      "FEM": [
+       0.06675945615629057,
+       0.06776246338436333
+      ],
+      "EPICENE": [
+       0.7506077992549471,
+       0.7523383653474917
+      ]
+     },
+     "deff": {
+      "MASC": 10.778888566304593,
+      "FEM": 4.889763820064734,
+      "EPICENE": 10.097508244392788
+     },
+     "total": 958218,
+     "n_docs": 178356,
+     "n_docs_with_slot": 118095,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 31993.63
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 276812,
+      "FEM": 69055,
+      "EPICENE": 517462
+     },
+     "p": {
+      "MASC": 0.3206332695878396,
+      "FEM": 0.07998688796507473,
+      "EPICENE": 0.5993798424470856
+     },
+     "ci": {
+      "MASC": [
+       0.31674753651022913,
+       0.324568297713995
+      ],
+      "FEM": [
+       0.07828513700515032,
+       0.08178283479064703
+      ],
+      "EPICENE": [
+       0.5950201824307442,
+       0.603882123529911
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.3196495681194447,
+       0.3216185672654266
+      ],
+      "FEM": [
+       0.07941653071310448,
+       0.08056098297146959
+      ],
+      "EPICENE": [
+       0.5983457432137835,
+       0.6004130572855078
+      ]
+     },
+     "deff": {
+      "MASC": 15.480385100313642,
+      "FEM": 9.256968706119343,
+      "EPICENE": 18.67276774651925
+     },
+     "total": 863329,
+     "n_docs": 99066,
+     "n_docs_with_slot": 86431,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 33351.91
+    },
+    {
+     "corpus": "cc100",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 775554,
+      "FEM": 158668,
+      "EPICENE": 725101
+     },
+     "p": {
+      "MASC": 0.4673918218454153,
+      "FEM": 0.0956221302302204,
+      "EPICENE": 0.43698604792436435
+     },
+     "ci": {
+      "MASC": [
+       0.46536632627248764,
+       0.4693801052868366
+      ],
+      "FEM": [
+       0.09451368730515242,
+       0.09670730661600828
+      ],
+      "EPICENE": [
+       0.43473444506525993,
+       0.43926854580640795
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.466632749088061,
+       0.46815104558324
+      ],
+      "FEM": [
+       0.0951756238832047,
+       0.09607050890388795
+      ],
+      "EPICENE": [
+       0.43623149181798077,
+       0.4377408957942462
+      ]
+     },
+     "deff": {
+      "MASC": 7.074128752079851,
+      "FEM": 5.981273953367635,
+      "EPICENE": 8.786955778550997
+     },
+     "total": 1659323,
+     "n_docs": 311752,
+     "n_docs_with_slot": 238895,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 34045.29
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 6796,
+      "FEM": 365,
+      "EPICENE": 1994
+     },
+     "p": {
+      "MASC": 0.7423265974877117,
+      "FEM": 0.03986892408519935,
+      "EPICENE": 0.21780447842708903
+     },
+     "ci": {
+      "MASC": [
+       0.7008197918534279,
+       0.7814532279968261
+      ],
+      "FEM": [
+       0.03026888514868915,
+       0.04997103996574879
+      ],
+      "EPICENE": [
+       0.18276141881942748,
+       0.2554297707974911
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.7332674331647006,
+       0.7511824855230846
+      ],
+      "FEM": [
+       0.036050353233071625,
+       0.04407347707015373
+      ],
+      "EPICENE": [
+       0.20946885401829538,
+       0.22637682327271538
+      ]
+     },
+     "deff": {
+      "MASC": 19.862271991803127,
+      "FEM": 5.867240802600453,
+      "EPICENE": 18.201929353850577
+     },
+     "total": 9155,
+     "n_docs": 1228,
+     "n_docs_with_slot": 936,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 21824.8
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 3307,
+      "FEM": 212,
+      "EPICENE": 691
+     },
+     "p": {
+      "MASC": 0.7855106888361045,
+      "FEM": 0.0503562945368171,
+      "EPICENE": 0.16413301662707838
+     },
+     "ci": {
+      "MASC": [
+       0.7681360453367233,
+       0.8028491333127021
+      ],
+      "FEM": [
+       0.04308491023257375,
+       0.057737508229911326
+      ],
+      "EPICENE": [
+       0.14815633185207844,
+       0.1802886825054884
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.7728543503039069,
+       0.797646467890804
+      ],
+      "FEM": [
+       0.04415087198150477,
+       0.05738153330752379
+      ],
+      "EPICENE": [
+       0.15325156821966796,
+       0.17562683699886683
+      ]
+     },
+     "deff": {
+      "MASC": 1.948274268716271,
+      "FEM": 1.2873687767009403,
+      "EPICENE": 2.1271036033800055
+     },
+     "total": 4210,
+     "n_docs": 113,
+     "n_docs_with_slot": 113,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 62036.75
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 243,
+      "FEM": 3,
+      "EPICENE": 236
+     },
+     "p": {
+      "MASC": 0.504149377593361,
+      "FEM": 0.006224066390041493,
+      "EPICENE": 0.4896265560165975
+     },
+     "ci": {
+      "MASC": [
+       0.5041493773460388,
+       0.5041493773460388
+      ],
+      "FEM": [
+       0.006224066484719515,
+       0.006224066484719515
+      ],
+      "EPICENE": [
+       0.48962655663490295,
+       0.48962655663490295
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.4596579498236758,
+       0.5485751886361612
+      ],
+      "FEM": [
+       0.0021189555796923853,
+       0.01813756769969748
+      ],
+      "EPICENE": [
+       0.44525793254812945,
+       0.534159221302278
+      ]
+     },
+     "deff": {
+      "MASC": 0.0,
+      "FEM": 0.0,
+      "EPICENE": 0.0
+     },
+     "total": 482,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 242943.55
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "gender",
+     "variant": "surface_only",
+     "values": [
+      "MASC",
+      "FEM",
+      "EPICENE"
+     ],
+     "n": {
+      "MASC": 18,
+      "FEM": 4,
+      "EPICENE": 102
+     },
+     "p": {
+      "MASC": 0.14516129032258066,
+      "FEM": 0.03225806451612903,
+      "EPICENE": 0.8225806451612904
+     },
+     "ci": {
+      "MASC": [
+       0.14516128599643707,
+       0.14516128599643707
+      ],
+      "FEM": [
+       0.032258063554763794,
+       0.032258063554763794
+      ],
+      "EPICENE": [
+       0.8225806355476379,
+       0.8225806355476379
+      ]
+     },
+     "ci_iid": {
+      "MASC": [
+       0.09383657142673932,
+       0.21781083300858037
+      ],
+      "FEM": [
+       0.012614619069790335,
+       0.08001150495858557
+      ],
+      "EPICENE": [
+       0.7459599478681782,
+       0.879815139008804
+      ]
+     },
+     "deff": {
+      "MASC": 0.0,
+      "FEM": 0.0,
+      "EPICENE": 0.0
+     },
+     "total": 124,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 56854.65
+    }
+   ],
+   "top_forms": {
+    "MASC": [
+     [
+      "நான்",
+      229420
+     ],
+     [
+      "தான்",
+      221937
+     ],
+     [
+      "பாகிஸ்தான்",
+      13595
+     ],
+     [
+      "என்றான்",
+      12938
+     ],
+     [
+      "இதுதான்",
+      12466
+     ],
+     [
+      "கான்",
+      11246
+     ],
+     [
+      "ஜான்",
+      8260
+     ],
+     [
+      "அதுதான்",
+      7268
+     ],
+     [
+      "என்பதுதான்",
+      6789
+     ],
+     [
+      "அதான்",
+      5700
+     ],
+     [
+      "மட்டும்தான்",
+      5403
+     ],
+     [
+      "ஜப்பான்",
+      5040
+     ]
+    ],
+    "FEM": [
+     [
+      "நாள்",
+      81908
+     ],
+     [
+      "முன்னாள்",
+      38962
+     ],
+     [
+      "ஒருநாள்",
+      13172
+     ],
+     [
+      "பெருமாள்",
+      10486
+     ],
+     [
+      "என்றாள்",
+      8331
+     ],
+     [
+      "மறுநாள்",
+      5496
+     ],
+     [
+      "பிறந்தநாள்",
+      5491
+     ],
+     [
+      "வாழ்நாள்",
+      4132
+     ],
+     [
+      "கேட்டாள்",
+      2532
+     ],
+     [
+      "திருநாள்",
+      2491
+     ],
+     [
+      "சொன்னாள்",
+      2330
+     ],
+     [
+      "வந்தாள்",
+      2312
+     ]
+    ],
+    "EPICENE": [
+     [
+      "ஆவார்",
+      48577
+     ],
+     [
+      "யார்",
+      43505
+     ],
+     [
+      "சுமார்",
+      43213
+     ],
+     [
+      "என்றார்",
+      40636
+     ],
+     [
+      "இருந்தார்",
+      34266
+     ],
+     [
+      "பெற்றார்",
+      33155
+     ],
+     [
+      "வருகிறார்",
+      31621
+     ],
+     [
+      "கூறினார்",
+      31318
+     ],
+     [
+      "தெரிவித்துள்ளார்",
+      29486
+     ],
+     [
+      "போலீசார்",
+      28685
+     ],
+     [
+      "சார்",
+      28533
+     ],
+     [
+      "செய்தார்",
+      24872
+     ]
+    ]
+   }
+  },
+  {
+   "slot": "rationality",
+   "variant": "strict_anar",
+   "values": [
+    "UYARTHINAI",
+    "AHRINAI"
+   ],
+   "pooled_p": {
+    "UYARTHINAI": 0.40631402114234205,
+    "AHRINAI": 0.593685978857658
+   },
+   "pooled_n": {
+    "UYARTHINAI": 178497,
+    "AHRINAI": 260811
+   },
+   "pooled_ci": {
+    "UYARTHINAI": [
+     0.050824974197894335,
+     0.5182630315423011
+    ],
+    "AHRINAI": [
+     0.4817369967699051,
+     0.9491750508546829
+    ]
+   },
+   "between_corpus_range": {
+    "UYARTHINAI": [
+     0.0714749837556855,
+     0.5123066554051172
+    ],
+    "AHRINAI": [
+     0.48769334459488284,
+     0.9285250162443145
+    ]
+   },
+   "headline_interval": {
+    "UYARTHINAI": [
+     0.050824974197894335,
+     0.5182630315423011
+    ],
+    "AHRINAI": [
+     0.4817369967699051,
+     0.9491750508546829
+    ]
+   },
+   "max_pairwise_tvd": 0.4408316716494317,
+   "max_pairwise_jsd": 0.18566773279756826,
+   "disagreeing_pair": [
+    "sangraha",
+    "sangraha_speech"
+   ],
+   "within_vs_between": {
+    "UYARTHINAI": {
+     "widest_within_corpus_ci_width": 0.043253132421523344,
+     "between_corpus_range_width": 0.4408316716494317,
+     "between_over_within": 10.1919016489559
+    },
+    "AHRINAI": {
+     "widest_within_corpus_ci_width": 0.0432531356811523,
+     "between_corpus_range_width": 0.44083167164943166,
+     "between_over_within": 10.191900880877073
+    }
+   },
+   "fragile": true,
+   "verdict": "FRAGILE — between-corpus range is 10.2× the widest within-corpus CI (worst value: UYARTHINAI); max pairwise TVD 0.441 between sangraha and sangraha_speech. Report the prior as a RANGE across corpora, run DFR at both ends, and do not headline a point estimate.",
+   "caveats": [
+    "UYARTHINAI restricted to -அனர்/-இனர், which is unambiguously plural. This is the lower bound on the uyartiṇai rate; the `suffix_bound` variant, which also counts -ஆர்கள், is the upper bound.",
+    "The pooled interval is the union of the per-corpus cluster-bootstrap intervals, not a bootstrap over the merged document set; unioning is the conservative direction (it can only widen the interval).",
+    "Corpora with <200 slot tokens are shown per-corpus but excluded from the between-corpus spread."
+   ],
+   "per_corpus": [
+    {
+     "corpus": "tawiki",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 63087,
+      "AHRINAI": 126240
+     },
+     "p": {
+      "UYARTHINAI": 0.33321713226322713,
+      "AHRINAI": 0.6667828677367729
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.32931300774216654,
+       0.33714387342333796
+      ],
+      "AHRINAI": [
+       0.662856125831604,
+       0.6706869632005692
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.3310973018968159,
+       0.3353437305657387
+      ],
+      "AHRINAI": [
+       0.6646562694342613,
+       0.6689026981031841
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 3.4017823528475524,
+      "AHRINAI": 3.4017817980792873
+     },
+     "total": 189327,
+     "n_docs": 178356,
+     "n_docs_with_slot": 74965,
+     "n_tokens": 29950273,
+     "register": "Literary / encyclopaedic (செந்தமிழ்)",
+     "licence": "CC BY-SA 4.0 + GFDL (Wikimedia dual licence)",
+     "release_ok": true,
+     "slot_tokens_per_million": 6321.38
+    },
+    {
+     "corpus": "sangraha",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 60049,
+      "AHRINAI": 57164
+     },
+     "p": {
+      "UYARTHINAI": 0.5123066554051172,
+      "AHRINAI": 0.48769334459488284
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.5060959085822105,
+       0.5182630315423011
+      ],
+      "AHRINAI": [
+       0.4817369967699051,
+       0.4939041197299957
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.5094447669055819,
+       0.5151677372712478
+      ],
+      "AHRINAI": [
+       0.48483226272875224,
+       0.4905552330944182
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 4.399230087560752,
+      "AHRINAI": 4.399230057159418
+     },
+     "total": 117213,
+     "n_docs": 99066,
+     "n_docs_with_slot": 42992,
+     "n_tokens": 25885444,
+     "register": "Mixed web / curated Indic — news, blogs, government, transcribed media",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 4528.14
+    },
+    {
+     "corpus": "cc100",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 55223,
+      "AHRINAI": 75799
+     },
+     "p": {
+      "UYARTHINAI": 0.42147883561539284,
+      "AHRINAI": 0.5785211643846072
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.41766476482152937,
+       0.4254322052001953
+      ],
+      "AHRINAI": [
+       0.5745678231120109,
+       0.5823352351784706
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.41880740935074123,
+       0.4241548660988181
+      ],
+      "AHRINAI": [
+       0.575845133901182,
+       0.5811925906492589
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 2.080921873071679,
+      "AHRINAI": 2.080922414668844
+     },
+     "total": 131022,
+     "n_docs": 311752,
+     "n_docs_with_slot": 70955,
+     "n_tokens": 48738699,
+     "register": "Raw web crawl",
+     "licence": "Unspecified — derived from Common Crawl; statmt.org states 'the data is released as-is'. HF mirror `statmt/cc100` reports licence 'unknown'.",
+     "release_ok": false,
+     "slot_tokens_per_million": 2688.25
+    },
+    {
+     "corpus": "sangraha_speech",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 110,
+      "AHRINAI": 1429
+     },
+     "p": {
+      "UYARTHINAI": 0.0714749837556855,
+      "AHRINAI": 0.9285250162443145
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.050824974197894335,
+       0.09407810661941768
+      ],
+      "AHRINAI": [
+       0.9059219151735306,
+       0.9491750508546829
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.05964306637717785,
+       0.08544083549812721
+      ],
+      "AHRINAI": [
+       0.9145591645018727,
+       0.9403569336228222
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 2.7877643761727144,
+      "AHRINAI": 2.787764341015338
+     },
+     "total": 1539,
+     "n_docs": 1228,
+     "n_docs_with_slot": 453,
+     "n_tokens": 419477,
+     "register": "Transcribed speech — the closest clean Tamil-script approach to Spoken Tamil",
+     "licence": "CC BY-4.0 (dataset card)",
+     "release_ok": true,
+     "slot_tokens_per_million": 3668.85
+    },
+    {
+     "corpus": "opensubs",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 21,
+      "AHRINAI": 148
+     },
+     "p": {
+      "UYARTHINAI": 0.1242603550295858,
+      "AHRINAI": 0.8757396449704142
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.06936416029930115,
+       0.18902438879013062
+      ],
+      "AHRINAI": [
+       0.8109756112098694,
+       0.9306358098983765
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.08272850511577376,
+       0.18249408171884735
+      ],
+      "AHRINAI": [
+       0.8175059182811528,
+       0.9172714948842263
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 1.4760829560219957,
+      "AHRINAI": 1.476083019936034
+     },
+     "total": 169,
+     "n_docs": 113,
+     "n_docs_with_slot": 72,
+     "n_tokens": 67863,
+     "register": "Dialogue / closest available proxy for Spoken Tamil in Tamil script",
+     "licence": "OPUS redistribution of OpenSubtitles.org data — no explicit open licence; OPUS states the data is for research use",
+     "release_ok": false,
+     "slot_tokens_per_million": 2490.31
+    },
+    {
+     "corpus": "ud_mwtt",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 0,
+      "AHRINAI": 7
+     },
+     "p": {
+      "UYARTHINAI": 0.0,
+      "AHRINAI": 1.0
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.0,
+       0.0
+      ],
+      "AHRINAI": [
+       1.0,
+       1.0
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       3.584186086443356e-17,
+       0.3543304350666874
+      ],
+      "AHRINAI": [
+       0.6456695649333126,
+       1.0
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": NaN,
+      "AHRINAI": NaN
+     },
+     "total": 7,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 1984,
+     "register": "Constructed grammar examples (Lehmann 1993)",
+     "licence": "CC BY-SA 4.0",
+     "release_ok": true,
+     "slot_tokens_per_million": 3528.23
+    },
+    {
+     "corpus": "irumozhi",
+     "slot": "rationality",
+     "variant": "strict_anar",
+     "values": [
+      "UYARTHINAI",
+      "AHRINAI"
+     ],
+     "n": {
+      "UYARTHINAI": 7,
+      "AHRINAI": 24
+     },
+     "p": {
+      "UYARTHINAI": 0.22580645161290322,
+      "AHRINAI": 0.7741935483870968
+     },
+     "ci": {
+      "UYARTHINAI": [
+       0.22580644488334656,
+       0.22580644488334656
+      ],
+      "AHRINAI": [
+       0.774193525314331,
+       0.774193525314331
+      ]
+     },
+     "ci_iid": {
+      "UYARTHINAI": [
+       0.11395135561262494,
+       0.3981241838334205
+      ],
+      "AHRINAI": [
+       0.6018758161665795,
+       0.886048644387375
+      ]
+     },
+     "deff": {
+      "UYARTHINAI": 0.0,
+      "AHRINAI": 0.0
+     },
+     "total": 31,
+     "n_docs": 1,
+     "n_docs_with_slot": 1,
+     "n_tokens": 2181,
+     "register": "Parallel Literary ↔ Spoken Tamil",
+     "licence": "MIT",
+     "release_ok": true,
+     "slot_tokens_per_million": 14213.66
+    }
+   ],
+   "top_forms": {
+    "UYARTHINAI": [
+     [
+      "உள்ளனர்",
+      39930
+     ],
+     [
+      "இருந்தனர்",
+      12481
+     ],
+     [
+      "வந்தனர்",
+      12168
+     ],
+     [
+      "தெரிவித்தனர்",
+      8851
+     ],
+     [
+      "நடத்தினர்",
+      6200
+     ],
+     [
+      "வைத்தனர்",
+      4726
+     ],
+     [
+      "விட்டனர்",
+      4306
+     ],
+     [
+      "இருக்கின்றனர்",
+      4234
+     ],
+     [
+      "கூறினர்",
+      3375
+     ],
+     [
+      "தொடங்கினர்",
+      3025
+     ],
+     [
+      "என்றனர்",
+      2998
+     ],
+     [
+      "அளித்தனர்",
+      2649
+     ]
+    ],
+    "AHRINAI": [
+     [
+      "உள்ளன",
+      72813
+     ],
+     [
+      "இருக்கின்றன",
+      14221
+     ],
+     [
+      "இருந்தன",
+      13068
+     ],
+     [
+      "வந்தன",
+      5032
+     ],
+     [
+      "தெரிவிக்கின்றன",
+      4940
+     ],
+     [
+      "செய்கின்றன",
+      3171
+     ],
+     [
+      "விட்டன",
+      3040
+     ],
+     [
+      "செய்யப்பட்டன",
+      2994
+     ],
+     [
+      "கூறுகின்றன",
+      2758
+     ],
+     [
+      "செய்யப்படுகின்றன",
+      2589
+     ],
+     [
+      "கிடைக்கின்றன",
+      2495
+     ],
+     [
+      "பெற்றன",
+      2293
+     ]
+    ]
+   }
+  }
+ ],
+ "register": {
+  "forms": [
+   "நீ",
+   "நீங்கள்",
+   "தாங்கள்",
+   "உன்",
+   "உங்கள்",
+   "தங்கள்"
+  ],
+  "density_per_million": [
+   {
+    "corpus": "tawiki",
+    "d": {
+     "நீ": 67.111,
+     "நீங்கள்": 46.711,
+     "தாங்கள்": 41.068,
+     "உன்": 34.056,
+     "உங்கள்": 30.517,
+     "தங்கள்": 388.244
+    }
+   },
+   {
+    "corpus": "sangraha",
+    "d": {
+     "நீ": 418.459,
+     "நீங்கள்": 1203.958,
+     "தாங்கள்": 108.942,
+     "உன்": 191.343,
+     "உங்கள்": 815.864,
+     "தங்கள்": 474.861
+    }
+   },
+   {
+    "corpus": "cc100",
+    "d": {
+     "நீ": 977.929,
+     "நீங்கள்": 1478.291,
+     "தாங்கள்": 130.923,
+     "உன்": 559.453,
+     "உங்கள்": 1687.509,
+     "தங்கள்": 493.058
+    }
+   },
+   {
+    "corpus": "sangraha_speech",
+    "d": {
+     "நீ": 1632.986,
+     "நீங்கள்": 14355.972,
+     "தாங்கள்": 16.687,
+     "உன்": 619.819,
+     "உங்கள்": 2700.982,
+     "தங்கள்": 274.151
+    }
+   },
+   {
+    "corpus": "opensubs",
+    "d": {
+     "நீ": 9091.847,
+     "நீங்கள்": 23031.696,
+     "தாங்கள்": 0.0,
+     "உன்": 1694.591,
+     "உங்கள்": 5658.459,
+     "தங்கள்": 338.918
+    }
+   },
+   {
+    "corpus": "ud_mwtt",
+    "d": {
+     "நீ": 3528.226,
+     "நீங்கள்": 2520.161,
+     "தாங்கள்": 0.0,
+     "உன்": 1008.065,
+     "உங்கள்": 504.032,
+     "தங்கள்": 0.0
+    }
+   },
+   {
+    "corpus": "irumozhi",
+    "d": {
+     "நீ": 0.0,
+     "நீங்கள்": 458.505,
+     "தாங்கள்": 0.0,
+     "உன்": 458.505,
+     "உங்கள்": 0.0,
+     "தங்கள்": 0.0
+    }
+   }
+  ],
+  "narrative": "Prasanna & Arora (IruMozhi, Findings of NAACL 2024) find Spoken Tamil substantially under-represented in NLP corpora. Tamil Wikipedia is overwhelmingly Literary Tamil, and a Literary corpus is also a corpus in which almost nobody is *addressed*. The table below is that confound made numeric: second-person pronoun density per million tokens. A formal or deferential skew in an honorificity prior estimated on Wikipedia may be a property of encyclopaedic register, not of Tamil."
+ },
+ "thangal": {
+  "brackets": [
+   {
+    "corpus": "tawiki",
+    "form": "தாங்கள்",
+    "n_sentences_scanned": 1207,
+    "n_with_2p_cue": 60,
+    "rate": 0.04971002485501243,
+    "ci": [
+     0.03881346292216728,
+     0.0634637244986452
+    ],
+    "examples_2p": [
+     "6 சூன் 2023 அன்று பி பி சி இந்தியா, தாங்கள் ரூபாய் 40 கோடியை வருமான வரி கணக்கில் குறைத்துக் காட்டியதாக மின்னஞ்சல் மூலம் வருமான வரித் துறைக்கு தகவல் தெரிவித்தனர்",
+     "முன்னிலை : நீ, நீர், தாங்கள்",
+     "முன்னிலை பன்மை : நீர், தாங்கள்",
+     "பரவலாக செருமானியர்கள் தாங்கள் \"வெர்சாய் திணிப்பு\" என்று அழைத்த நிகழ்வு மூலம் நியாயமற்ற முறையில் நடத்தப்பட்டதாக எண்ணினர்",
+     "அவர்கள் கிறிஸ்தவ நம்பிக்கையில் உறுதியாய் நில்லாமல் மீண்டும் யூதச் சமயத்திற்குத் திரும்ப நினைத்தார்கள்; தாங்கள் பெற்றுக் கொண்ட நற்செய்தியை யூதமயமாக்க விரும்பினார்கள் (கலா 2:14"
+    ],
+    "examples_refl": [
+     "ஆனால், இதற்கு மாற்று உதவியாக, எஞ்சியிருக்கும் தபால்தலைகளை சேகரிப்பாளர்களுக்கு விற்கும் உரிமையைத் தாங்கள் பெற்றுக்கொண்டன",
+     "காலத்துக்குக் காலம் தாங்கள் சிந்துவெளி எழுத்துக்களை வாசித்துவிட்டதாகக் கூறுபவர்களும் இருக்கின்றனர் எனினும், இவையெதுவும் ஏற்றுக்கொள்ளப்பட்டதாகத் தெரியவில்லை",
+     "தாங்கள் காட்டத் தவறிய இதுபோன்ற முனைவால், லால்பகதூர் சாஸ்திரியும், பிற மூத்த அமைச்சர்களும் வியப்படைந்தார்கள்",
+     "குறோபெர் என்பாரும் கிளைட் குளுக்ஹோனும் பண்பாடு என்பதற்குக் கூறப்படும் 200க்கு மேற்பட்ட வரைவிலக்கணங்களைத் தாங்கள் எழுதிய 'பண்பாடுஃ எண்ணக் கருக்களும் வரைவிலக்கணங்களும், ஒரு விமர்சன மீள்பார்வை (Culture: A Critical Review of Concepts and Definitions) என்னும் நூலில் பட்டியலிட்டுள்ளார்கள்",
+     "பின்னர் ஒல்லாந்தர் இதனைத் தாங்கள் சார்ந்த புரட்டஸ்தாந்த கிறிஸ்தவ தேவாலயமாக மாற்றினார்கள்"
+    ]
+   },
+   {
+    "corpus": "sangraha",
+    "form": "தாங்கள்",
+    "n_sentences_scanned": 2767,
+    "n_with_2p_cue": 325,
+    "rate": 0.117455728225515,
+    "ci": [
+     0.10598633286851677,
+     0.1299858324602702
+    ],
+    "examples_2p": [
+     "மதுரையில் எய்ம்ஸ் மருத்துவமனை அமைப்பதற்கான முக்கிய கட்டத்தை எட்டியிருப்பதை தாங்கள் நன்கு அறிவீர்கள்",
+     "தாங்கள் கூறுவது யாதானாலும் நாங்கள் செய்யத் தயாராய் இருக்கின்றோம்\" என்று தழுதழுத்த குரலிற் கூறினர்",
+     "ஆன்மாவானது யாண்டும் பரி பூர்ணமாமாயின், ஹிருதய தேசத்தின்கண் ஆன்மாவின் திதியை முன்னர் தாங்கள் எதன்பொ ருட்டுக் கூறினீர்கள்",
+     "அங் கிருந்து உணவுக் குழாய், இரைப்பை ஆகியவற்றை அடைந்து தாங்கள் குடியிருக்கும் சிறுகுடலை அடை கின்றன",
+     "தாங்கள் முதலில் முருகற்கு வழிபாடியற் றிப் பூசனை புரியுங்கள்"
+    ],
+    "examples_refl": [
+     "நிதித் தொழில்நுட்பத் திறனாளர்களை வேலைக்குச் சேர்ப்பதில் தாங்கள் சிரமத்தை எதிர்நோக்குவதாக 64 விழுக்காடு முதலாளிகள் தெரிவித்துள்ளனர்",
+     "குறிப்பாக, கடந்த 12 மாதங்களில் தாங்கள் வேறு வேலைக்கு மாறிவிட்டதாக ஆய்வில் பங்கெடுத்த 37 விழுக்காடு நிதித் தொழில்நுட்ப நிபுணர்கள் கூறினர்",
+     "வேலையில் புதிய பொறுப்பை ஏற்கும்போது 12 முதல் 15 விழுக்காடு வரை சம்பள உயர்வு கிடைப்பதைத் தாங்கள் எதிர்பார்ப்பதாக 21 விழுக்காடு நிதித் தொழில்நுட்பத் திறனாளர்கள் கருத்துரைத்தனர்",
+     "என்னும் பதம் மூலமொழியில் இல்லாதபோதிலும், மூல மொழியின் சரியான அர்த்தத்தை தருவதற்காக இப்பதத்தை தாங்கள் சேர்த்துள்ளதாக இவர்கள் கூறினாலும் இவர்கள் மூலமொழியின் சரியான அர்த்தத்தைத் தருவதற்குப் பதிலாக, தங்களது உபதேசத் தினையே வேதத்திற்குள் புகுத்தி யுள்ளனர்",
+     "அவசர காலத்தில் நிர்வாகத்திற்கு உதவவும், பல்வேறு திட்டங்களை செயல்படுத்தவும் தாங்கள் அழைக்கப்படலாம்"
+    ]
+   },
+   {
+    "corpus": "sangraha_speech",
+    "form": "தாங்கள்",
+    "n_sentences_scanned": 7,
+    "n_with_2p_cue": 1,
+    "rate": 0.14285714285714285,
+    "ci": [
+     0.025679624344743555,
+     0.5131278292743189
+    ],
+    "examples_2p": [
+     "இங்கே வந்த பிறகு, நான் உணர்ந்ததைப் போல் இருந்தது, உண்மையில் நான் நினைத்ததை சரியாகச் சொன்னேன், ஆமாம், நிறைய இருக்கிறது, அதாவது தாங்கள் செய்யப்போகும் விஷயங்கள் என்ன மாற்றத்தை ஏற்படுத்தியுள்ளது என்றும் முன்னோக்கு உண்மையில் நீங்கள் அறிந்திருக்க வேண்டும்"
+    ],
+    "examples_refl": [
+     "அணுகமுடியாதவர்களாக அல்லது ஏதாவது ஒரு காரணத்தினால் தங்கள் வேலைகளைச் சிறப்பாகச் செய்ய முடியாத காரணத்தினால் தாங்கள் குறைத்து மதிப்பிடப்பட்டாக உணருகிறார்கள்",
+     "மெட்டா அறிவாற்றல் திறன்கள் மாணவர்கள் தாங்கள் கற்றவற்றை ஒரு சூழலில் இருந்து அடுத்த சூழலுக்கு அல்லது ஒரு பணியிலிருந்து புதிய பணிக்கு மாற்ற உதவுகின்றன",
+     "அவர்களுக்கு என்ன புரிகிறது என்றால் பதிலளிப்பவரின் வாழ்க்கை, ஒவ்வொருவரின் பிரதிபலிப்பாளர்களோ அல்லது அவர்களது குழுவின் அங்கத்தினர்களோ, அவர்கள் தாங்கள் படிக்கக்கூடியவர்களுடனான கூட்டமாகவே செல்கிறார்கள்",
+     "எனவே நாம் பெண்கள் தாங்கள் பேசும்போது மிகவும் உணர்ச்சிகரமானவர்கள் என்று நினைக்கின்றோம்",
+     "எனவே முதலாளி தாங்கள் பேரம் பேசுவதை எதிர்க்க முடியும் என்று அவர்கள் நினைக்கிறார்கள்"
+    ]
+   },
+   {
+    "corpus": "opensubs",
+    "form": "தாங்கள்",
+    "n_sentences_scanned": 0,
+    "n_with_2p_cue": 0,
+    "rate": NaN,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "examples_2p": [],
+    "examples_refl": []
+   },
+   {
+    "corpus": "ud_mwtt",
+    "form": "தாங்கள்",
+    "n_sentences_scanned": 0,
+    "n_with_2p_cue": 0,
+    "rate": NaN,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "examples_2p": [],
+    "examples_refl": []
+   },
+   {
+    "corpus": "irumozhi",
+    "form": "தாங்கள்",
+    "n_sentences_scanned": 0,
+    "n_with_2p_cue": 0,
+    "rate": NaN,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "examples_2p": [],
+    "examples_refl": []
+   }
+  ],
+  "narrative": "தாங்கள் is 2nd-person DEFERENTIAL *or* 3rd-person REFLEXIVE ('they themselves'), and ThamizhiMorph analyses it only as `+pron+3pl+refl+nom` — the analyser has no deferential reading at all, so the FST cannot bracket this and a corpus heuristic must. A தாங்கள் token is scored as address if the sentence also contains a 2nd-person pronoun or a 2nd-person finite verb suffix. Pro-drop makes this a LOWER bound on the address reading."
+ },
+ "honorificity_corrected": {
+  "rows": [
+   {
+    "corpus": "tawiki",
+    "address_rate_applied": 0.04971002485501243,
+    "raw": {
+     "FAMILIAR": 0.43328303513688293,
+     "POLITE": 0.30157361500323343,
+     "DEFERENTIAL": 0.2651433498598836
+    },
+    "corrected": {
+     "FAMILIAR": 0.5792267951274728,
+     "POLITE": 0.4031533763101166,
+     "DEFERENTIAL": 0.0176198285624106
+    },
+    "deferential_raw_n": 1230,
+    "deferential_corrected_n": 61.1
+   },
+   {
+    "corpus": "sangraha",
+    "address_rate_applied": 0.117455728225515,
+    "raw": {
+     "FAMILIAR": 0.24169400004462593,
+     "POLITE": 0.6953834482450856,
+     "DEFERENTIAL": 0.0629225517102885
+    },
+    "corrected": {
+     "FAMILIAR": 0.2559048946818357,
+     "POLITE": 0.7362699448633132,
+     "DEFERENTIAL": 0.007825160454851092
+    },
+    "deferential_raw_n": 2820,
+    "deferential_corrected_n": 331.2
+   }
+  ],
+  "narrative": "Scaling the raw DEFERENTIAL count by the measured 2nd-person address rate. This is a FIRST-ORDER correction and it is stated as such: it assumes the sentence-level address rate transfers to tokens, and the address rate is itself a lower bound because pro-drop hides the cue. It is shown because the uncorrected number is not merely imprecise but wrong by roughly an order of magnitude, and a reader who sees only the raw table would conclude that a quarter of Tamil Wikipedia's second-person address is deferential."
+ },
+ "recommendation": {
+  "statement": "**Anchor the DFR prior on a three-corpus pool — Tamil Wikipedia + AI4Bharat Sangraha (verified Tamil) + CC-100 Tamil — and report it as a RANGE across those corpora, never as a single point estimate. Licence the claim per slot: clusivity and the scarcity of feminine agreement are robust enough to headline; rationality and the masculine/epicene split must be run at both ends of the between-corpus range; the honorificity prior is NOT reportable from corpus counts alone and is blocked on the 300-sentence human bracket.**",
+  "bullets": [
+   "**No single corpus.** Every slot trips the fragility criterion. Measured, not asserted: the between-corpus range is 1.2× to 22.5× the widest within-corpus cluster-bootstrap interval, and max pairwise TVD runs 0.14 (clusivity) to 0.60 (honorificity). This matched the prediction made before the counts were run. The sentence that belongs in the paper is: *the dominant uncertainty in the prior is which corpus you choose, not how many tokens you count.*",
+   "**Wikipedia's role is attestation, not arbitration.** It is the one large corpus whose licence (CC BY-SA 4.0) lets us quote sentences, so it backs the KWIC concordance for curation and for naturalness grounding. As a frequency anchor it is the most register-skewed of the three, and on the honorificity and gender slots it is the outlier.",
+   "**Slot-by-slot licensing.** *Clusivity*: நாம் (inclusive) is the majority form in all three corpora; the direction is corpus-invariant even though the magnitude moves ~14 points (63.7–77.9%). Report with the range. *Gender*: the feminine rate is low in every corpus (3.0–12.2%), a robust and paper-worthy finding, but EPICENE moves 90.0%→65.5% and MASC 7.0%→22.3% between Wikipedia and CC-100 — run DFR at both ends and say so if the sign flips. *Rationality*: uyartiṇai spans 34.5–69.6%, so the range straddles the midpoint and a DFR sign CAN flip inside it; report `strict_anar` (40.6% pooled) beside `suffix_bound` (59.0%) — the 18-point gap is the -ஆர்கள் honorific-singular reading (D-2) on its own. *Honorificity*: see below.",
+   "**The honorificity prior is blocked, and that is the honest answer.** Three independent problems stack: (i) நீங்கள் is honorific-singular OR plain-plural and nothing in the token decides, so a point estimate would need a human split; (ii) தாங்கள் is syncretic with the 3rd-person reflexive and ThamizhiMorph has no deferential reading for it at all — MEASURED, only 5.0% [3.9, 6.3] of Tamil-Wikipedia தாங்கள் sentences carry ANY 2nd-person cue, so the apparent 26.5% deferential rate falls to ~1.8% once corrected, a 15× error; (iii) verb-borne 2nd-person forms are rare in written Tamil — 2,090 tokens in 30M for Wikipedia. `data/corpus/hon-bracket-sample.jsonl` is a 300-sentence annotation sample for that split; the prior should be published only after it is labelled.",
+   "**Tier-1 priors are still the stronger claim and are NOT done here.** For the IndicTrans2 arm the training data (BPCC) is public and the prior should be computed on it — that is the version of the claim that says 'this model's output rate matches this model's training rate'. Samanantar was rejected on purpose: it is CC BY-NC (release-blocked like TTB) and its Tamil side is translated from English, so its slot distribution reflects translator defaults — the very phenomenon under test. Using it as the anchor would be circular.",
+   "**Say the proxy gap out loud.** Gemma, Qwen and Llama do not disclose their pretraining mixture. Wikipedia, Sangraha and CC-100 are proxies for it. For the LLM arm the honest wording of the DFR result is *'the output rate deviates from general Tamil text frequency'*, which is weaker than *'deviates from its own training frequency'*. Do not let the two sentences be interchanged in the paper."
+  ]
+ },
+ "limits": [
+  "**Sampling.** Sangraha is 2 of 53 verified-Tamil shards (~4%) with every 3rd document kept; CC-100 is every 8th document of the full 1.38 GB xz. Sampling is systematic over documents, never a prefix, because both files are ordered by crawl/page id and that correlates with topic. Tamil Wikipedia is complete.",
+  "**OPUS OpenSubtitles Tamil is encoding-damaged and was excluded.** Measured vowel-sign/consonant ratio 0.014 against 0.432 for Wikipedia: a legacy TSCII→Unicode conversion has dropped the combining vowel signs. 11,260 of 12,190 pseudo-documents (92.4%) fail the quality gate. This matters more than ordinary noise, because the deleted signs ARE the slot contrasts — -ஆன்/-ஆள்/-ஆர் collapse toward -அன்/-அள்/-அர். The 113 surviving documents are reported but are far too small to carry a prior.",
+  "**IruMozhi cannot supply the Literary/Spoken prior split the study needed.** Its Literary side is Tamil script but both Spoken columns are ROMANISED, so no Tamil-script token count is possible from it. Sangraha's `speech` slice (transcribed audio, 1,228 documents / 419k tokens) is the substitute register control.",
+  "**Not obtained: OSCAR 23.01** (HF `gated: manual`, needs human approval), **CulturaX** (HF `gated: auto`, needs an authenticated token; none was available on the analysis machine), **mC4 Tamil** (ungated but ~100 GB and shares Common Crawl provenance with CC-100, so it buys volume not independence), **IndicCorp v2** (ungated but superseded by Sangraha from the same lab, with a clearer licence).",
+  "**The counting rule still admits lexical homographs.** The FST decides verb-hood and finiteness and a PNG label must be BOUND to the matching surface suffix, which removes the guesser's hallucinated nouns (பாக்கித்தான், சுல்தான்) and, via the noun-lexicon veto, கால்வாய் and ஆண்டாள். What survives is genuine ambiguity no morphology can resolve — வருவாய் is both 'you will come' and the noun 'revenue'. The `surface_only` variant bounds how much the gate is doing; the top-forms table shows exactly what is being counted.",
+  "**The verb-borne honorificity slot is under-powered in written Tamil.** After the noun veto, Tamil Wikipedia has ~1.5k 2nd-person finite verb tokens in 30M — encyclopaedic prose addresses nobody. Any DFR on this slot rests on Sangraha and CC-100, not on Wikipedia.",
+  "**The pooled interval is the UNION of per-corpus intervals**, not a bootstrap over the merged document set. Unioning can only widen, which is the safe direction when the corpora are not a random sample of 'Tamil'.",
+  "**Design effects are large** (DEFF up to ~23 on the small corpora, ~5–20 on the large ones). That is why the intervals are wide, and it is the correct behaviour: forms clump by document.",
+  "**UD_Tamil-TTB was deliberately not indexed.** CC BY-NC-SA 3.0; DECISIONS D-4 excludes it from the release, and an index file on disk is one `git add` from a licence violation. UD_Tamil-MWTT (CC BY-SA 4.0) serves the sanity-check role — and at 1,984 tokens it is a sanity check, not a frequency source."
+ ]
+}

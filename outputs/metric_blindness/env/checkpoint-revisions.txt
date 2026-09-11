@@ -1,0 +1,5 @@
+Unbabel--wmt22-comet-da 2760a223ac957f30acfb18c8aa649b01cf1d75f2
+Unbabel--wmt22-cometkiwi-da 1ad785194e391eebc6c53e2d0776cada8f83179a
+Unbabel--XCOMET-XL 6a123c5e8e6dccab25e5fcffa3c8b417abadb462
+google--metricx-24-hybrid-xl-v2p6 f6e7f99a655582f28cb998dd3e6ca86b4217430d
+google--mt5-xl 63fc6450d80515b48e026b69ef2fbbd426433e84

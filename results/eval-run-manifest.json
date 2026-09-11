@@ -1,0 +1,2827 @@
+{
+ "generated_utc": "2026-09-09T20:18:36.518978+00:00",
+ "what_this_is": "Consolidated provenance for every generation run feeding results/eval-results.*. `revision` is the HF commit SHA READ BACK from the snapshot actually loaded, not the one requested.",
+ "gpu_box": "NVIDIA GB10, 130 GB unified, aarch64, Ubuntu 24.04, Python 3.12.3",
+ "remote_paths": {
+  "raw": "outputs/raw/{model}/{slot}_{condition}_{prompt}.jsonl",
+  "scored": "outputs/scored/{model}/...",
+  "reports": "outputs/run_manifests/"
+ },
+ "scoring_machine": "local (hfst/foma have no aarch64 wheel)",
+ "n_runs": 37,
+ "runs": [
+  {
+   "run_id": "20260808T052548Z-0c6d23",
+   "system_id": "gemma3-12b",
+   "hf_name": "google/gemma-3-12b-it",
+   "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:28:24.947018+00:00",
+   "updated_utc": "2026-08-08T05:28:48.895587+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-12b"
+  },
+  {
+   "run_id": "20260808T014329Z-146edb",
+   "system_id": "gemma3-12b",
+   "hf_name": "google/gemma-3-12b-it",
+   "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 36,
+    "think_leak": 0,
+    "low_tamil": 28,
+    "empty": 0,
+    "clean_ops": {
+     "strip_trailing_transliteration": 36
+    }
+   },
+   "started_utc": "2026-08-08T01:48:24.962467+00:00",
+   "updated_utc": "2026-08-08T01:53:08.333843+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-12b"
+  },
+  {
+   "run_id": "20260808T015315Z-c31dfa",
+   "system_id": "gemma3-12b",
+   "hf_name": "google/gemma-3-12b-it",
+   "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 6,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T01:57:06.171135+00:00",
+   "updated_utc": "2026-08-08T02:00:05.218437+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-12b"
+  },
+  {
+   "run_id": "20260808T051940Z-3c21f7",
+   "system_id": "gemma3-1b",
+   "hf_name": "google/gemma-3-1b-it",
+   "revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+   "model_class": "Gemma3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 13,
+    "think_leak": 0,
+    "low_tamil": 13,
+    "empty": 0,
+    "clean_ops": {
+     "strip_trailing_transliteration": 13
+    }
+   },
+   "started_utc": "2026-08-08T05:19:57.373876+00:00",
+   "updated_utc": "2026-08-08T05:20:02.119338+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-1b"
+  },
+  {
+   "run_id": "20260808T002431Z-fffb43",
+   "system_id": "gemma3-1b",
+   "hf_name": "google/gemma-3-1b-it",
+   "revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+   "model_class": "Gemma3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 132,
+    "think_leak": 0,
+    "low_tamil": 407,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 82,
+     "strip_trailing_transliteration": 57,
+     "take_labelled_translation_line": 4,
+     "strip_explanation_tail": 2
+    }
+   },
+   "started_utc": "2026-08-08T00:24:53.672215+00:00",
+   "updated_utc": "2026-08-08T00:28:02.834887+00:00",
+   "models_config_sha256": "a6b15e181d6f485ea7f48ab3a43ef01f7bc8ad3425152f7d727b870762f2a5d3",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "61f8e05b08a7ad7e1e21451bd783ce93eeed1711ca6ab702d0491895ede5aecc",
+   "out_dir": "outputs/raw/gemma3-1b"
+  },
+  {
+   "run_id": "20260808T002805Z-f4f8fe",
+   "system_id": "gemma3-1b",
+   "hf_name": "google/gemma-3-1b-it",
+   "revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+   "model_class": "Gemma3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 22,
+    "think_leak": 0,
+    "low_tamil": 137,
+    "empty": 0,
+    "clean_ops": {
+     "strip_trailing_transliteration": 1,
+     "strip_explanation_tail": 1,
+     "take_first_tamil_line": 20
+    }
+   },
+   "started_utc": "2026-08-08T00:28:27.784106+00:00",
+   "updated_utc": "2026-08-08T00:30:15.716387+00:00",
+   "models_config_sha256": "a6b15e181d6f485ea7f48ab3a43ef01f7bc8ad3425152f7d727b870762f2a5d3",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "61f8e05b08a7ad7e1e21451bd783ce93eeed1711ca6ab702d0491895ede5aecc",
+   "out_dir": "outputs/raw/gemma3-1b"
+  },
+  {
+   "run_id": "20260808T053652Z-b6122e",
+   "system_id": "gemma3-27b",
+   "hf_name": "google/gemma-3-27b-it",
+   "revision": "005ad3404e59d6023443cb575daa05336842228a",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:40:48.453037+00:00",
+   "updated_utc": "2026-08-08T05:41:38.346008+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-27b"
+  },
+  {
+   "run_id": "20260808T031830Z-3407b3",
+   "system_id": "gemma3-27b",
+   "hf_name": "google/gemma-3-27b-it",
+   "revision": "005ad3404e59d6023443cb575daa05336842228a",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 145,
+    "think_leak": 0,
+    "low_tamil": 43,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 28,
+     "strip_trailing_transliteration": 122,
+     "strip_explanation_tail": 26
+    }
+   },
+   "started_utc": "2026-08-08T03:23:59.754220+00:00",
+   "updated_utc": "2026-08-08T03:47:20.639133+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-27b"
+  },
+  {
+   "run_id": "20260808T034735Z-42cf6c",
+   "system_id": "gemma3-27b",
+   "hf_name": "google/gemma-3-27b-it",
+   "revision": "005ad3404e59d6023443cb575daa05336842228a",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 2,
+    "think_leak": 0,
+    "low_tamil": 11,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 2
+    }
+   },
+   "started_utc": "2026-08-08T03:53:12.460591+00:00",
+   "updated_utc": "2026-08-08T04:00:16.238301+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-27b"
+  },
+  {
+   "run_id": "20260808T052101Z-0a021e",
+   "system_id": "gemma3-4b",
+   "hf_name": "google/gemma-3-4b-it",
+   "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 39,
+    "think_leak": 0,
+    "low_tamil": 9,
+    "empty": 0,
+    "clean_ops": {
+     "strip_trailing_transliteration": 39
+    }
+   },
+   "started_utc": "2026-08-08T05:21:53.955203+00:00",
+   "updated_utc": "2026-08-08T05:22:09.234776+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-4b"
+  },
+  {
+   "run_id": "20260808T003035Z-98edd9",
+   "system_id": "gemma3-4b",
+   "hf_name": "google/gemma-3-4b-it",
+   "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 1155,
+    "think_leak": 0,
+    "low_tamil": 90,
+    "empty": 0,
+    "clean_ops": {
+     "strip_trailing_transliteration": 1100,
+     "strip_explanation_tail": 14,
+     "take_first_tamil_line": 60
+    }
+   },
+   "started_utc": "2026-08-08T00:31:43.420168+00:00",
+   "updated_utc": "2026-08-08T00:40:25.327930+00:00",
+   "models_config_sha256": "a6b15e181d6f485ea7f48ab3a43ef01f7bc8ad3425152f7d727b870762f2a5d3",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "61f8e05b08a7ad7e1e21451bd783ce93eeed1711ca6ab702d0491895ede5aecc",
+   "out_dir": "outputs/raw/gemma3-4b"
+  },
+  {
+   "run_id": "20260808T004028Z-a9ef19",
+   "system_id": "gemma3-4b",
+   "hf_name": "google/gemma-3-4b-it",
+   "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 58,
+    "think_leak": 0,
+    "low_tamil": 52,
+    "empty": 0,
+    "clean_ops": {
+     "strip_trailing_transliteration": 55,
+     "take_first_tamil_line": 3
+    }
+   },
+   "started_utc": "2026-08-08T00:41:34.118619+00:00",
+   "updated_utc": "2026-08-08T00:45:54.154063+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3-4b"
+  },
+  {
+   "run_id": "20260808T052003Z-703e22",
+   "system_id": "gemma3n-e2b",
+   "hf_name": "google/gemma-3n-E2B-it",
+   "revision": "5e092ebca197cdcd8d8b195040accf22693501bc",
+   "model_class": "Gemma3nForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 6,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:20:52.041029+00:00",
+   "updated_utc": "2026-08-08T05:20:59.789997+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3n-e2b"
+  },
+  {
+   "run_id": "20260808T050635Z-01fdb4",
+   "system_id": "gemma3n-e2b",
+   "hf_name": "google/gemma-3n-E2B-it",
+   "revision": "5e092ebca197cdcd8d8b195040accf22693501bc",
+   "model_class": "Gemma3nForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 77,
+    "think_leak": 0,
+    "low_tamil": 173,
+    "empty": 0,
+    "clean_ops": {
+     "strip_explanation_tail": 42,
+     "take_first_tamil_line": 70,
+     "strip_trailing_transliteration": 10
+    }
+   },
+   "started_utc": "2026-08-08T05:07:31.098693+00:00",
+   "updated_utc": "2026-08-08T05:10:11.120226+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3n-e2b"
+  },
+  {
+   "run_id": "20260808T051012Z-7688a8",
+   "system_id": "gemma3n-e2b",
+   "hf_name": "google/gemma-3n-E2B-it",
+   "revision": "5e092ebca197cdcd8d8b195040accf22693501bc",
+   "model_class": "Gemma3nForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 69,
+    "think_leak": 0,
+    "low_tamil": 62,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 55,
+     "strip_explanation_tail": 18,
+     "strip_trailing_transliteration": 1,
+     "take_labelled_translation_line": 13
+    }
+   },
+   "started_utc": "2026-08-08T05:11:03.727728+00:00",
+   "updated_utc": "2026-08-08T05:12:36.584587+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3n-e2b"
+  },
+  {
+   "run_id": "20260808T052211Z-38deac",
+   "system_id": "gemma3n-e4b",
+   "hf_name": "google/gemma-3n-E4B-it",
+   "revision": "c1221e9c62e34a43ab7ffacd1be0ea71f126ef10",
+   "model_class": "Gemma3nForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 3,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:23:05.198554+00:00",
+   "updated_utc": "2026-08-08T05:23:18.054791+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3n-e4b"
+  },
+  {
+   "run_id": "20260808T051238Z-f29656",
+   "system_id": "gemma3n-e4b",
+   "hf_name": "google/gemma-3n-E4B-it",
+   "revision": "c1221e9c62e34a43ab7ffacd1be0ea71f126ef10",
+   "model_class": "Gemma3nForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 0,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:13:58.580954+00:00",
+   "updated_utc": "2026-08-08T05:13:58.584030+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3n-e4b"
+  },
+  {
+   "run_id": "20260808T051400Z-dce9e9",
+   "system_id": "gemma3n-e4b",
+   "hf_name": "google/gemma-3n-E4B-it",
+   "revision": "c1221e9c62e34a43ab7ffacd1be0ea71f126ef10",
+   "model_class": "Gemma3nForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 0,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:15:14.301925+00:00",
+   "updated_utc": "2026-08-08T05:15:14.305592+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/gemma3n-e4b"
+  },
+  {
+   "run_id": "20260808T051903Z-f2ff9e",
+   "system_id": "indictrans2-1b",
+   "hf_name": "ai4bharat/indictrans2-en-indic-1B",
+   "revision": "10e65a9951a1e922cd109a95e8aba9357b62144b",
+   "model_class": "IndicTransForConditionalGeneration",
+   "backend": "indictrans2",
+   "dtype": "float16",
+   "arm": "nmt",
+   "prompt_set": "canonical",
+   "decoding_id": "nmt_greedy_control",
+   "decoding": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 256,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 32,
+   "chat_template_kwargs": {},
+   "has_chat_template": false,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "4.57.6",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 3,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:19:09.100683+00:00",
+   "updated_utc": "2026-08-08T05:19:38.476415+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw_greedy/indictrans2-1b"
+  },
+  {
+   "run_id": "20260808T051743Z-a18514",
+   "system_id": "indictrans2-1b",
+   "hf_name": "ai4bharat/indictrans2-en-indic-1B",
+   "revision": "10e65a9951a1e922cd109a95e8aba9357b62144b",
+   "model_class": "IndicTransForConditionalGeneration",
+   "backend": "indictrans2",
+   "dtype": "float16",
+   "arm": "nmt",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "num_beams": 5,
+    "length_penalty": 1.0,
+    "max_new_tokens": 256,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 32,
+   "chat_template_kwargs": {},
+   "has_chat_template": false,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "4.57.6",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 0,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:17:49.460312+00:00",
+   "updated_utc": "2026-08-08T05:17:49.463296+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/indictrans2-1b"
+  },
+  {
+   "run_id": "20260808T052850Z-222a68",
+   "system_id": "llama31-8b",
+   "hf_name": "meta-llama/Llama-3.1-8B-Instruct",
+   "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "model_class": "LlamaForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:30:30.897698+00:00",
+   "updated_utc": "2026-08-08T05:31:46.103634+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/llama31-8b"
+  },
+  {
+   "run_id": "20260808T020007Z-ef1fb4",
+   "system_id": "llama31-8b",
+   "hf_name": "meta-llama/Llama-3.1-8B-Instruct",
+   "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "model_class": "LlamaForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 15,
+    "think_leak": 0,
+    "low_tamil": 18,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 15
+    }
+   },
+   "started_utc": "2026-08-08T02:02:46.952565+00:00",
+   "updated_utc": "2026-08-08T02:17:23.252107+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/llama31-8b"
+  },
+  {
+   "run_id": "20260808T021726Z-089201",
+   "system_id": "llama31-8b",
+   "hf_name": "meta-llama/Llama-3.1-8B-Instruct",
+   "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "model_class": "LlamaForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 16,
+    "think_leak": 0,
+    "low_tamil": 5,
+    "empty": 0,
+    "clean_ops": {
+     "take_labelled_translation_line": 1,
+     "take_first_tamil_line": 15
+    }
+   },
+   "started_utc": "2026-08-08T02:19:46.276602+00:00",
+   "updated_utc": "2026-08-08T02:29:38.650374+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/llama31-8b"
+  },
+  {
+   "run_id": "20260808T051750Z-efc9ff",
+   "system_id": "nllb-3.3b",
+   "hf_name": "facebook/nllb-200-3.3B",
+   "revision": "f5eacc26f2fbcc27ba5bd7900aee356f6775321f",
+   "model_class": "M2M100ForConditionalGeneration",
+   "backend": "nllb",
+   "dtype": "float16",
+   "arm": "nmt",
+   "prompt_set": "canonical",
+   "decoding_id": "nmt_greedy_control",
+   "decoding": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 256,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 32,
+   "chat_template_kwargs": {},
+   "has_chat_template": false,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 96,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:18:01.865908+00:00",
+   "updated_utc": "2026-08-08T05:19:01.024739+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw_greedy/nllb-3.3b"
+  },
+  {
+   "run_id": "20260808T014312Z-40a50a",
+   "system_id": "nllb-3.3b",
+   "hf_name": "facebook/nllb-200-3.3B",
+   "revision": "f5eacc26f2fbcc27ba5bd7900aee356f6775321f",
+   "model_class": "M2M100ForConditionalGeneration",
+   "backend": "nllb",
+   "dtype": "float16",
+   "arm": "nmt",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "num_beams": 5,
+    "length_penalty": 1.0,
+    "max_new_tokens": 256,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": false,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 0,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T01:43:27.538605+00:00",
+   "updated_utc": "2026-08-08T01:43:27.541147+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/nllb-3.3b"
+  },
+  {
+   "run_id": "20260808T053147Z-113a79",
+   "system_id": "qwen3-14b",
+   "hf_name": "Qwen/Qwen3-14B",
+   "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 2,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:34:11.062416+00:00",
+   "updated_utc": "2026-08-08T05:35:45.948591+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-14b"
+  },
+  {
+   "run_id": "20260808T022940Z-bbca99",
+   "system_id": "qwen3-14b",
+   "hf_name": "Qwen/Qwen3-14B",
+   "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 6,
+    "think_leak": 0,
+    "low_tamil": 34,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 6
+    }
+   },
+   "started_utc": "2026-08-08T02:32:46.046392+00:00",
+   "updated_utc": "2026-08-08T02:54:21.536485+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-14b"
+  },
+  {
+   "run_id": "20260808T025431Z-9d8385",
+   "system_id": "qwen3-14b",
+   "hf_name": "Qwen/Qwen3-14B",
+   "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 3,
+    "think_leak": 0,
+    "low_tamil": 5,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 3
+    }
+   },
+   "started_utc": "2026-08-08T02:57:18.261101+00:00",
+   "updated_utc": "2026-08-08T03:10:20.916291+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-14b"
+  },
+  {
+   "run_id": "20260808T054141Z-b481f6",
+   "system_id": "qwen3-32b",
+   "hf_name": "Qwen/Qwen3-32B",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:46:52.354452+00:00",
+   "updated_utc": "2026-08-08T05:50:05.961824+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-32b"
+  },
+  {
+   "run_id": "20260808T040018Z-7d8022",
+   "system_id": "qwen3-32b",
+   "hf_name": "Qwen/Qwen3-32B",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 9,
+    "think_leak": 0,
+    "low_tamil": 10,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 9
+    }
+   },
+   "started_utc": "2026-08-08T04:07:28.317093+00:00",
+   "updated_utc": "2026-08-08T04:36:51.600342+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-32b"
+  },
+  {
+   "run_id": "20260808T043656Z-e7e5c1",
+   "system_id": "qwen3-32b",
+   "hf_name": "Qwen/Qwen3-32B",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 2,
+    "think_leak": 0,
+    "low_tamil": 3,
+    "empty": 0,
+    "clean_ops": {
+     "drop_context_labelled_line": 1,
+     "take_first_tamil_line": 2
+    }
+   },
+   "started_utc": "2026-08-08T04:42:35.663502+00:00",
+   "updated_utc": "2026-08-08T05:06:19.236328+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-32b"
+  },
+  {
+   "run_id": "20260808T052319Z-e1e7be",
+   "system_id": "qwen3-8b",
+   "hf_name": "Qwen/Qwen3-8B",
+   "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:24:53.848277+00:00",
+   "updated_utc": "2026-08-08T05:25:47.097580+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-8b"
+  },
+  {
+   "run_id": "20260808T005606Z-e587b8",
+   "system_id": "qwen3-8b",
+   "hf_name": "Qwen/Qwen3-8B",
+   "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 3,
+    "think_leak": 0,
+    "low_tamil": 7,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 3
+    }
+   },
+   "started_utc": "2026-08-08T00:57:50.772394+00:00",
+   "updated_utc": "2026-08-08T01:20:47.607589+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-8b"
+  },
+  {
+   "run_id": "20260808T012051Z-4d62dc",
+   "system_id": "qwen3-8b",
+   "hf_name": "Qwen/Qwen3-8B",
+   "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+   "model_class": "Qwen3ForCausalLM",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 3,
+    "think_leak": 0,
+    "low_tamil": 5,
+    "empty": 0,
+    "clean_ops": {
+     "strip_label_prefix": 1,
+     "take_labelled_translation_line": 2
+    }
+   },
+   "started_utc": "2026-08-08T01:22:42.618989+00:00",
+   "updated_utc": "2026-08-08T01:39:48.883884+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/qwen3-8b"
+  },
+  {
+   "run_id": "20260808T053547Z-5718fd",
+   "system_id": "sarvam-translate",
+   "hf_name": "sarvamai/sarvam-translate",
+   "revision": "e0a7a6bc21665b568c0c624986d422f6d7f58326",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "c0_explicit",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 16,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 154,
+    "cleaned": 0,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {}
+   },
+   "started_utc": "2026-08-08T05:36:41.583130+00:00",
+   "updated_utc": "2026-08-08T05:36:50.703083+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/sarvam-translate"
+  },
+  {
+   "run_id": "20260808T031027Z-6f57fc",
+   "system_id": "sarvam-translate",
+   "hf_name": "sarvamai/sarvam-translate",
+   "revision": "e0a7a6bc21665b568c0c624986d422f6d7f58326",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "canonical",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 2873,
+    "cleaned": 1021,
+    "think_leak": 0,
+    "low_tamil": 3,
+    "empty": 0,
+    "clean_ops": {
+     "take_labelled_translation_line": 1013,
+     "drop_context_labelled_line": 8,
+     "take_first_tamil_line": 8
+    }
+   },
+   "started_utc": "2026-08-08T03:11:35.784432+00:00",
+   "updated_utc": "2026-08-08T03:14:11.996469+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/sarvam-translate"
+  },
+  {
+   "run_id": "20260808T031418Z-44fc67",
+   "system_id": "sarvam-translate",
+   "hf_name": "sarvamai/sarvam-translate",
+   "revision": "e0a7a6bc21665b568c0c624986d422f6d7f58326",
+   "model_class": "Gemma3ForConditionalGeneration",
+   "backend": "causal_lm",
+   "dtype": "bfloat16",
+   "arm": "llm",
+   "prompt_set": "robustness",
+   "decoding_id": "main",
+   "decoding": {
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "seed": 20260807
+   },
+   "split": "public",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "canonical_prompt_per_condition": {
+    "C0": "P0_specified",
+    "C1": "P1_minimal",
+    "C2": "P4_context",
+    "C3": "P1_minimal"
+   },
+   "robustness_prompts_per_condition": {
+    "C1": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C3": [
+     "P1_minimal",
+     "P2_persona",
+     "P3_fewshot"
+    ],
+    "C2": [
+     "P4_context",
+     "P1_context",
+     "P2_context",
+     "P3_context"
+    ]
+   },
+   "batch_size": 64,
+   "chat_template_kwargs": {},
+   "has_chat_template": true,
+   "status": "complete",
+   "torch": "2.10.0+cu130",
+   "transformers": "5.12.1",
+   "python": "3.12.3",
+   "hygiene": {
+    "n": 1400,
+    "cleaned": 503,
+    "think_leak": 0,
+    "low_tamil": 0,
+    "empty": 0,
+    "clean_ops": {
+     "take_first_tamil_line": 111,
+     "take_labelled_translation_line": 392
+    }
+   },
+   "started_utc": "2026-08-08T03:15:32.629915+00:00",
+   "updated_utc": "2026-08-08T03:18:27.129873+00:00",
+   "models_config_sha256": "c45c446e9ba947a2c5082674cd0bc435ae66fb806b7d709e5b35e71c18bdef45",
+   "prompts_config_sha256": "430fa3232f48960f0520d5e635128ec9240f2d41c30fd2a3691395c8c66fdbb3",
+   "decoding_config_sha256": "86af484c5a10d38c3bc703042d6888b9f17961ee6384d4430adc059dab77c711",
+   "items_sha256": "4383cd08762c7afa3b9b51c0545108f0710af71ace8ff05048fdac3a57039e36",
+   "code_sha256": "c1248f7a62810ec153dfbfbb6ca61a9c39a418632be99b62c437588607dff433",
+   "out_dir": "outputs/raw/sarvam-translate"
+  }
+ ]
+}

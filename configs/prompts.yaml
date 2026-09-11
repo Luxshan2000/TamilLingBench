@@ -1,0 +1,130 @@
+# Prompt variants — plan 07 §3a. Rendered with str.format_map; the literal text below is
+# hashed into the run manifest so a prompt edit cannot pass unnoticed.
+#
+# Placeholders: {source}, {source_context}, {c0_instruction}
+#
+# `role_system` is folded into the first user turn for models with supports_system: false.
+
+P1_minimal:
+  applies_to: [C1, C3]
+  system: null
+  user: |-
+    Translate the following English sentence into Tamil. Output only the Tamil translation.
+
+    {source}
+
+P2_persona:
+  applies_to: [C1, C3]
+  system: |-
+    You are a professional English-to-Tamil translator. You produce fluent, natural Tamil.
+  user: |-
+    Translate into Tamil. Reply with the translation and nothing else.
+
+    {source}
+
+# ⚠ The three exemplars are SLOT-FREE by construction and were re-checked with the plan-03
+# analyser: no 2nd-person form, no 1PL pronoun, no 3PL finite verb, no gendered finite verb.
+# See scripts/eval/check_exemplars.py — it is run as part of the pilot and its verdict is
+# written to the run manifest.
+P3_fewshot:
+  applies_to: [C1, C3]
+  system: null
+  user: |-
+    Translate English to Tamil. Output only the translation.
+
+    English: The train arrives at six o'clock.
+    Tamil: ரயில் ஆறு மணிக்கு வந்து சேரும்.
+
+    English: The rain stopped in the afternoon.
+    Tamil: மதியம் மழை நின்றது.
+
+    English: The letter is on the table.
+    Tamil: கடிதம் மேசையில் உள்ளது.
+
+    English: {source}
+    Tamil:
+
+# P4 is the CANONICAL C2 prompt, not a variant of P1 (plan 07 §3b).
+P4_context:
+  applies_to: [C2]
+  system: null
+  user: |-
+    Translate the sentence marked TRANSLATE into Tamil. The preceding sentence is given only as
+    context; do not translate it. Output only the Tamil translation of the marked sentence.
+
+    CONTEXT: {source_context}
+    TRANSLATE: {source}
+
+# The three C1 prompts, given a context block in their own idiom, so that C2 has four
+# comparable variants for the robustness rule.
+P1_context:
+  applies_to: [C2]
+  system: null
+  user: |-
+    Translate the sentence marked TRANSLATE into Tamil. Output only the Tamil translation of
+    the marked sentence.
+
+    CONTEXT: {source_context}
+    TRANSLATE: {source}
+
+P2_context:
+  applies_to: [C2]
+  system: |-
+    You are a professional English-to-Tamil translator. You produce fluent, natural Tamil.
+  user: |-
+    The CONTEXT sentence is background only. Translate the TRANSLATE sentence into Tamil and
+    reply with that translation and nothing else.
+
+    CONTEXT: {source_context}
+    TRANSLATE: {source}
+
+P3_context:
+  applies_to: [C2]
+  system: null
+  user: |-
+    Translate English to Tamil. Output only the translation of the last sentence.
+
+    English: The train arrives at six o'clock.
+    Tamil: ரயில் ஆறு மணிக்கு வந்து சேரும்.
+
+    English: The rain stopped in the afternoon.
+    Tamil: மதியம் மழை நின்றது.
+
+    English: The letter is on the table.
+    Tamil: கடிதம் மேசையில் உள்ளது.
+
+    Context (do not translate): {source_context}
+    English: {source}
+    Tamil:
+
+# C0 — the capability ceiling. The required value is stated IN THE INSTRUCTION, authored by
+# plan 04/05 and carried on the item as fillers.c0_instruction. Never synthesised here.
+P0_specified:
+  applies_to: [C0]
+  system: null
+  user: |-
+    Translate the following English sentence into Tamil. {c0_instruction}
+    Output only the Tamil translation.
+
+    {source}
+
+# ⚠ DIAGNOSTIC ARM, not the shipped C0. See the note in scripts/eval/generate.py.
+#
+# The shipped C0 instruction (fillers.c0_instruction) names the benchmark's INTERNAL LABEL
+# CODE — "realising the clusivity value 'EXCL' on the pron", "the rationality value 'AHRI'".
+# A model has no way to know what 'EXCL' or 'AHRI' denote, so a near-chance C0 under that
+# wording does not distinguish "cannot produce the form" from "could not read the
+# instruction" — and C0 is what gates every default-filling claim (plan 08 §9b).
+#
+# P0_explicit states the TARGET MORPHEME, taken from the item's own gold_targets, which is
+# what plan 04 §3.4 actually asks for ("…addressing the reader with the deferential form
+# தாங்கள்"). Nothing here is invented: {target_morpheme} is copied off the item.
+# plan 04 owns the shipped wording; this arm exists to measure what the wording costs.
+P0_explicit:
+  applies_to: [C0]
+  system: null
+  user: |-
+    Translate the following English sentence into Tamil. The translation must use the Tamil
+    form "{target_morpheme}" to mark {slot}. Output only the Tamil translation.
+
+    {source}
