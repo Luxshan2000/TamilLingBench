@@ -4,7 +4,7 @@
 
 ### Obligatory Slots: Under Reference-Free Evaluation, Dropping a Distinction the Source Never Made Is Free
 
-**Luxshan Thavarasa**<sup>1</sup> · **Jubeerathan Thevakumar**<sup>2</sup> · **Sivasuthan Sukumar**<sup>2</sup>
+[**Luxshan Thavarasa**](https://orcid.org/0009-0002-1540-8722)<sup>1</sup> · [**Jubeerathan Thevakumar**](https://orcid.org/0009-0002-4748-7971)<sup>2</sup> · [**Sivasuthan Sukumar**](https://orcid.org/0009-0000-6232-5992)<sup>2</sup>
 
 <sup>1</sup>Independent Researcher, Colombo, Sri Lanka &nbsp;&nbsp; <sup>2</sup>Department of Computer Science and Engineering, University of Moratuwa, Sri Lanka
 

@@ -6,12 +6,15 @@ authors:
   - family-names: Thavarasa
     given-names: Luxshan
     affiliation: "Independent Researcher, Colombo, Sri Lanka"
+    orcid: "https://orcid.org/0009-0002-1540-8722"
   - family-names: Thevakumar
     given-names: Jubeerathan
     affiliation: "Department of Computer Science and Engineering, University of Moratuwa"
+    orcid: "https://orcid.org/0009-0002-4748-7971"
   - family-names: Sukumar
     given-names: Sivasuthan
     affiliation: "Department of Computer Science and Engineering, University of Moratuwa"
+    orcid: "https://orcid.org/0009-0000-6232-5992"
 license: Apache-2.0
 keywords:
   - machine translation
@@ -26,9 +29,12 @@ preferred-citation:
   authors:
     - family-names: Thavarasa
       given-names: Luxshan
+      orcid: "https://orcid.org/0009-0002-1540-8722"
     - family-names: Thevakumar
       given-names: Jubeerathan
+      orcid: "https://orcid.org/0009-0002-4748-7971"
     - family-names: Sukumar
       given-names: Sivasuthan
+      orcid: "https://orcid.org/0009-0000-6232-5992"
   collection-title: "Proceedings of the Eleventh Conference on Machine Translation (WMT 2026)"
   year: 2026
